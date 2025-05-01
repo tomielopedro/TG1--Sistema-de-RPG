@@ -13,11 +13,8 @@ class Habilidade:
         return f'Nome: {self.nome} - Descricao: {self.descricao} - Pontos ataque: {self.pontos_ataque}'
 
     def __repr__(self):
-        return f'''
-        {self.nome}
-        {self.descricao}
-        {self.pontos_ataque}
-        '''
+        return f'{self.nome} {self.descricao} {self.pontos_ataque}'
+
 
 class BolaDeFogo(Habilidade):
 
