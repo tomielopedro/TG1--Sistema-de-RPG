@@ -25,21 +25,31 @@ class Classe(ABC):
 
 class Guerreiro(Classe):
     def __init__(self):
-        self.pontos_vida = 10 + (self.pontos_defesa *5)
         self.pontos_defesa = 8  
+        self.pontos_vida = 10 + (self.pontos_defesa *5)
         super().__init__("Guerreiro", self.pontos_vida, D12(), 6, self.pontos_defesa, 2)
 
 class Mago(Classe):
     def __init__(self):
+        self.pontos_defesa = 3
         self.pontos_vida = 8 + (self.pontos_defesa *2)
-        self.pontos_defesa
         super().__init__("Mago", self.pontos_vida, D6(), 10, self.pontos_defesa, 5)
         
 class Ladino(Classe):
     def __init__(self):
-        self.pontos_vida = 6 + (self.pontos_defesa *3)
         self.pontos_defesa = 5
+        self.pontos_vida = 6 + (self.pontos_defesa *3)
         super().__init__("Ladino", self.pontos_vida, D8(), 8, self.pontos_defesa, 2)
  
     
-m1 = Mago()
+if __name__ == "__main__":
+    g1 = Guerreiro()
+    print(g1)
+    print (f'-'* 20)
+    m1 = Mago()
+    print(m1)
+    print (f'-'* 20)
+    l1 = Ladino()
+    print(l1)
+    print (f'-'* 20)
+    
