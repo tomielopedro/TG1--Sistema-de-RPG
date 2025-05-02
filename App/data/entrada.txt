@@ -1,0 +1,50 @@
+
+## Personagens
+
+### Aragorn
+- **Classe**: Guerreiro
+- **Habilidades**:
+  - Tiro de Arco
+  - Cura
+
+### Gandalf
+- **Classe**: Mago
+- **Habilidades**:
+  - BolaDeFogo
+  - Cura
+  - Tiro de Arco
+  - BolaDeFogo
+
+### Legolas
+- **Classe**: Ladino
+- **Habilidades**:
+  - Tiro de Arco
+  - Cura
+
+### Boromir
+- **Classe**: Guerreiro
+- **Habilidades**:
+  - Tiro de Arco
+
+### Saruman
+- **Classe**: Mago
+- **Habilidades**:
+  - BolaDeFogo
+  - Cura
+  - Tiro de Arco
+  - BolaDeFogo
+  - Cura
+  - Tiro de Arco
+
+### Gollum
+- **Classe**: Ladino
+- **Habilidades**:
+  - Tiro de Arco
+  - Cura
+
+### Frodo
+- **Classe**: Ladino
+- **Habilidades**:
+  - Tiro de Arco
+  - Cura
+  - Escudo Divino

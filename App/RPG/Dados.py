@@ -1,5 +1,6 @@
 from random import randint
 
+
 class Dados:
 
     def __init__(self, numero_lados):
