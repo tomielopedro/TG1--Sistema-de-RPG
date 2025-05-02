@@ -1,3 +1,5 @@
+from RPG import *
+
 class HandlePersonagens:
     def __init__(self, arquivo, classes, habilidades):
         self.arquivo = arquivo
@@ -39,11 +41,7 @@ class HandlePersonagens:
                                 i += 1
                             except KeyError:
                                 continue
-                        personagem = {
-                            'nome': nome,
-                            'classe': classe,
-                            'habilidade': habilidades
-                        }
+                        personagem = Personagem(nome, classe, habilidades)
                         personagens.append(personagem)
         return personagens
 

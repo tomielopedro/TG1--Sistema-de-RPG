@@ -1,6 +1,6 @@
-import Classe
-import Habilidade
-import Dados
+from .Classe import *
+from .Habilidade import *
+from .Dados import *
 
 
 class Personagem:
@@ -15,6 +15,7 @@ class Personagem:
         self.pontos_defesa = classe.pontos_defesa
         self.dado_ataque: classe.dado_ataque
         self.pontos_ataque = classe.pontos_ataque
+        Personagem.qtd_instancias += 1
 
     def usar_habilidade(self, habilidade):
         for h in self.inventario:
@@ -30,19 +31,8 @@ class Personagem:
         return ataque
 
     def __str__(self):
+        return f'Nome: {self.nome}\n{self.classe}\nInventario: {self.inventario}'
 
-        return f'''Nome: {self.nome}\n{self.classe}\n Inventario: {self.inventario}
-        '''
-
-if __name__ == '__main__':
-
-    pedro = Personagem(
-        'Pedro',
-        Classe.Guerreiro(),
-        [Habilidade.Cura(), Habilidade.BolaDeFogo()])
-
-    carol = Personagem(
-        'Carol',
-        Classe.Ladino(),
-        [Habilidade.Cura(), Habilidade.TiroDeArco()])
+    def __repr__(self):
+        return self.nome
 
