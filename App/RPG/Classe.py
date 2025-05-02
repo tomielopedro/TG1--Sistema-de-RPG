@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from Dados import *
+from .Dados import *
 
 
 class Classe(ABC):
@@ -13,28 +13,29 @@ class Classe(ABC):
         self.limite_habilidades = limite_habilidades
 
     def __str__(self):
-        return f'''
-        {self.nome}
-        {self.dado_ataque}
-        {self.pontos_vida}
+        return f'''{self.nome} {self.dado_ataque}{self.pontos_vida}
         {self.pontos_ataque}
         {self.pontos_defesa}
         {self.limite_habilidades}
         '''
+    def __repr__(self):
+        return self.nome
 
 
 class Guerreiro(Classe):
     def __init__(self):
         self.pontos_defesa = 8  
-        self.pontos_vida = 10 + (self.pontos_defesa *5)
+        self.pontos_vida = 10 + (self.pontos_defesa * 5)
         super().__init__("Guerreiro", self.pontos_vida, D12(), 6, self.pontos_defesa, 2)
+
 
 class Mago(Classe):
     def __init__(self):
         self.pontos_defesa = 3
         self.pontos_vida = 8 + (self.pontos_defesa *2)
         super().__init__("Mago", self.pontos_vida, D6(), 10, self.pontos_defesa, 5)
-        
+
+
 class Ladino(Classe):
     def __init__(self):
         self.pontos_defesa = 5
