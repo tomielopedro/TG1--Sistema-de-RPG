@@ -1,6 +1,7 @@
 from RPG import *
 
-class HandlePersonagens:
+
+class GerenciamentoPersonagens:
     def __init__(self, arquivo, classes, habilidades):
         self.arquivo = arquivo
         self.classes = classes
@@ -11,6 +12,14 @@ class HandlePersonagens:
             entrada = entrada.readlines()
             entrada = [x.strip() for x in entrada if x.strip() != '']
             return entrada
+
+    def criar_personagens(self, personagem):
+        with open(self.arquivo, 'a') as file:
+            file.write(f'\n### {personagem['nome']}\n')
+            file.write(f'- **Classe**: {personagem['classe'].nome}\n')
+            file.write(f'- **Habilidades**:\n')
+            for habilidade in personagem['habilidades']:
+                file.write(f' - {habilidade.nome}\n')
 
     def ler_personagens(self):
         entrada = self.ler_arquivo()
@@ -44,6 +53,4 @@ class HandlePersonagens:
                         personagem = Personagem(nome, classe, habilidades)
                         personagens.append(personagem)
         return personagens
-
-
 

@@ -1,12 +1,12 @@
 from RPG import *
-from utils import HandlePersonagens
+from utils import GerenciamentoPersonagens
 import streamlit as st
 import streamlit.components.v1 as components
 
 
-st.set_page_config(layout="wide")
 
-st.title("Arena 1")
+
+st.title(f"Personagens Criados: {Personagem.personagens_criados}")
 st.divider()
 
 dados = [D4(), D6(), D8(), D10(), D12(), D20(),]
@@ -59,10 +59,10 @@ classes = {
 habilidades_permitidas = {
     'BolaDeFogo': BolaDeFogo(),
     'Cura': Cura(),
-    'Tiro de Arco': TiroDeArco()
+    'TiroDeArco': TiroDeArco()
 }
 
-handle_personagens = HandlePersonagens('data/entrada.txt', classes, habilidades_permitidas)
+handle_personagens = GerenciamentoPersonagens('data/entrada.txt', classes, habilidades_permitidas)
 personagens_lidos = handle_personagens.ler_personagens()
 
 cols = st.columns(2)

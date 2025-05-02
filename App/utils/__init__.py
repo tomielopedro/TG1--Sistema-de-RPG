@@ -1,1 +1,1 @@
-from .parse import HandlePersonagens
+from .GerenciamentoPersonagens import GerenciamentoPersonagens

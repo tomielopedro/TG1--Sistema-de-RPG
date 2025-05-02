@@ -5,7 +5,7 @@ from .Dados import *
 
 class Personagem:
     """Classe que representa um personagem do jogo."""
-    qtd_instancias = 0
+    personagens_criados = 0
 
     def __init__(self, nome: str, classe: Classe, inventario: list):
         self.nome = nome
@@ -15,7 +15,7 @@ class Personagem:
         self.pontos_defesa = classe.pontos_defesa
         self.dado_ataque: classe.dado_ataque
         self.pontos_ataque = classe.pontos_ataque
-        Personagem.qtd_instancias += 1
+        Personagem.personagens_criados += 1
 
     def usar_habilidade(self, habilidade):
         for h in self.inventario:
