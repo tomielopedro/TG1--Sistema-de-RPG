@@ -1,0 +1,17 @@
+## Persongens
+
+### Pedro
+- **Classe**: Mago
+- **Habilidades**:
+ - Cura
+ - Cura
+ - BolaDeFogo
+ - BolaDeFogo
+ - BolaDeFogo
+
+
+### Carol
+- **Classe**: Ladino
+- **Habilidades**:
+ - Cura
+ - TiroDeArco

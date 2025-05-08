@@ -1,0 +1,1 @@
+from .GerenciamentoPersonagens import GerenciamentoPersonagens
