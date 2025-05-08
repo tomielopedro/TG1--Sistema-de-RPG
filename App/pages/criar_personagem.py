@@ -1,73 +1,100 @@
 import streamlit as st
 from RPG import *
-from utils import GerenciamentoPersonagens
 
+# Título principal
 st.title('Criar Personagens')
 st.divider()
 
-classes = {
-    'Mago': Mago(),
-    'Guerreiro': Guerreiro(),
-    'Ladino': Ladino()
-}
+# Define as classes e habilidades disponíveis
 
-habilidades_permitidas = {
-    'Bola De Fogo': BolaDeFogo(),
-    'Cura': Cura(),
-    'Tiro de Arco': TiroDeArco()
-}
 
+# Inicializa gerenciador de personagens
+
+# Layout em duas colunas
 col1, col2 = st.columns(2)
-personagem = {
-    'nome': '',
-    'classe': '',
-    'habilidades': [],
-}
-handle_personagens = GerenciamentoPersonagens('data/entrada.txt', classes, habilidades_permitidas)
-with (col1):
+
+# Estado inicial do personagem
+
+
+
+# COLUNA 1 - Criação do personagem
+nome = ''
+classe = ''
+
+with col1:
     with st.container(border=True, height=500):
         st.write('#### Crie seu personagem')
-        personagem['nome'] = st.text_input('Nome:', max_chars=15, placeholder='Insira o nome do personagem')
 
-        classe = st.selectbox('Classe', classes.keys())
-        personagem['classe'] = classes.get(classe)
-        with st.container(border=True, height=300):
-            st.write('##### Selecione suas habilidades')
-            for c in range(personagem['classe'].limite_habilidades):
-                habilidade = st.selectbox(f'Habilidade {c+1}:', habilidades_permitidas.keys(), key=f'Habilidades_{c}')
-                habilidade = habilidades_permitidas.get(habilidade)
+        # Entrada do nome
 
-                personagem['habilidades'].append(habilidade)
-c1,c2 = st.columns(2)
+        entrada_nome = st.text_input('Nome:', max_chars=15, placeholder='Insira o nome do personagem')
+        entrada_nome = entrada_nome.strip().capitalize()
+        if entrada_nome != '':
+            if not st.session_state.gerenciamento.verifica_existencia(entrada_nome):
+                nome = entrada_nome
+            else:
+                st.warning('Já existe um personagem com esse nome!')
+        else:
+            st.warning('É obrigatório criar um nome para o personagem')
+
+        # Seleção da classe
+        classe_nome = st.selectbox('Classe', list(st.session_state.gerenciamento.classes_dict.keys()))
+        classe = st.session_state.gerenciamento.classes_dict.get(classe_nome)
+
+        # Seleção das habilidades com base na classe escolhida
+        if classe is not None:
+            limite = classe.limite_habilidades
+            with st.container(border=True, height=300):
+                st.write(f'##### Selecione até {limite} habilidades')
+
+                habilidades_selecionadas = []
+                for c in range(limite):
+                    habilidade_nome = st.selectbox(
+                        f'Habilidade {c + 1} de {limite}:',
+                        list(st.session_state.gerenciamento.habilidades_dict.keys()),
+                        key=f'Habilidade_{c}'
+                    )
+                    habilidades_selecionadas.append(st.session_state.gerenciamento.habilidades_dict.get(habilidade_nome))
+                habilidades = habilidades_selecionadas
+
+# Botões de ação
+c1, c2 = st.columns(2)
+liberado = nome != '' and classe is not None and len(habilidades) > 0
 with c1:
-    criar_personagem = st.button('Criar Personagem')
+    criar_personagem = st.button('Criar Personagem', disabled=not liberado)
+
+# Verifica se deve criar personagem
 with c2:
     if criar_personagem:
+        st.session_state.gerenciamento.salvar_personagem(nome, classe, habilidades)
+        st.success('✅ Personagem criado com sucesso!')
+        st.balloons()
 
-        if personagem['nome'] is not '' and personagem['classe'] is not '':
-            handle_personagens.criar_personagens(personagem)
-            st.success('Personagem criado com sucesso!')
-            st.balloons()
-        else:
-            st.warning('Erro ao criar o personagem')
-
-
+# COLUNA 2 - Pré-visualização
 with col2:
     with st.container(border=True, height=500):
         st.write('#### Pré-Visualização')
-        img_col, info_col = st.columns([1, 3])
 
-        with img_col:
-            st.image(personagem['classe'].foto, width=100)
+        if classe:
+            img_col, info_col = st.columns([1, 3])
 
-        with info_col:
-            st.write(f'#### {personagem['nome']} - {personagem['classe'].nome}')
+            # Mostra imagem do personagem
+            with img_col:
+                st.image(classe.foto, width=100)
 
-        st.write(f'###### 🔋 :green[Vida:] {personagem['classe'].pontos_vida}')
-        st.write(f'###### ⚔️ :red[Ataque:] {personagem['classe'].pontos_ataque}')
-        st.write(f'###### 🛡️ :blue[Defesa:] {personagem['classe'].pontos_defesa}')
-        st.write(f':gray[Dado de Ataque:] {personagem['classe'].dado_ataque} | :gray[Limite de Habilidades:] {personagem['classe'].limite_habilidades}')
-        col_select1, colselect2 = st.columns(2)
+            # Informações básicas
+            with info_col:
+                st.write(f'#### {nome} - {classe.nome}')
 
-        if len(personagem['habilidades']) > 0:
-            st.pills("Hablidades", personagem['habilidades'], format_func=lambda x: x.__repr__())
+            # Atributos do personagem
+            st.write(f'###### 🔋 :green[Vida:] {classe.pontos_vida}')
+            st.write(f'###### ⚔️ :red[Ataque:] {classe.pontos_ataque}')
+            st.write(f'###### 🛡️ :blue[Defesa:] {classe.pontos_defesa}')
+            st.write(f':gray[Dado de Ataque:] {classe.dado_ataque} | '
+                     f':gray[Limite de Habilidades:] {classe.limite_habilidades}')
+
+            # Habilidades escolhidas
+            if habilidades:
+                st.pills("Hablidades", habilidades, format_func=lambda x: x.__repr__())
+        else:
+            st.info("Selecione uma classe para visualizar o personagem.")
