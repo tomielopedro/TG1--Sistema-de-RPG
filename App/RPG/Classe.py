@@ -13,6 +13,9 @@ class Classe(ABC):
         self.limite_habilidades = limite_habilidades
         self.foto = foto
 
+    def foto_morte(self):
+        self.foto = './assets/images/morte.png'
+
     def __str__(self):
         return f'Classe: {self.nome}\nPontos de Ataque: {self.pontos_ataque}\nDado de Ataque: {self.dado_ataque}\nPontos de Vida:{self.pontos_vida}\nPontos de Defesa:{self.pontos_defesa}\nLimite de Habilidades:{self.limite_habilidades}'
     def __repr__(self):

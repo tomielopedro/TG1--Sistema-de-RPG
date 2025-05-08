@@ -9,9 +9,24 @@
  - BolaDeFogo
  - BolaDeFogo
 
-
 ### Carol
 - **Classe**: Ladino
 - **Habilidades**:
  - Cura
  - TiroDeArco
+
+
+### Pedrinho
+- **Classe**: Guerreiro
+- **Habilidades**:
+- BolaDeFogo
+- BolaDeFogo
+
+### Pedrinho 2
+- **Classe**: Mago
+- **Habilidades**:
+- BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
