@@ -1,14 +1,5 @@
 ## Persongens
 
-### Pedro
-- **Classe**: Mago
-- **Habilidades**:
- - Cura
- - Cura
- - BolaDeFogo
- - BolaDeFogo
- - BolaDeFogo
-
 ### Carol
 - **Classe**: Ladino
 - **Habilidades**:
@@ -16,13 +7,16 @@
  - TiroDeArco
 
 
-### Pedrinho
-- **Classe**: Guerreiro
+### Parraga
+- **Classe**: Mago
 - **Habilidades**:
 - BolaDeFogo
 - BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
+- Cura
 
-### Pedrinho 2
+### Joao
 - **Classe**: Mago
 - **Habilidades**:
 - BolaDeFogo
@@ -30,3 +24,21 @@
 - BolaDeFogo
 - BolaDeFogo
 - BolaDeFogo
+
+### Pedro
+- **Classe**: Guerreiro
+- **Habilidades**:
+- BolaDeFogo
+- BolaDeFogo
+
+### Ighor
+- **Classe**: Ladino
+- **Habilidades**:
+- Cura
+- BolaDeFogo
+
+### Fred
+- **Classe**: Guerreiro
+- **Habilidades**:
+- TiroDeArco
+- TiroDeArco

@@ -1,5 +1,6 @@
 from RPG import *
 
+
 class GerenciamentoPersonagens:
     _instance = None
     _lista_personagens = []
@@ -35,6 +36,7 @@ class GerenciamentoPersonagens:
                 return True
         return False
 
+
     def salvar_personagem(self, nome, classe, habilidades):
         personagem = Personagem(nome, classe, habilidades)
         GerenciamentoPersonagens._lista_personagens.append(personagem)
@@ -44,6 +46,7 @@ class GerenciamentoPersonagens:
             file.write(f"- **Habilidades**:\n")
             for habilidade in personagem.inventario:
                 file.write(f"- {habilidade.nome}\n")  # padroniza com um traço só
+
 
 
     def ler_personagens(self):

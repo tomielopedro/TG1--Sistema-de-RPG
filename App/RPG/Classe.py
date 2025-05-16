@@ -39,7 +39,7 @@ class Mago(Classe):
 class Ladino(Classe):
     def __init__(self):
         self.pontos_defesa = 5
-        self.pontos_vida = 6 + (self.pontos_defesa *3)
+        self.pontos_vida = 6 + (self.pontos_defesa * 3)
         super().__init__("Ladino", self.pontos_vida, D8(), 8, self.pontos_defesa, 2, './assets/images/ladino.png')
  
     

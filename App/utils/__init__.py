@@ -1,1 +1,2 @@
 from .GerenciamentoPersonagens import GerenciamentoPersonagens
+from .GerenciamentoArenas import GerenciamentoArenas

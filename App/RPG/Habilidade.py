@@ -25,8 +25,9 @@ class BolaDeFogo(Habilidade):
 
 class Cura(Habilidade):
     """Subclasse de Habilidade que representa uma cura"""
+
     def __init__(self):
-        super().__init__('Cura', 'Uma cura que recupera 10 pontos de vida', 10)
+        super().__init__('Cura', 'Se curou usando uma dose de elixir da vida', 10)
 
 
 class TiroDeArco(Habilidade):
