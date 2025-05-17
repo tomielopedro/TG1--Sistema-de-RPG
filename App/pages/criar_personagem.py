@@ -82,8 +82,11 @@ def criar_personagem():
                          f':gray[Limite de Habilidades:] {classe.limite_habilidades}')
 
                 # Habilidades escolhidas
-                if habilidades:
-                    st.pills("Hablidades", habilidades, format_func=lambda x: x.__repr__())
+                # Habilidades escolhidas
+                cols = st.columns(5)
+                for i, habilidade in enumerate(habilidades):
+                    col = cols[i % 5]
+                    col.image(habilidade.foto_habilidade, width=100)
             else:
                 st.info("Selecione uma classe para visualizar o personagem.")
 

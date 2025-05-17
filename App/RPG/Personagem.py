@@ -1,7 +1,7 @@
 from .Classe import *
 from .Habilidade import *
 from .Dados import *
-
+import copy
 
 
 class Personagem:
@@ -75,8 +75,21 @@ class Personagem:
     def __repr__(self):
         return self.nome
 
+
+
     def __copy__(self):
-        obj = type(self).__new__(self.__class__)
-        obj.__dict__.update(self.__dict__)
-        return obj
+        nova_classe = self.classe  # Compartilhado (imutável em geral, mas se quiser pode usar deepcopy)
+        novo_inventario = [copy.copy(h) for h in self.inventario]  # Cria cópias das habilidades
+        novo_personagem = Personagem(self.nome, nova_classe, novo_inventario)
+
+        # Copia os valores atuais dos atributos de combate
+        novo_personagem.pontos_vida = self.pontos_vida
+        novo_personagem.pontos_defesa = self.pontos_defesa
+        novo_personagem.pontos_ataque = self.pontos_ataque
+        novo_personagem.dado_ataque = copy.copy(self.dado_ataque)
+
+        return novo_personagem
+
+
+
 

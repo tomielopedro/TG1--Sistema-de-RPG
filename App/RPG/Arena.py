@@ -5,7 +5,7 @@ from .Mapa import *
 from .LogCombate import LogCombate
 from .Partida import Partida
 from typing import List, Optional
-
+import uuid
 
 class Arena:
     """
@@ -47,9 +47,10 @@ class Arena:
     def iniciar_nova_partida(self, descricao: str = ""):
         """Inicia uma nova partida, armazenando a anterior se houver."""
         self.contador_partidas += 1
-        nova_partida = Partida(id=self.contador_partidas, descricao=descricao)
+        nova_partida = Partida(id=str(uuid.uuid4()), descricao=descricao)
         self.partida_atual = nova_partida
         self.partidas.append(nova_partida)
+
 
     def combate(self, atacante: Personagem, alvo: Personagem) -> LogCombate:
         """
@@ -105,3 +106,5 @@ class Arena:
 
     def __repr__(self):
         return self.nome_arena
+
+

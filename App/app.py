@@ -46,12 +46,15 @@ if 'arenas_lidas' not in st.session_state:
 if 'arena_combate' not in st.session_state:
     st.session_state['arena_combate'] = None
 
+if 'id_partida' not in st.session_state:
+    st.session_state['id_partida'] = None
+
 pages = {
     "Pages": [
         st.Page("pages/personagens.py", title="Personagens"),
         st.Page("pages/arenas.py", title="Arenas"),
         st.Page("pages/combate.py", title="Combate"),
-        st.Page("pages/teste.py", title="Teste"),
+        st.Page("pages/_relatorio_combate.py", title="Relatório de Combate"),
 
     ],
     "Configurações": [

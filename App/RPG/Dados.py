@@ -49,17 +49,6 @@ class D20(Dados):
         super().__init__(20)
 
 
-if __name__ == '__main__':
-    dados = [D4(), D6(), D8(), D10(), D12(), D20()]
-    for dado in dados:
-
-        print(f'{dado}: {dado.jogar()}')
-        for dado2 in dados:
-            if dado == dado2:
-                print(f'{dado}=={dado2}')
-            else:
-                print(f'{dado}!={dado2}')
-        print(10 * '-')
 
 
 

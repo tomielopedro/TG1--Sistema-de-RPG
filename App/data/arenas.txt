@@ -10,13 +10,29 @@
  - Pedro
  - Ighor
  - Fred
+ - Rafa
+ - Teste
 
 
 ### Beira-Rio
 - **Mapa**: Winter
+- **Tipo**: PVP
+- **Limite Jogadores**: 100
+- **Personagens**:
+ - Carol
+ - Parraga
+ - Joao
+ - Pedro
+ - Ighor
+ - Fred
+ - Rafa
+
+
+### Teste
+- **Mapa**: Winter
 - **Tipo**: X1
 - **Limite Jogadores**: 2
 - **Personagens**:
- - Carol
- - Pedro
+ - Joao
+ - Teste
 

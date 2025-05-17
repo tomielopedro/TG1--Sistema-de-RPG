@@ -42,3 +42,18 @@
 - **Habilidades**:
 - TiroDeArco
 - TiroDeArco
+
+### Rafa
+- **Classe**: Ladino
+- **Habilidades**:
+- BolaDeFogo
+- Cura
+
+### Teste
+- **Classe**: Mago
+- **Habilidades**:
+- BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
