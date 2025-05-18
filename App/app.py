@@ -58,7 +58,7 @@ if 'id_partida' not in st.session_state:
 # === NAVEGAÇÃO ===
 pages = {
     "Pages": [
-        st.Page("pages/inicial.py", title="🧙‍ Inicial"),
+        st.Page("pages/inicial.py", title="⚜️ Página Inicial"),
         st.Page("pages/personagens.py", title="🧙‍ Personagens"),
         st.Page("pages/arenas.py", title="🏟️ Arenas"),
         st.Page("pages/combate.py", title="⚔️ Combate"),
