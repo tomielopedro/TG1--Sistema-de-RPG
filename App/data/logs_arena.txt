@@ -2,3 +2,5 @@
 [2025-05-18 14:20:29] [Vilarejo 42] Erro: na leitura da arena na linha 14: Mapa 'asda' não encontrado.
 [2025-05-18 14:20:38] [Castle] Info: arena editada com sucesso.
 [2025-05-18 15:16:20] [Castle] Info: arena editada com sucesso.
+[2025-05-18 15:34:15] [Castle] Info: arena editada com sucesso.
+[2025-05-18 15:36:07] [Castle] Info: arena editada com sucesso.

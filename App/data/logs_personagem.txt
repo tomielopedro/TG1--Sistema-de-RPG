@@ -142,3 +142,36 @@
 [2025-05-18 15:24:51] [Fred] Info: personagem criado com sucesso.
 [2025-05-18 15:24:51] [Rafa] Info: personagem criado com sucesso.
 [2025-05-18 15:24:51] [Rudi] Info: personagem criado com sucesso.
+[2025-05-18 15:35:05] [Carol] Info: personagem criado com sucesso.
+[2025-05-18 15:35:05] [Parraga] Info: personagem criado com sucesso.
+[2025-05-18 15:35:05] [Joao] Info: personagem criado com sucesso.
+[2025-05-18 15:35:05] [Pedro] Info: personagem criado com sucesso.
+[2025-05-18 15:35:05] [Ighor] Info: personagem criado com sucesso.
+[2025-05-18 15:35:05] [Fred] Info: personagem criado com sucesso.
+[2025-05-18 15:35:05] [Rafa] Info: personagem criado com sucesso.
+[2025-05-18 15:35:05] [Rudi] Info: personagem criado com sucesso.
+[2025-05-18 15:35:47] [Carol] Info: personagem editado com sucesso.
+[2025-05-18 15:39:07] [Parser] Erro inesperado: Falha ao processar personagem: list index out of range
+[2025-05-18 15:39:07] [Aragorn] Info: personagem criado com sucesso.
+[2025-05-18 15:39:07] [Gandalf] Info: personagem criado com sucesso.
+[2025-05-18 15:39:07] [Legolas] Info: personagem criado com sucesso.
+[2025-05-18 15:39:07] [Boromir] Info: personagem criado com sucesso.
+[2025-05-18 15:39:07] [Saruman] Aviso: habilidades excedentes ignoradas: TiroDeArco
+[2025-05-18 15:39:07] [Saruman] Info: personagem criado com sucesso.
+[2025-05-18 15:39:07] [Gollum] Info: personagem criado com sucesso.
+[2025-05-18 15:39:07] [Frodo] Erro: habilidade 'Escudo Divino' não encontrada.
+[2025-05-18 15:39:07] [Frodo] Info: personagem criado com sucesso.
+[2025-05-18 15:44:10] [Éowyn] Erro: habilidade 'Escudo Divino' não encontrada.
+[2025-05-18 15:44:10] [Éowyn] Info: personagem criado com sucesso.
+[2025-05-18 15:44:10] [Elrond] Erro: habilidade 'Teleporte' não encontrada.
+[2025-05-18 15:44:10] [Elrond] Info: personagem criado com sucesso.
+[2025-05-18 15:44:10] [Gimli] Erro: habilidade 'Investida' não encontrada.
+[2025-05-18 15:44:10] [Gimli] Erro: habilidade 'Grito de Guerra' não encontrada.
+[2025-05-18 15:44:10] [Gimli] Info: personagem criado com sucesso.
+[2025-05-18 15:44:10] [Arwen] Erro: habilidade 'Escudo Divino' não encontrada.
+[2025-05-18 15:44:10] [Arwen] Info: personagem criado com sucesso.
+[2025-05-18 15:44:10] [Galadriel] Erro: habilidade 'Escudo Divino' não encontrada.
+[2025-05-18 15:44:10] [Galadriel] Info: personagem criado com sucesso.
+[2025-05-18 15:44:10] [Théoden] Erro: habilidade 'Investida' não encontrada.
+[2025-05-18 15:44:10] [Théoden] Info: personagem criado com sucesso.
+[2025-05-18 15:44:10] [Sam] Info: personagem criado com sucesso.

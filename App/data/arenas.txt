@@ -1,16 +1,9 @@
 
 ### Castle
-- **Mapa**: Torre
+- **Mapa**: Vilarejo
 - **Tipo**: PVP
 - **Limite Jogadores**: 100
 - **Personagens**:
- - Aragorn
- - Gandalf
- - Legolas
- - Boromir
- - Saruman
- - Gollum
- - Frodo
  - Carol
  - Parraga
  - Joao
@@ -19,13 +12,6 @@
  - Fred
  - Rafa
  - Rudi
- - Éowyn
- - Elrond
- - Gimli
- - Arwen
- - Galadriel
- - Théoden
- - Sam
 
 
 ### Vilarejo

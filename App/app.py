@@ -38,7 +38,7 @@ else:
 
 # === SESSION STATE INICIAL ===
 if 'gerenciamento' not in st.session_state:
-    st.session_state['gerenciamento'] = GerenciamentoPersonagens('data/entrada.txt', classes_dict, habilidades_dict)
+    st.session_state['gerenciamento'] = GerenciamentoPersonagens('data/personagens.txt', classes_dict, habilidades_dict)
 
 if 'personagens_lidos' not in st.session_state:
     st.session_state['personagens_lidos'] = st.session_state.gerenciamento.get_personagens()

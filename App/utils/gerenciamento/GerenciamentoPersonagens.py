@@ -131,7 +131,7 @@ class GerenciamentoPersonagens:
                     continue
                 habilidade_nome = linha.replace("-", "").strip()
                 if habilidade_nome.lower() == "tiro de arco":
-                    habilidade_nome = "TiroDeArco"
+                    habilidade_nome = "TiroDeArco" # DESCULPA SOR :(
                 habilidade = self.habilidades_dict.get(habilidade_nome)
                 if habilidade:
                     if len(habilidades) < classe.limite_habilidades:

@@ -29,7 +29,16 @@ with st.sidebar:
 
 
 with mostrar:
-    st.write(f"### Personagens Criados: {len(personagens_lidos)}")
+    c1, c2 = st.columns([3, 1.3])
+    c1.write(f"### Personagens Criados: {len(personagens_lidos)}")
+    with open('data/personagens.txt', "rb") as f:
+        c2.download_button(
+            label="📥 Baixar Arquivo de Personagens",
+            data=f,
+            file_name='data/personagens.txt'.split("/")[-1],
+            mime="text/plain"
+        )
+
     cols = st.columns(2)
     # Itera sobre os personagens lidos
     for i, personagem in enumerate(personagens_lidos):

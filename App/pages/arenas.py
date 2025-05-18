@@ -23,7 +23,16 @@ with st.sidebar:
     if tipo_selecionado != 'Todos':
         arenas_lidas = [arena for arena in arenas_lidas if arena.tipo_jogo == tipo_selecionado]
 with mostrar:
-    st.title(f'Arenas Criadas: {len(arenas_lidas)}')
+    c1, c2 = st.columns([3, 1])
+    c1.title(f'Arenas Criadas: {len(arenas_lidas)}')
+    with open('data/arenas.txt', "rb") as f:
+        c2.download_button(
+            label="📥 Baixar Arquivo de Arenas",
+            data=f,
+            file_name='data/arenas.txt'.split("/")[-1],
+            mime="text/plain"
+        )
+
     cols = st.columns(2)
     personagens_mortos = []
     # Itera sobre os personagens lidos

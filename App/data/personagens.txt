@@ -1,0 +1,42 @@
+
+### Éowyn
+- **Classe**: Guerreiro
+- **Habilidades**:
+- TiroDeArco
+- Cura
+
+### Elrond
+- **Classe**: Mago
+- **Habilidades**:
+- BolaDeFogo
+- TiroDeArco
+- Cura
+
+### Gimli
+- **Classe**: Guerreiro
+- **Habilidades**:
+- TiroDeArco
+
+### Arwen
+- **Classe**: Ladino
+- **Habilidades**:
+- Cura
+
+### Galadriel
+- **Classe**: Mago
+- **Habilidades**:
+- BolaDeFogo
+- Cura
+- TiroDeArco
+
+### Théoden
+- **Classe**: Guerreiro
+- **Habilidades**:
+- Cura
+- TiroDeArco
+
+### Sam
+- **Classe**: Ladino
+- **Habilidades**:
+- TiroDeArco
+- Cura
