@@ -49,7 +49,7 @@ with criar:
     criar_personagem()
 
 with logs:
-    exibir_logs_chat_generico("data/logs_personagem.txt", titulo="📜 Erro Importação de Personagens")
+    exibir_logs_chat_generico("data/logs_personagem.txt", titulo="📜 Logs de Personagens")
 
 
 

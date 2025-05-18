@@ -45,7 +45,7 @@ with criar:
     criar_arena()
 
 with logs:
-    exibir_logs_chat_generico("data/logs_arena.txt", titulo="🏟️ Erro Importação de Arenas")
+    exibir_logs_chat_generico("data/logs_arena.txt", titulo="🏟️ Logs de Arenas")
 
 
 
