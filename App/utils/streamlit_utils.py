@@ -1,12 +1,9 @@
 import streamlit as st
-import random
 import base64
 import json
-import os
 import pandas as pd
 from typing import List
 from RPG import *
-from streamlit_avatar import avatar
 
 # ==============================
 # === Estilo e Visual da Página

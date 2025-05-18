@@ -121,7 +121,7 @@ def exibir_resultado_csv(caminho_csv="data/historico_batalhas.csv", id_partida=N
     if not dados:
         return st.warning('Nenhum dado encontrado')
     linha = dados["linha"]
-    set_background_as_frame('./assets/images/extras/fundo.png')
+    set_background_as_frame('./assets/images/extras/fundo_tela_inicial.png')
 
     vencedor, mortos = obter_personagens_partida(linha)
 

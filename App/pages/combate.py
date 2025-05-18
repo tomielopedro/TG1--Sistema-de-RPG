@@ -1,6 +1,5 @@
 import streamlit as st
 import random
-import base64
 import json
 import os
 import pandas as pd
