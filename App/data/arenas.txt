@@ -1,0 +1,32 @@
+
+### Castle
+- **Mapa**: Torre
+- **Tipo**: X1
+- **Limite Jogadores**: 2
+- **Personagens**:
+ - Carol
+ - Parraga
+
+
+### Beira-Rio
+- **Mapa**: Vilarejo
+- **Tipo**: PVP
+- **Limite Jogadores**: 100
+- **Personagens**:
+ - Fred
+ - Rafa
+ - Carol
+ - Joao
+ - Pedro
+ - Ighor
+ - Parraga
+
+
+### Vilarejo
+- **Mapa**: Vilarejo
+- **Tipo**: X1
+- **Limite Jogadores**: 2
+- **Personagens**:
+ - Rafa
+ - Teste
+
