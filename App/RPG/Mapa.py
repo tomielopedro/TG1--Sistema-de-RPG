@@ -1,5 +1,6 @@
 from abc import ABC
 from PIL import Image
+import os
 
 
 class Mapa(ABC):
@@ -51,8 +52,9 @@ class Mapa(ABC):
         """
         Redimensiona a foto do mapa para se encaixar no card de arena
         """
-
-        imagem = Image.open(self.foto_mapa)
+        root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        relative_path = os.path.join(root, self.foto_mapa)
+        imagem = Image.open(relative_path)
         imagem_redimensionada = imagem.resize((230, 120))
         return imagem_redimensionada
 

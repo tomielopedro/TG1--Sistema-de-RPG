@@ -1,10 +1,9 @@
 import streamlit as st
 import pandas as pd
-import json
 from utils.streamlit_utils import converter_logs_em_df, get_image_base64, resetar_estado_combate
 from streamlit_avatar import avatar
 from utils.page_functions.galeria_personagens import modal_card_personagem
-
+from utils.streamlit_utils import get_image_path
 
 def get_ids_partidas_arena(df: pd.DataFrame, nome_arena: str):
 
@@ -132,7 +131,7 @@ def criar_card_arena(arena):
         with informacoes:
             c1, c2,c3 = st.columns([1, 3, 0.5])
             with c1:
-                st.image(arena.icone, width=100)
+                st.image(get_image_path(arena.icone), width=100)
             with c2:
                 st.write(f'#### {arena.nome_arena} - {arena.tipo_jogo}')
 

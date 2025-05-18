@@ -2,6 +2,7 @@ import streamlit as st
 from RPG import *
 from utils.page_functions.galeria_personagens import modal_card_personagem
 from utils.page_functions.galeria_personagens import modal_card_personagem
+from utils.streamlit_utils import get_image_path
 
 def exibir_formulario_criacao_arena():
     """
@@ -59,7 +60,7 @@ def exibir_pre_visualizacao_arena(nome_arena, mapa, tipo_arena, personagens_aren
 
         c1, c2 = st.columns([1, 3])
         with c1:
-            st.image(tipo_arena.icone, width=100)
+            st.image(get_image_path(tipo_arena.icone), width=100)
         with c2:
             st.write(f'#### {nome_arena} - {tipo_arena.nome}')
 

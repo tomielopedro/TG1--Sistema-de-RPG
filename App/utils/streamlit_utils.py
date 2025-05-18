@@ -4,12 +4,18 @@ import json
 import pandas as pd
 from typing import List
 from RPG import *
+import os
 
 # ==============================
 # === Estilo e Visual da Página
 # ==============================
 
+def get_project_root():
+    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+def get_image_path(relative_path):
+    return os.path.join(get_project_root(), relative_path)
 
+# Exemplo
 def set_background_as_frame(image_path: str):
     """
     Define a imagem de fundo da aplicação em tela cheia com CSS inline.
@@ -55,7 +61,7 @@ def exibir_avatar(personagem: Personagem, morto: bool = False) -> dict:
     """
     Gera o dicionário necessário para exibir um avatar customizado com informações do personagem.
     """
-    image_path = "assets/images/extras/morte.png" if morto else personagem.classe.foto
+    image_path = get_image_path("assets/images/extras/morte.png") if morto else personagem.classe.foto
     image_base64 = get_image_base64(image_path)
     image_url = f"data:image/png;base64,{image_base64}"
     caption = (

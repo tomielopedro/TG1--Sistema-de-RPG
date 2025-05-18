@@ -1,12 +1,13 @@
 from utils.page_functions.criar_personagem import criar_personagem
 from utils.page_functions.galeria_personagens import criar_card_personagem
 from utils.streamlit_utils import set_background_as_frame
+from utils.streamlit_utils import get_image_path
 import streamlit as st
 
 
 
 mostrar, criar= st.tabs(['Galeria de Personagens', 'Criar Personagem'])
-set_background_as_frame('assets/images/extras/fundo.png')
+set_background_as_frame(get_image_path('assets/images/extras/fundo.png'))
 classes = list(st.session_state.gerenciamento.classes_dict.keys())
 classes = ['Todos'] + classes
 

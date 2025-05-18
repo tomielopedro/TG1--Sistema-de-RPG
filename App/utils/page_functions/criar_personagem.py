@@ -1,6 +1,6 @@
 import streamlit as st
 from RPG import *
-
+from utils.streamlit_utils import get_image_path
 
 
 def exibir_formulario_criacao(col):
@@ -59,7 +59,7 @@ def exibir_pre_visualizacao(col, nome, classe, habilidades):
                 img_col, info_col = st.columns([1, 3])
 
                 with img_col:
-                    st.image(classe.foto, width=100)
+                    st.image(get_image_path(classe.foto), width=100)
 
                 with info_col:
                     st.write(f'#### {nome} - {classe.nome}')

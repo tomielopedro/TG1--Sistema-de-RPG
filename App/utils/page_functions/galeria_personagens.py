@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 from utils.streamlit_utils import converter_logs_em_df, get_image_base64
-from streamlit_avatar import avatar
+from utils.streamlit_utils import get_image_path
 
 # =====================================
 # === Funções de Processamento de Dados
@@ -138,7 +138,7 @@ def criar_card_personagem(personagem, config_disabled=False):
         with info:
             img_col, info_col, ajustes_col = st.columns([1, 3, 0.5])
             with img_col:
-                st.image(personagem.classe.foto)
+                st.image(get_image_path(personagem.classe.foto))
             with info_col:
                 st.write(f'#### {personagem.nome} - {personagem.classe.nome}')
             st.write(f'###### 🔋 :green[Vida:] {personagem.pontos_vida}')
