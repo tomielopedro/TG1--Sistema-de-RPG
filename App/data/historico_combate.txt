@@ -1,7 +1,7 @@
 === Arena: Castle ===
 Tipo: PVP | Mapa: Vilarejo
 
---- Partida 87bad762-5e42-44bf-81a0-e323831a2c28: Batalha Total ---
+--- Partida 1b2fa544-c332-4c7c-86b0-9696d79787ee: Batalha Total ---
 Vencedor: -- Nome: Pedro
 Classe: Guerreiro
 Pontos de Ataque: 6
@@ -10,1099 +10,325 @@ Pontos de Vida: 50
 Pontos de Defesa: 8
 Limite de Habilidades: 2
 Inventário: [] -- 
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 50
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 50
-[Log] Elrond (Mago) atacou Théoden (Guerreiro)
-  D20: 1 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
-[Log] Elrond (Mago) atacou Théoden (Guerreiro)
-  D20: 1 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
-[Log] Gimli (Guerreiro) atacou Sam (Ladino)
-  D20: 11 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Gimli (Guerreiro) atacou Sam (Ladino)
-  D20: 11 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
-  D20: 16 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 47
-[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
-  D20: 16 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 47
-[Log] Galadriel (Mago) atacou Pedro (Guerreiro)
-  D20: 11 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 40
-[Log] Galadriel (Mago) atacou Pedro (Guerreiro)
-  D20: 11 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 40
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 19 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 40
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 19 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 40
-[Log] Sam (Ladino) atacou Théoden (Guerreiro)
-  D20: 8 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 48
-[Log] Sam (Ladino) atacou Théoden (Guerreiro)
-  D20: 8 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 48
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 6 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 6 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
-  D20: 13 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 10
-[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
-  D20: 13 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 10
-[Log] Elrond (Mago) atacou Arwen (Ladino)
-  D20: 6 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 11
-[Log] Elrond (Mago) atacou Arwen (Ladino)
-  D20: 6 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 11
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 10 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 5
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 10 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 5
-[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
-  D20: 13 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 47
-[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
-  D20: 13 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 47
-[Log] Galadriel (Mago) atacou Elrond (Mago)
-  D20: 3 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 12
-[Log] Galadriel (Mago) atacou Elrond (Mago)
-  D20: 3 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 12
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 11 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 41
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 11 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 41
-[Log] Sam (Ladino) atacou Gimli (Guerreiro)
-  D20: 19 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 43
-[Log] Sam (Ladino) atacou Gimli (Guerreiro)
-  D20: 19 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 43
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 20 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 20 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
-[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
-  D20: 19 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 10
-[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
-  D20: 19 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 10
-[Log] Elrond (Mago) atacou Éowyn (Guerreiro)
-  D20: 16 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 45
-[Log] Elrond (Mago) atacou Éowyn (Guerreiro)
-  D20: 16 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 45
-[Log] Gimli (Guerreiro) atacou Galadriel (Mago)
-  D20: 7 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
-[Log] Gimli (Guerreiro) atacou Galadriel (Mago)
-  D20: 7 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
-[Log] Arwen (Ladino) atacou Sam (Ladino)
-  D20: 11 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Arwen (Ladino) atacou Sam (Ladino)
-  D20: 11 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 8 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 45
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 8 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 45
-[Log] Théoden (Guerreiro) atacou Sam (Ladino)
-  D20: 5 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Théoden (Guerreiro) atacou Sam (Ladino)
-  D20: 5 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Elrond (Mago)
-  D20: 12 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 12
-[Log] Pedro (Guerreiro) atacou Elrond (Mago)
-  D20: 12 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 12
-[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 10 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 11
-[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 10 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 11
-[Log] Elrond (Mago) atacou Galadriel (Mago)
-  D20: 3 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Elrond (Mago) atacou Galadriel (Mago)
-  D20: 3 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Gimli (Guerreiro) atacou Galadriel (Mago)
-  D20: 6 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Gimli (Guerreiro) atacou Galadriel (Mago)
-  D20: 6 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Arwen (Ladino) atacou Pedro (Guerreiro)
-  D20: 18 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
-[Log] Arwen (Ladino) atacou Pedro (Guerreiro)
-  D20: 18 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
-[Log] Galadriel (Mago) atacou Arwen (Ladino)
-  D20: 13 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 9
-[Log] Galadriel (Mago) atacou Arwen (Ladino)
-  D20: 13 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 9
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 20 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 34
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 20 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 34
-[Log] Pedro (Guerreiro) atacou Arwen (Ladino)
-  D20: 20 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 2
-[Log] Pedro (Guerreiro) atacou Arwen (Ladino)
-  D20: 20 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 2
 [Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 48
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 48
-[Log] Elrond (Mago) atacou Théoden (Guerreiro)
-  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 48
-[Log] Elrond (Mago) atacou Théoden (Guerreiro)
-  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 48
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 12 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 35
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 12 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 35
-[Log] Arwen (Ladino) atacou Théoden (Guerreiro)
-  D20: 5 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Arwen (Ladino) atacou Théoden (Guerreiro)
-  D20: 5 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 11 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 28
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 11 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 28
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 14 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 14 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Pedro (Guerreiro) atacou Galadriel (Mago)
-  D20: 11 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 6
-[Log] Pedro (Guerreiro) atacou Galadriel (Mago)
-  D20: 11 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 6
-[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
-  D20: 7 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 19
-[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
-  D20: 7 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 19
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 12 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 35
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 12 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 35
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 20 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 20 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
-[Log] Arwen (Ladino) atacou Pedro (Guerreiro)
-  D20: 15 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
-[Log] Arwen (Ladino) atacou Pedro (Guerreiro)
-  D20: 15 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 3 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 3 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 4 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 4 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 13 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 13 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 2 | Dano Total: 9 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 2 | Dano Total: 9 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Elrond (Mago) atacou Théoden (Guerreiro)
-  D20: 18 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 36
-[Log] Elrond (Mago) atacou Théoden (Guerreiro)
-  D20: 18 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 36
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 13 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 28
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 13 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 28
-[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
-  D20: 2 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 12
-[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
-  D20: 2 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 12
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Pedro (Guerreiro) atacou Elrond (Mago)
-  D20: 17 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 8
-[Log] Pedro (Guerreiro) atacou Elrond (Mago)
-  D20: 17 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 8
-[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
-  D20: 12 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 2
-[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
-  D20: 12 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 2
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 23
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 23
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 4 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 4 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 23
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 23
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 9 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 9 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 8 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 8 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Elrond (Mago) atacou Éowyn (Guerreiro)
-  D20: 6 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Elrond (Mago) atacou Éowyn (Guerreiro)
-  D20: 6 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Gimli (Guerreiro) atacou Elrond (Mago)
-  D20: 8 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Gimli (Guerreiro) atacou Elrond (Mago)
-  D20: 8 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 7 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 8
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 7 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 8
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 11 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 8
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 11 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 8
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 9 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 9 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 4 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 4 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 15 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 22
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 15 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 22
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 8
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 8
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 14 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 12
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 14 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 12
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 5 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 5 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 19 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 19 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 13 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 13 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 5 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 5 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-
---- Partida 3c78d9eb-31c6-4ca6-983a-ac1cb85235aa: Batalha Total ---
-Vencedor: -- Nome: Pedro
-Classe: Guerreiro
-Pontos de Ataque: 6
-Dado de Ataque: D12
-Pontos de Vida: 50
-Pontos de Defesa: 8
-Limite de Habilidades: 2
-Inventário: [] -- 
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
   D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 50
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
   D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 50
-[Log] Elrond (Mago) atacou Gimli (Guerreiro)
-  D20: 20 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 40
-[Log] Elrond (Mago) atacou Gimli (Guerreiro)
-  D20: 20 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 40
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 2 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 15
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 2 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 15
+[Log] Elrond (Mago) atacou Galadriel (Mago)
+  D20: 4 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 11
+[Log] Elrond (Mago) atacou Galadriel (Mago)
+  D20: 4 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 11
+[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 6 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 44
+[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 6 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 44
 [Log] Arwen (Ladino) atacou Gimli (Guerreiro)
-  D20: 2 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 34
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 50
 [Log] Arwen (Ladino) atacou Gimli (Guerreiro)
-  D20: 2 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 34
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 50
 [Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 1 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
+  D20: 2 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
 [Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 1 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
+  D20: 2 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
 [Log] Théoden (Guerreiro) atacou Elrond (Mago)
-  D20: 14 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 9
+  D20: 7 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 10
 [Log] Théoden (Guerreiro) atacou Elrond (Mago)
-  D20: 14 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Sam (Ladino) atacou Galadriel (Mago)
-  D20: 20 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 8
-[Log] Sam (Ladino) atacou Galadriel (Mago)
-  D20: 20 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 8
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 9 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 9 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
-[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
-  D20: 1 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 15
-[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
-  D20: 1 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 15
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 5 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 44
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 5 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 44
-[Log] Gimli (Guerreiro) atacou Sam (Ladino)
-  D20: 10 | Dano Total: 9 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Gimli (Guerreiro) atacou Sam (Ladino)
-  D20: 10 | Dano Total: 9 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Arwen (Ladino) atacou Sam (Ladino)
-  D20: 12 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
-[Log] Arwen (Ladino) atacou Sam (Ladino)
-  D20: 12 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 17 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 48
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 17 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 48
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 12 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 23
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 12 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 23
-[Log] Sam (Ladino) atacou Théoden (Guerreiro)
-  D20: 8 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 38
-[Log] Sam (Ladino) atacou Théoden (Guerreiro)
-  D20: 8 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 38
-[Log] Pedro (Guerreiro) atacou Elrond (Mago)
-  D20: 14 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 9
-[Log] Pedro (Guerreiro) atacou Elrond (Mago)
-  D20: 14 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 9
-[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
-  D20: 5 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 9
-[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
-  D20: 5 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 9
-[Log] Elrond (Mago) atacou Sam (Ladino)
-  D20: 3 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Elrond (Mago) atacou Sam (Ladino)
-  D20: 3 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 20 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 48
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 20 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 48
-[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
-  D20: 4 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 51
-[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
-  D20: 4 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 51
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 17 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 17 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
-[Log] Théoden (Guerreiro) atacou Elrond (Mago)
-  D20: 12 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 9
-[Log] Théoden (Guerreiro) atacou Elrond (Mago)
-  D20: 12 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 9
-[Log] Sam (Ladino) atacou Arwen (Ladino)
-  D20: 12 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Sam (Ladino) atacou Arwen (Ladino)
-  D20: 12 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 14 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 44
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 14 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 44
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 15 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 44
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 15 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 44
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 16 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 48
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 16 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 48
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 7 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 7 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
-[Log] Arwen (Ladino) atacou Elrond (Mago)
-  D20: 5 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 19
-[Log] Arwen (Ladino) atacou Elrond (Mago)
-  D20: 5 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 19
-[Log] Galadriel (Mago) atacou Sam (Ladino)
-  D20: 18 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 0
-[Log] Galadriel (Mago) atacou Sam (Ladino)
-  D20: 18 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 0
-[Log] Théoden (Guerreiro) atacou Elrond (Mago)
-  D20: 13 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 13
-[Log] Théoden (Guerreiro) atacou Elrond (Mago)
-  D20: 13 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 13
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 5 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 36
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 5 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 36
-[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 18 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 18 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Elrond (Mago) atacou Arwen (Ladino)
-  D20: 19 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Elrond (Mago) atacou Arwen (Ladino)
-  D20: 19 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 18 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 18 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Arwen (Ladino) atacou Pedro (Guerreiro)
-  D20: 3 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Arwen (Ladino) atacou Pedro (Guerreiro)
-  D20: 3 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 6 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 36
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 6 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 36
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 8 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 8 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Elrond (Mago) atacou Arwen (Ladino)
-  D20: 20 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 7
-[Log] Elrond (Mago) atacou Arwen (Ladino)
-  D20: 20 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 7
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 10 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 10 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
-[Log] Arwen (Ladino) atacou Théoden (Guerreiro)
-  D20: 5 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Arwen (Ladino) atacou Théoden (Guerreiro)
-  D20: 5 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Théoden (Guerreiro) atacou Arwen (Ladino)
-  D20: 17 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Théoden (Guerreiro) atacou Arwen (Ladino)
-  D20: 17 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 16 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 16 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 3 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 47
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 3 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 47
-[Log] Elrond (Mago) atacou Gimli (Guerreiro)
-  D20: 8 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Elrond (Mago) atacou Gimli (Guerreiro)
-  D20: 8 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 14 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 14 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
-[Log] Arwen (Ladino) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Arwen (Ladino) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 20 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 20 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 20 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 20 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
-  D20: 8 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 11
-[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
-  D20: 8 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 11
-[Log] Elrond (Mago) atacou Gimli (Guerreiro)
-  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 7
-[Log] Elrond (Mago) atacou Gimli (Guerreiro)
-  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 7
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 16 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 16 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 36
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 36
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 11 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 11 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 20 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 20 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 9 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 34
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 9 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 34
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 9 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 9 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
-[Log] Théoden (Guerreiro) atacou Elrond (Mago)
-  D20: 3 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
-[Log] Théoden (Guerreiro) atacou Elrond (Mago)
-  D20: 3 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 15 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 15 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Gimli (Guerreiro) atacou Elrond (Mago)
-  D20: 8 | Dano Total: 8 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Gimli (Guerreiro) atacou Elrond (Mago)
-  D20: 8 | Dano Total: 8 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 13 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 4
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 13 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 4
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 19 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 3
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 19 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 3
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 15 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 21
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 15 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 21
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 10 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 10 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 7 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 7 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 15 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 15 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 20 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 20 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-
---- Partida 8bd4510d-2853-4633-8920-c8e1ddb1f835: Batalha Total ---
-Vencedor: -- Nome: Pedro
-Classe: Guerreiro
-Pontos de Ataque: 6
-Dado de Ataque: D12
-Pontos de Vida: 50
-Pontos de Defesa: 8
-Limite de Habilidades: 2
-Inventário: [] -- 
+  D20: 7 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Sam (Ladino) atacou Elrond (Mago)
+  D20: 8 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 4
+[Log] Sam (Ladino) atacou Elrond (Mago)
+  D20: 8 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 4
+[Log] Pedro (Guerreiro) atacou Sam (Ladino)
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 21
+[Log] Pedro (Guerreiro) atacou Sam (Ladino)
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 21
 [Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
-  D20: 9 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 15
+  D20: 7 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 28
 [Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
-  D20: 9 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 15
+  D20: 7 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 28
 [Log] Elrond (Mago) atacou Éowyn (Guerreiro)
-  D20: 15 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 40
+  D20: 6 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
 [Log] Elrond (Mago) atacou Éowyn (Guerreiro)
-  D20: 15 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 40
-[Log] Gimli (Guerreiro) atacou Elrond (Mago)
-  D20: 7 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 11
-[Log] Gimli (Guerreiro) atacou Elrond (Mago)
-  D20: 7 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 11
+  D20: 6 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 9 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 37
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 9 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 37
 [Log] Arwen (Ladino) atacou Sam (Ladino)
-  D20: 18 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 17
+  D20: 10 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 13
 [Log] Arwen (Ladino) atacou Sam (Ladino)
-  D20: 18 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 12 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 12 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 14 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 49
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 14 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 49
-[Log] Sam (Ladino) atacou Arwen (Ladino)
-  D20: 3 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 9
-[Log] Sam (Ladino) atacou Arwen (Ladino)
-  D20: 3 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 9
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 15 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 60
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 15 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 60
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 11 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 11 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Elrond (Mago) atacou Arwen (Ladino)
-  D20: 8 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 3
-[Log] Elrond (Mago) atacou Arwen (Ladino)
-  D20: 8 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 3
-[Log] Gimli (Guerreiro) atacou Sam (Ladino)
-  D20: 4 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Gimli (Guerreiro) atacou Sam (Ladino)
-  D20: 4 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Arwen (Ladino) atacou Galadriel (Mago)
-  D20: 11 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 13
-[Log] Arwen (Ladino) atacou Galadriel (Mago)
-  D20: 11 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 13
-[Log] Galadriel (Mago) atacou Sam (Ladino)
-  D20: 9 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Galadriel (Mago) atacou Sam (Ladino)
-  D20: 9 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 54
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 54
-[Log] Sam (Ladino) atacou Arwen (Ladino)
-  D20: 16 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 3
-[Log] Sam (Ladino) atacou Arwen (Ladino)
-  D20: 16 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 3
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 5 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 11
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 5 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 11
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 46
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 46
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 54
-[Log] Elrond (Mago) atacou Pedro (Guerreiro)
-  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 54
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 9 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 0
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 9 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 0
-[Log] Galadriel (Mago) atacou Sam (Ladino)
-  D20: 18 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Galadriel (Mago) atacou Sam (Ladino)
-  D20: 18 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 13 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 13 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
-[Log] Sam (Ladino) atacou Elrond (Mago)
-  D20: 17 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 14
-[Log] Sam (Ladino) atacou Elrond (Mago)
-  D20: 17 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 14
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 13 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 45
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 13 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 45
-[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
-  D20: 19 | Dano Total: 9 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
-  D20: 19 | Dano Total: 9 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Elrond (Mago) atacou Théoden (Guerreiro)
-  D20: 3 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 56
-[Log] Elrond (Mago) atacou Théoden (Guerreiro)
-  D20: 3 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 56
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 9 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 44
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 9 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 44
-[Log] Galadriel (Mago) atacou Théoden (Guerreiro)
-  D20: 10 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 39
-[Log] Galadriel (Mago) atacou Théoden (Guerreiro)
-  D20: 10 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 39
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 16 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 60
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 16 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 60
-[Log] Sam (Ladino) atacou Elrond (Mago)
-  D20: 12 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Sam (Ladino) atacou Elrond (Mago)
-  D20: 12 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 13 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 13 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 6 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 6 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Gimli (Guerreiro) atacou Sam (Ladino)
-  D20: 15 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Gimli (Guerreiro) atacou Sam (Ladino)
-  D20: 15 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 10 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 41
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 10 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 41
-[Log] Théoden (Guerreiro) atacou Galadriel (Mago)
-  D20: 5 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
-[Log] Théoden (Guerreiro) atacou Galadriel (Mago)
-  D20: 5 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
-[Log] Sam (Ladino) atacou Pedro (Guerreiro)
-  D20: 9 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 58
-[Log] Sam (Ladino) atacou Pedro (Guerreiro)
-  D20: 9 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 58
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 4 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 37
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 4 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 37
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 9 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 9 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 18 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 35
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 18 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 35
-[Log] Galadriel (Mago) atacou Sam (Ladino)
-  D20: 5 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
-[Log] Galadriel (Mago) atacou Sam (Ladino)
-  D20: 5 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 18 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 55
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 18 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 55
-[Log] Sam (Ladino) atacou Théoden (Guerreiro)
-  D20: 5 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
-[Log] Sam (Ladino) atacou Théoden (Guerreiro)
-  D20: 5 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 16 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 16 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 16 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 52
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 16 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 52
-[Log] Gimli (Guerreiro) atacou Galadriel (Mago)
-  D20: 20 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Gimli (Guerreiro) atacou Galadriel (Mago)
-  D20: 20 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 14 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 14 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
-[Log] Sam (Ladino) atacou Gimli (Guerreiro)
-  D20: 17 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Sam (Ladino) atacou Gimli (Guerreiro)
-  D20: 17 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 5 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 5 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 3 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 3 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 4 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 51
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 4 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 51
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 15 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 15 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Sam (Ladino) atacou Éowyn (Guerreiro)
-  D20: 18 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
-[Log] Sam (Ladino) atacou Éowyn (Guerreiro)
-  D20: 18 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 18 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 18 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 4 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 4 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 41
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 41
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 16 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 36
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 16 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 36
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 10 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 19
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 10 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 19
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 17 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 11
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 17 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 11
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 12 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 12 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 8 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 8 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 13 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 13 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 4 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 4 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 19 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 19 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 14 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 14 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 7 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 7 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 16 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 16 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 12
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 12
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 8 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 8 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-
---- Partida c0588b11-ee31-40f5-9179-3c5cb8a5ac77: Batalha Total ---
-Vencedor: -- Nome: Pedro
-Classe: Guerreiro
-Pontos de Ataque: 6
-Dado de Ataque: D12
-Pontos de Vida: 50
-Pontos de Defesa: 8
-Limite de Habilidades: 2
-Inventário: [] -- 
-[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 10 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 8
-[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 10 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 8
-[Log] Elrond (Mago) atacou Sam (Ladino)
-  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 11
-[Log] Elrond (Mago) atacou Sam (Ladino)
-  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 11
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 10 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 10 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
-[Log] Arwen (Ladino) atacou Sam (Ladino)
-  D20: 19 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 11
-[Log] Arwen (Ladino) atacou Sam (Ladino)
-  D20: 19 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 11
+  D20: 10 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 13
 [Log] Galadriel (Mago) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 28
+  D20: 19 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 51
 [Log] Galadriel (Mago) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 28
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 12 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 28
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 12 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 28
-[Log] Sam (Ladino) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 21
-[Log] Sam (Ladino) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 21
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 19 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 19 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
-  D20: 15 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 6
-[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
-  D20: 15 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 6
-[Log] Elrond (Mago) atacou Éowyn (Guerreiro)
-  D20: 18 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 58
-[Log] Elrond (Mago) atacou Éowyn (Guerreiro)
-  D20: 18 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 58
-[Log] Gimli (Guerreiro) atacou Galadriel (Mago)
-  D20: 7 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 2
-[Log] Gimli (Guerreiro) atacou Galadriel (Mago)
-  D20: 7 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 2
-[Log] Arwen (Ladino) atacou Théoden (Guerreiro)
-  D20: 11 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 54
-[Log] Arwen (Ladino) atacou Théoden (Guerreiro)
-  D20: 11 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 54
-[Log] Galadriel (Mago) atacou Elrond (Mago)
-  D20: 19 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 12
-[Log] Galadriel (Mago) atacou Elrond (Mago)
-  D20: 19 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 12
+  D20: 19 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 51
 [Log] Théoden (Guerreiro) atacou Elrond (Mago)
-  D20: 8 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 1
+  D20: 9 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 4
 [Log] Théoden (Guerreiro) atacou Elrond (Mago)
-  D20: 8 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 1
-[Log] Sam (Ladino) atacou Elrond (Mago)
-  D20: 14 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 0
-[Log] Sam (Ladino) atacou Elrond (Mago)
-  D20: 14 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Galadriel (Mago)
-  D20: 6 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 2
-[Log] Pedro (Guerreiro) atacou Galadriel (Mago)
-  D20: 6 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 2
-[Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
-  D20: 8 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
-  D20: 8 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 3 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 28
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 3 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 28
-[Log] Arwen (Ladino) atacou Pedro (Guerreiro)
-  D20: 4 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 21
-[Log] Arwen (Ladino) atacou Pedro (Guerreiro)
-  D20: 4 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 21
-[Log] Galadriel (Mago) atacou Sam (Ladino)
-  D20: 11 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 1
-[Log] Galadriel (Mago) atacou Sam (Ladino)
-  D20: 11 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 1
+  D20: 9 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 4
+[Log] Sam (Ladino) atacou Arwen (Ladino)
+  D20: 1 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 26
+[Log] Sam (Ladino) atacou Arwen (Ladino)
+  D20: 1 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 26
+[Log] Pedro (Guerreiro) atacou Elrond (Mago)
+  D20: 14 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 4
+[Log] Pedro (Guerreiro) atacou Elrond (Mago)
+  D20: 14 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 4
+[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
+  D20: 20 | Dano Total: 12 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
+  D20: 20 | Dano Total: 12 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Elrond (Mago) atacou Théoden (Guerreiro)
+  D20: 9 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 54
+[Log] Elrond (Mago) atacou Théoden (Guerreiro)
+  D20: 9 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 54
+[Log] Gimli (Guerreiro) atacou Elrond (Mago)
+  D20: 11 | Dano Total: 12 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Gimli (Guerreiro) atacou Elrond (Mago)
+  D20: 11 | Dano Total: 12 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
+  D20: 7 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
+[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
+  D20: 7 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
+[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
+  D20: 12 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 36
+[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
+  D20: 12 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 36
 [Log] Théoden (Guerreiro) atacou Galadriel (Mago)
-  D20: 2 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 0
+  D20: 9 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 5
 [Log] Théoden (Guerreiro) atacou Galadriel (Mago)
-  D20: 2 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 0
-[Log] Sam (Ladino) atacou Gimli (Guerreiro)
-  D20: 16 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
-[Log] Sam (Ladino) atacou Gimli (Guerreiro)
-  D20: 16 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 17 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 17 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 13 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 13 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
-  D20: 5 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 53
-[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
-  D20: 5 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 53
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 5 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 39
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 5 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 39
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 12 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 12 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 20 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 35
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 20 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 35
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 18 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
-  D20: 18 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
-  D20: 2 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 34
-[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
-  D20: 2 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 34
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
+  D20: 9 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 5
+[Log] Sam (Ladino) atacou Pedro (Guerreiro)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 61
+[Log] Sam (Ladino) atacou Pedro (Guerreiro)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 61
 [Log] Pedro (Guerreiro) atacou Arwen (Ladino)
-  D20: 8 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 9
+  D20: 3 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 15
 [Log] Pedro (Guerreiro) atacou Arwen (Ladino)
-  D20: 8 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 9
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 17 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 23
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 17 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 23
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 9 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 9 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
-[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
-  D20: 14 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 15
-[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
-  D20: 14 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 15
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 16 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 40
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 16 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 40
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 6 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 34
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 6 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 34
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 15
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 15
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 7 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 7 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
-[Log] Arwen (Ladino) atacou Théoden (Guerreiro)
-  D20: 9 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
-[Log] Arwen (Ladino) atacou Théoden (Guerreiro)
-  D20: 9 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
+  D20: 3 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 15
+[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
+  D20: 15 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 5
+[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
+  D20: 15 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 5
+[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
+  D20: 15 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 13
+[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
+  D20: 15 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 13
+[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
+  D20: 12 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
+[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
+  D20: 12 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
+[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
+  D20: 15 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 33
+[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
+  D20: 15 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 33
 [Log] Théoden (Guerreiro) atacou Arwen (Ladino)
-  D20: 15 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 3 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 12
 [Log] Théoden (Guerreiro) atacou Arwen (Ladino)
-  D20: 15 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 3 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 12
+[Log] Sam (Ladino) atacou Pedro (Guerreiro)
+  D20: 7 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 59
+[Log] Sam (Ladino) atacou Pedro (Guerreiro)
+  D20: 7 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 59
 [Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 4 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
+  D20: 19 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
 [Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 4 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 14 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 14 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
+  D20: 19 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
+[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
+  D20: 14 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
+  D20: 14 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 14 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
+[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 14 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
+[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
+  D20: 15 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 39
+[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
+  D20: 15 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 39
+[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
+  D20: 14 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 29
+[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
+  D20: 14 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 29
+[Log] Théoden (Guerreiro) atacou Galadriel (Mago)
+  D20: 20 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Théoden (Guerreiro) atacou Galadriel (Mago)
+  D20: 20 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Sam (Ladino) atacou Pedro (Guerreiro)
+  D20: 2 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 57
+[Log] Sam (Ladino) atacou Pedro (Guerreiro)
+  D20: 2 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 57
+[Log] Pedro (Guerreiro) atacou Sam (Ladino)
+  D20: 5 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Pedro (Guerreiro) atacou Sam (Ladino)
+  D20: 5 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
+  D20: 1 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 7
+[Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
+  D20: 1 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 7
 [Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 8 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 10
+  D20: 9 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
 [Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 8 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 10
+  D20: 9 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
+  D20: 9 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 35
+[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
+  D20: 9 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 35
+[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
+  D20: 5 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 35
+[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
+  D20: 5 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 35
 [Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 10 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 3
+  D20: 5 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
 [Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 10 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 3
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 5 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 5 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 19 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 19 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 12 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 3
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 12 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 3
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 6 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 6 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
+  D20: 5 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+[Log] Pedro (Guerreiro) atacou Galadriel (Mago)
+  D20: 3 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 7
+[Log] Pedro (Guerreiro) atacou Galadriel (Mago)
+  D20: 3 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 7
 [Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 3 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 19 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
 [Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 3 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 19 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 4 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 56
+[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 4 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 56
+[Log] Arwen (Ladino) atacou Pedro (Guerreiro)
+  D20: 7 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 55
+[Log] Arwen (Ladino) atacou Pedro (Guerreiro)
+  D20: 7 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 55
+[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
+  D20: 7 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 12
+[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
+  D20: 7 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 12
+[Log] Théoden (Guerreiro) atacou Arwen (Ladino)
+  D20: 15 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 5
+[Log] Théoden (Guerreiro) atacou Arwen (Ladino)
+  D20: 15 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 5
+[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 18 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
+[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 18 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
+[Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
+  D20: 8 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 0
+[Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
+  D20: 8 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 0
+[Log] Gimli (Guerreiro) atacou Galadriel (Mago)
+  D20: 14 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Gimli (Guerreiro) atacou Galadriel (Mago)
+  D20: 14 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Galadriel (Mago) atacou Théoden (Guerreiro)
+  D20: 16 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
+[Log] Galadriel (Mago) atacou Théoden (Guerreiro)
+  D20: 16 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
+[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 3 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 7
+[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 3 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 7
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 19 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 44
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 19 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 44
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 13 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 39
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 13 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 39
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 5 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 19
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 5 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 19
+[Log] Galadriel (Mago) atacou Théoden (Guerreiro)
+  D20: 8 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 34
+[Log] Galadriel (Mago) atacou Théoden (Guerreiro)
+  D20: 8 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 34
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 4 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 47
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 4 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 47
+[Log] Pedro (Guerreiro) atacou Galadriel (Mago)
+  D20: 12 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Pedro (Guerreiro) atacou Galadriel (Mago)
+  D20: 12 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 9 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 35
+[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 9 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 35
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 15 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 13
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 15 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 13
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 5 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 5 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
+[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 20 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
+[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 20 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 15 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 29
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 15 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 29
+[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 8 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
+[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 8 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
+[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 12 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 12 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 6 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
+[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 6 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 29
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 29
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 9 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 29
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 9 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 29
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 10 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 10 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 5 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 15
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 5 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 15
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 10 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 10 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 4 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 4 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
+[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 12 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 12 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
 [Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 10 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 3 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
 [Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 10 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 3 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
 [Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 7 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 5
+  D20: 20 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 4
 [Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 7 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 5
+  D20: 20 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 4
 [Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 3 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
+  D20: 13 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
 [Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 3 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
+  D20: 13 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
 [Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 5
+  D20: 9 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
 [Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 20 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 20 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 7 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 7 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 9 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
 
---- Partida 3981db3f-4bb5-4b7d-ae33-80651245ad7c: Batalha Total ---
-Vencedor: -- Nome: Pedro
+--- Partida e7835cef-7551-4fa7-99a0-fbcb2dc90e49: Batalha Total ---
+Vencedor: -- Nome: Éowyn
 Classe: Guerreiro
 Pontos de Ataque: 6
 Dado de Ataque: D12
@@ -1110,301 +336,261 @@ Pontos de Vida: 50
 Pontos de Defesa: 8
 Limite de Habilidades: 2
 Inventário: [] -- 
-[Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
-  D20: 5 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 13
-[Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
-  D20: 5 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 13
-[Log] Elrond (Mago) atacou Gimli (Guerreiro)
-  D20: 3 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Elrond (Mago) atacou Gimli (Guerreiro)
-  D20: 3 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
-[Log] Gimli (Guerreiro) atacou Elrond (Mago)
-  D20: 4 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 8
-[Log] Gimli (Guerreiro) atacou Elrond (Mago)
-  D20: 4 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 8
+[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 14
+[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 14
+[Log] Elrond (Mago) atacou Galadriel (Mago)
+  D20: 20 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 4
+[Log] Elrond (Mago) atacou Galadriel (Mago)
+  D20: 20 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 4
+[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 11 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 40
+[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 11 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 40
 [Log] Arwen (Ladino) atacou Elrond (Mago)
-  D20: 4 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 5
+  D20: 11 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 14
 [Log] Arwen (Ladino) atacou Elrond (Mago)
-  D20: 4 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Galadriel (Mago) atacou Théoden (Guerreiro)
-  D20: 4 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Galadriel (Mago) atacou Théoden (Guerreiro)
-  D20: 4 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Théoden (Guerreiro) atacou Arwen (Ladino)
-  D20: 4 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Théoden (Guerreiro) atacou Arwen (Ladino)
-  D20: 4 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
+  D20: 11 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 14
+[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
+  D20: 14 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 40
+[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
+  D20: 14 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 40
+[Log] Théoden (Guerreiro) atacou Galadriel (Mago)
+  D20: 20 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Théoden (Guerreiro) atacou Galadriel (Mago)
+  D20: 20 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 3
 [Log] Sam (Ladino) atacou Elrond (Mago)
-  D20: 5 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 0
+  D20: 2 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 9
 [Log] Sam (Ladino) atacou Elrond (Mago)
-  D20: 5 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 12 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 43
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 12 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 43
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 15 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 15 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
-[Log] Arwen (Ladino) atacou Théoden (Guerreiro)
-  D20: 3 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 33
-[Log] Arwen (Ladino) atacou Théoden (Guerreiro)
-  D20: 3 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 33
-[Log] Galadriel (Mago) atacou Théoden (Guerreiro)
-  D20: 19 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 23
-[Log] Galadriel (Mago) atacou Théoden (Guerreiro)
-  D20: 19 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 23
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 50
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 50
-[Log] Sam (Ladino) atacou Éowyn (Guerreiro)
-  D20: 5 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 47
-[Log] Sam (Ladino) atacou Éowyn (Guerreiro)
-  D20: 5 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 47
-[Log] Pedro (Guerreiro) atacou Arwen (Ladino)
-  D20: 5 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 16
-[Log] Pedro (Guerreiro) atacou Arwen (Ladino)
-  D20: 5 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 16
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 18 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 33
-[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 18 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 33
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 9 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 53
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 9 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 53
-[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
-  D20: 7 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
-[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
-  D20: 7 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
-[Log] Galadriel (Mago) atacou Arwen (Ladino)
-  D20: 20 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 16
-[Log] Galadriel (Mago) atacou Arwen (Ladino)
-  D20: 20 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 16
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 17 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 53
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 17 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 53
-[Log] Sam (Ladino) atacou Pedro (Guerreiro)
-  D20: 2 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 53
-[Log] Sam (Ladino) atacou Pedro (Guerreiro)
-  D20: 2 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 53
+  D20: 2 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 9
 [Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 16 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 53
+  D20: 5 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 60
 [Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 16 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 53
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 7 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 62
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 7 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 62
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 53
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 53
-[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
-  D20: 15 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 36
-[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
-  D20: 15 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 36
-[Log] Galadriel (Mago) atacou Arwen (Ladino)
-  D20: 6 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 15
-[Log] Galadriel (Mago) atacou Arwen (Ladino)
-  D20: 6 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 15
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 17 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 17 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
-[Log] Sam (Ladino) atacou Galadriel (Mago)
-  D20: 3 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Sam (Ladino) atacou Galadriel (Mago)
-  D20: 3 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 16 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 16 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
-[Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
-  D20: 8 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
-  D20: 8 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 9 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 52
-[Log] Gimli (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 9 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 52
-[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
-  D20: 19 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
-[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
-  D20: 19 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
-[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 12 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 18
-[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 12 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 18
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
-[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
-[Log] Sam (Ladino) atacou Éowyn (Guerreiro)
-  D20: 10 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 51
-[Log] Sam (Ladino) atacou Éowyn (Guerreiro)
-  D20: 10 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 51
-[Log] Pedro (Guerreiro) atacou Arwen (Ladino)
-  D20: 2 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Arwen (Ladino)
-  D20: 2 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 6 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 8 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 8 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
-[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 20 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 20 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 16 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 48
-[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 16 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 48
-[Log] Sam (Ladino) atacou Pedro (Guerreiro)
-  D20: 10 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 41
-[Log] Sam (Ladino) atacou Pedro (Guerreiro)
-  D20: 10 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 41
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 14 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 14 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
+  D20: 5 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 60
 [Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 8 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 16
+  D20: 14 | Dano Total: 9 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
 [Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 8 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Gimli (Guerreiro) atacou Sam (Ladino)
-  D20: 19 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Gimli (Guerreiro) atacou Sam (Ladino)
-  D20: 19 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 14 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 14 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 20 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 43
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 20 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 43
-[Log] Sam (Ladino) atacou Pedro (Guerreiro)
-  D20: 17 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
-[Log] Sam (Ladino) atacou Pedro (Guerreiro)
-  D20: 17 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 17 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 18
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 17 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 18
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 14 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
-  D20: 14 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 10
+  D20: 14 | Dano Total: 9 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Elrond (Mago) atacou Gimli (Guerreiro)
+  D20: 1 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 34
+[Log] Elrond (Mago) atacou Gimli (Guerreiro)
+  D20: 1 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 34
 [Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 12 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 37
+  D20: 12 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
 [Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 12 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 37
-[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 18 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 18 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Théoden (Guerreiro) atacou Galadriel (Mago)
-  D20: 20 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Théoden (Guerreiro) atacou Galadriel (Mago)
-  D20: 20 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 9
-[Log] Sam (Ladino) atacou Gimli (Guerreiro)
-  D20: 11 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 4
-[Log] Sam (Ladino) atacou Gimli (Guerreiro)
-  D20: 11 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 4
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 9 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 36
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 9 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 36
-[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
-  D20: 4 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
-  D20: 4 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 12 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 22
-[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 12 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 22
-[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 12 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Galadriel (Mago) atacou Gimli (Guerreiro)
-  D20: 12 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Théoden (Guerreiro) atacou Galadriel (Mago)
-  D20: 19 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Théoden (Guerreiro) atacou Galadriel (Mago)
-  D20: 19 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Sam (Ladino) atacou Éowyn (Guerreiro)
-  D20: 18 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 29
-[Log] Sam (Ladino) atacou Éowyn (Guerreiro)
-  D20: 18 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 29
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 10 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 10 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
-[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 7 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
-[Log] Éowyn (Guerreiro) atacou Galadriel (Mago)
-  D20: 7 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 10 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Galadriel (Mago) atacou Éowyn (Guerreiro)
-  D20: 10 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Théoden (Guerreiro) atacou Galadriel (Mago)
-  D20: 1 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Théoden (Guerreiro) atacou Galadriel (Mago)
-  D20: 1 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 12 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
+[Log] Arwen (Ladino) atacou Sam (Ladino)
+  D20: 19 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 19
+[Log] Arwen (Ladino) atacou Sam (Ladino)
+  D20: 19 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 19
+[Log] Théoden (Guerreiro) atacou Sam (Ladino)
+  D20: 3 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 19
+[Log] Théoden (Guerreiro) atacou Sam (Ladino)
+  D20: 3 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 19
 [Log] Sam (Ladino) atacou Théoden (Guerreiro)
-  D20: 15 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
+  D20: 20 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 56
 [Log] Sam (Ladino) atacou Théoden (Guerreiro)
-  D20: 15 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 14 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Sam (Ladino)
-  D20: 14 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 20 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 56
+[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 12 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
+[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 12 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
+[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 7 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 22
+[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 7 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 22
+[Log] Elrond (Mago) atacou Théoden (Guerreiro)
+  D20: 13 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 56
+[Log] Elrond (Mago) atacou Théoden (Guerreiro)
+  D20: 13 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 56
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
+[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
+  D20: 20 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
+  D20: 20 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Théoden (Guerreiro) atacou Arwen (Ladino)
+  D20: 3 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 20
+[Log] Théoden (Guerreiro) atacou Arwen (Ladino)
+  D20: 3 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 20
+[Log] Sam (Ladino) atacou Pedro (Guerreiro)
+  D20: 19 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 44
+[Log] Sam (Ladino) atacou Pedro (Guerreiro)
+  D20: 19 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 44
+[Log] Pedro (Guerreiro) atacou Arwen (Ladino)
+  D20: 15 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 20
+[Log] Pedro (Guerreiro) atacou Arwen (Ladino)
+  D20: 15 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 20
 [Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
+  D20: 8 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 44
 [Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 13 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 15
-[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 13 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 15
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 14 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 11
-[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 14 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 11
+  D20: 8 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 44
+[Log] Elrond (Mago) atacou Pedro (Guerreiro)
+  D20: 15 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 34
+[Log] Elrond (Mago) atacou Pedro (Guerreiro)
+  D20: 15 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 34
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 19 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 43
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 19 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 43
+[Log] Arwen (Ladino) atacou Théoden (Guerreiro)
+  D20: 4 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 54
+[Log] Arwen (Ladino) atacou Théoden (Guerreiro)
+  D20: 4 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 54
+[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 8 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
+[Log] Théoden (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 8 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
+[Log] Sam (Ladino) atacou Elrond (Mago)
+  D20: 8 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 19
+[Log] Sam (Ladino) atacou Elrond (Mago)
+  D20: 8 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 19
+[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 4 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 4 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
 [Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 16 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 13 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
 [Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
-  D20: 16 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 13 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
+[Log] Elrond (Mago) atacou Pedro (Guerreiro)
+  D20: 15 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 28
+[Log] Elrond (Mago) atacou Pedro (Guerreiro)
+  D20: 15 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 28
+[Log] Gimli (Guerreiro) atacou Elrond (Mago)
+  D20: 9 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 12
+[Log] Gimli (Guerreiro) atacou Elrond (Mago)
+  D20: 9 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 12
+[Log] Arwen (Ladino) atacou Elrond (Mago)
+  D20: 1 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 5
+[Log] Arwen (Ladino) atacou Elrond (Mago)
+  D20: 1 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 5
+[Log] Théoden (Guerreiro) atacou Sam (Ladino)
+  D20: 1 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 21
+[Log] Théoden (Guerreiro) atacou Sam (Ladino)
+  D20: 1 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 21
+[Log] Sam (Ladino) atacou Arwen (Ladino)
+  D20: 8 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 17
+[Log] Sam (Ladino) atacou Arwen (Ladino)
+  D20: 8 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 17
+[Log] Pedro (Guerreiro) atacou Arwen (Ladino)
+  D20: 9 | Dano Total: 9 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Pedro (Guerreiro) atacou Arwen (Ladino)
+  D20: 9 | Dano Total: 9 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
+  D20: 10 | Dano Total: 12 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Éowyn (Guerreiro) atacou Arwen (Ladino)
+  D20: 10 | Dano Total: 12 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Elrond (Mago) atacou Théoden (Guerreiro)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 35
+[Log] Elrond (Mago) atacou Théoden (Guerreiro)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 35
+[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 5 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 28
+[Log] Gimli (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 5 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 28
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 5 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 22
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 5 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 22
+[Log] Sam (Ladino) atacou Théoden (Guerreiro)
+  D20: 5 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
+[Log] Sam (Ladino) atacou Théoden (Guerreiro)
+  D20: 5 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
+[Log] Pedro (Guerreiro) atacou Elrond (Mago)
+  D20: 5 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Pedro (Guerreiro) atacou Elrond (Mago)
+  D20: 5 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
+  D20: 2 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 17
+[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
+  D20: 2 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 17
+[Log] Elrond (Mago) atacou Pedro (Guerreiro)
+  D20: 14 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
+[Log] Elrond (Mago) atacou Pedro (Guerreiro)
+  D20: 14 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 18 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 42
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 18 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 42
+[Log] Théoden (Guerreiro) atacou Elrond (Mago)
+  D20: 9 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Théoden (Guerreiro) atacou Elrond (Mago)
+  D20: 9 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Sam (Ladino) atacou Pedro (Guerreiro)
+  D20: 8 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 12
+[Log] Sam (Ladino) atacou Pedro (Guerreiro)
+  D20: 8 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 12
 [Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 17 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 3
+  D20: 8 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 40
 [Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 17 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 3
+  D20: 8 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 40
+[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
+  D20: 3 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
+[Log] Éowyn (Guerreiro) atacou Sam (Ladino)
+  D20: 3 | Dano Total: 11 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 6
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 9 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 9 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
+[Log] Théoden (Guerreiro) atacou Sam (Ladino)
+  D20: 16 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Théoden (Guerreiro) atacou Sam (Ladino)
+  D20: 16 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 14 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Pedro (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 14 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 6 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 23
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 6 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 23
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 14 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 14 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 20 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 20 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 9 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 7
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 9 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 7
+[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 7 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
+[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 7 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 3 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 3 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
 [Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 9 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+  D20: 4 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 4
 [Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 9 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+  D20: 4 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 17 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 17 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
 [Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 11 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
+  D20: 19 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 21
 [Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 11 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
+  D20: 19 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 21
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 11 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Éowyn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 11 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 18 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 18 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
 [Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
+  D20: 15 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
 [Log] Éowyn (Guerreiro) atacou Pedro (Guerreiro)
-  D20: 13 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 16
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 12 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
-  D20: 12 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 15 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
 
 

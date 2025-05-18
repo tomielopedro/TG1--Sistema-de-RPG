@@ -2,8 +2,8 @@
 ### Éowyn
 - **Classe**: Guerreiro
 - **Habilidades**:
-- TiroDeArco
 - Cura
+- BolaDeFogo
 
 ### Elrond
 - **Classe**: Mago

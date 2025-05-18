@@ -1,22 +1,27 @@
 
-### Castle
+### Vilarejo
+- **Mapa**: Torre
+- **Tipo**: X1
+- **Limite Jogadores**: 2
+- **Personagens**:
+ - Elrond
+ - Pedro
+
+
+### Torre de pisa
+- **Mapa**: Torre
+- **Tipo**: PVP
+- **Limite Jogadores**: 100
+- **Personagens**:
+ - Éowyn
+ - Pedro
+
+
+### Village
 - **Mapa**: Vilarejo
 - **Tipo**: PVP
 - **Limite Jogadores**: 100
 - **Personagens**:
  - Éowyn
- - Elrond
- - Gimli
- - Arwen
- - Galadriel
- - Théoden
- - Sam
  - Pedro
-
-
-### Vilarejo
-- **Mapa**: Vilarejo
-- **Tipo**: X1
-- **Limite Jogadores**: 2
-- **Personagens**:
 

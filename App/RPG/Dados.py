@@ -16,7 +16,7 @@ class Dados:
 
     def __init__(self, numero_lados):
         """
-        Inicializa um novo dado com o número especificado de lados.
+        Inicializa um novo dado com número especificado que representa a quantidade de lados.
 
         Args:
             numero_lados (int): Número de lados do dado.
@@ -24,7 +24,7 @@ class Dados:
         self.numero_lados = numero_lados
 
     def __str__(self):
-        """Retorna a representação amigável do dado, no formato Dx."""
+        """Retorna a representação legível do dado, no formato Dx."""
         return f'D{self.numero_lados}'
 
     def __repr__(self):
@@ -45,16 +45,16 @@ class Dados:
 
     def jogar(self):
         """
-        Simula o lançamento do dado.
+        Simula um lançamento de dado.
 
         Returns:
-            int: Valor aleatório entre 1 e o número de lados.
+            int: Valor aleatório entre 1 e o número de lados correspondente ao Dado em questão.
         """
         return randint(1, self.numero_lados)
 
 
 class D4(Dados):
-    """Representa um dado de 4 lados (D4)."""
+    """Representa um dado contendo 4 lados (D4)."""
     def __init__(self):
         super().__init__(4)
 

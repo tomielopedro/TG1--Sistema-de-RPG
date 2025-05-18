@@ -7,3 +7,9 @@
 [2025-05-18 15:52:46] [Castle] Info: arena editada com sucesso.
 [2025-05-18 16:02:10] [Castle] Info: arena editada com sucesso.
 [2025-05-18 16:04:40] [Castle] Info: arena editada com sucesso.
+[2025-05-18 17:06:30] [Vilarejo] Info: arena editada com sucesso.
+[2025-05-18 17:06:49] [Vilarejo] Info: arena editada com sucesso.
+[2025-05-18 17:32:34] [Castle] Info: arena excluída com sucesso.
+[2025-05-18 17:39:24] [Torre de pisa] Info: arena criada com sucesso.
+[2025-05-18 17:39:46] [Torre] Info: arena criada com sucesso.
+[2025-05-18 17:40:15] [Village] Info: arena editada com sucesso.
