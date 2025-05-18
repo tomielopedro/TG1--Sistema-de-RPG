@@ -76,7 +76,7 @@ class Guerreiro(Classe):
     def __init__(self):
         self.pontos_defesa = 8
         self.pontos_vida = 10 + (self.pontos_defesa * 5)
-        super().__init__("Guerreiro", self.pontos_vida, D12(), 6, self.pontos_defesa, 2, './assets/images/personagens/guerreiro.png')
+        super().__init__("Guerreiro", self.pontos_vida, D12(), 6, self.pontos_defesa, 2, 'assets/images/personagens/guerreiro.png')
 
 
 class Mago(Classe):
@@ -92,7 +92,7 @@ class Mago(Classe):
     def __init__(self):
         self.pontos_defesa = 3
         self.pontos_vida = 8 + (self.pontos_defesa * 2)
-        super().__init__("Mago", self.pontos_vida, D6(), 10, self.pontos_defesa, 5, './assets/images/personagens/mago.png')
+        super().__init__("Mago", self.pontos_vida, D6(), 10, self.pontos_defesa, 5, 'assets/images/personagens/mago.png')
 
 
 class Ladino(Classe):
@@ -108,4 +108,4 @@ class Ladino(Classe):
     def __init__(self):
         self.pontos_defesa = 5
         self.pontos_vida = 6 + (self.pontos_defesa * 3)
-        super().__init__("Ladino", self.pontos_vida, D8(), 8, self.pontos_defesa, 2, './assets/images/personagens/ladino.png')
+        super().__init__("Ladino", self.pontos_vida, D8(), 8, self.pontos_defesa, 2, 'assets/images/personagens/ladino.png')

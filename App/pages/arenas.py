@@ -3,7 +3,7 @@ from utils.page_functions.criar_arena import criar_arena
 from utils.page_functions.galeria_arenas import criar_card_arena
 from utils.streamlit_utils import set_background_as_frame
 
-set_background_as_frame('./assets/images/extras/fundo.png')
+set_background_as_frame('assets/images/extras/fundo.png')
 mostrar, criar = st.tabs(['Galeria de Arenas', 'Criar Arena'])
 mapas = list(st.session_state.gerenciamento_arenas.mapas_dict.keys())
 mapas = ['Todos'] + mapas

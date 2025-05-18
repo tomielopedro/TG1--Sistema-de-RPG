@@ -6,7 +6,7 @@ import streamlit as st
 
 
 mostrar, criar= st.tabs(['Galeria de Personagens', 'Criar Personagem'])
-set_background_as_frame('./assets/images/extras/fundo.png')
+set_background_as_frame('assets/images/extras/fundo.png')
 classes = list(st.session_state.gerenciamento.classes_dict.keys())
 classes = ['Todos'] + classes
 

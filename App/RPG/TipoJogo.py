@@ -79,7 +79,7 @@ class X1(TipoJogo):
         - Ícone: './assets/images/x1.png'
     """
     def __init__(self):
-        super().__init__('X1', 2, './assets/images/extras/x1.png')
+        super().__init__('X1', 2, 'assets/images/extras/x1.png')
 
 
 class PVP(TipoJogo):
@@ -89,7 +89,7 @@ class PVP(TipoJogo):
     Características:
         - Nome: 'PVP'
         - Limite: 100 jogadores
-        - Ícone: './assets/images/pvp.png'
+        - Ícone: 'assets/images/pvp.png'
     """
     def __init__(self):
-        super().__init__('PVP', 100, './assets/images/extras/pvp.png')
+        super().__init__('PVP', 100, 'assets/images/extras/pvp.png')

@@ -58,7 +58,7 @@ def exibir_cabecalho_partida(arena_nome: str, partida_num: int, vencedor: Person
     for i, p in enumerate(mortos):
         with cols[i % 3]:
             avatar([{
-                "url": f"data:image/png;base64,{get_image_base64('./assets/images/extras/morte.png')}",
+                "url": f"data:image/png;base64,{get_image_base64('assets/images/extras/morte.png')}",
                 "size": 60,
                 "title": p.nome,
                 "caption": f"{p.classe.nome} ⚰️",
@@ -121,7 +121,7 @@ def exibir_resultado_csv(caminho_csv="data/historico_batalhas.csv", id_partida=N
     if not dados:
         return st.warning('Nenhum dado encontrado')
     linha = dados["linha"]
-    set_background_as_frame('./assets/images/extras/fundo_tela_inicial.png')
+    set_background_as_frame('assets/images/extras/fundo_tela_inicial.png')
 
     vencedor, mortos = obter_personagens_partida(linha)
 

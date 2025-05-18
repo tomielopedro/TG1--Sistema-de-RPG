@@ -84,11 +84,11 @@ class Vilarejo(Mapa):
     Subclasse de Mapa que representa o cenário nevado "Winter".
 
     Características:
-        - Nome: "Winter"
-        - Caminho da imagem: './assets/images/mapas/winter.png'
+        - Nome: "Winter
+        - Caminho da imagem: 'assets/images/mapas/winter.png'
     """
     def __init__(self):
-        super().__init__('Vilarejo', './assets/images/mapas/vilarejo.png')
+        super().__init__('Vilarejo', 'assets/images/mapas/vilarejo.png')
 
 
 class Torre(Mapa):
@@ -97,7 +97,7 @@ class Torre(Mapa):
 
     Características:
         - Nome: "Castle"
-        - Caminho da imagem: './assets/images/mapas/castle.png'
+        - Caminho da imagem: 'assets/images/mapas/castle.png'
     """
     def __init__(self):
-        super().__init__('Torre', './assets/images/mapas/torre.png')
+        super().__init__('Torre', 'assets/images/mapas/torre.png')

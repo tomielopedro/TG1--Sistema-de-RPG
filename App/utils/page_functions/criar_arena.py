@@ -1,7 +1,7 @@
 import streamlit as st
 from RPG import *
 from utils.page_functions.galeria_personagens import modal_card_personagem
-
+from utils.page_functions.galeria_personagens import modal_card_personagem
 
 def exibir_formulario_criacao_arena():
     """

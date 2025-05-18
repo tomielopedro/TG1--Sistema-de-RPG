@@ -2,6 +2,7 @@ import streamlit as st
 from RPG import *
 
 
+
 def exibir_formulario_criacao(col):
     """
     Exibe o formulário de criação do personagem (nome, classe, habilidades).
@@ -16,7 +17,6 @@ def exibir_formulario_criacao(col):
             # Entrada do nome
             entrada_nome = st.text_input('Nome:', max_chars=15, placeholder='Insira o nome do personagem')
             entrada_nome = entrada_nome.strip().capitalize()
-
             if entrada_nome:
                 if not st.session_state.gerenciamento.verifica_existencia(entrada_nome):
                     nome = entrada_nome

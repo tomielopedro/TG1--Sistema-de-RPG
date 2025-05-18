@@ -54,29 +54,9 @@
 - Cura
 
 
-### Teste
-- **Classe**: Mago
-- **Habilidades**:
-- BolaDeFogo
-- BolaDeFogo
-- BolaDeFogo
-- BolaDeFogo
-- BolaDeFogo
-
-
 ### Rudi
 - **Classe**: Guerreiro
 - **Habilidades**:
 - BolaDeFogo
 - TiroDeArco
-
-
-### Pedro 2
-- **Classe**: Mago
-- **Habilidades**:
-- BolaDeFogo
-- BolaDeFogo
-- BolaDeFogo
-- BolaDeFogo
-- BolaDeFogo
 

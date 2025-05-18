@@ -66,7 +66,7 @@ class BolaDeFogo(Habilidade):
         - Tem imagem associada em './assets/images/bola_fogo.png'.
     """
     def __init__(self):
-        super().__init__('BolaDeFogo', 'Uma bola de fogo que causa dano em área', 10, './assets/images/habilidades/bola_fogo.png')
+        super().__init__('BolaDeFogo', 'Uma bola de fogo que causa dano em área', 10, 'assets/images/habilidades/bola_fogo.png')
 
 
 class Cura(Habilidade):
@@ -78,7 +78,7 @@ class Cura(Habilidade):
         - Tem imagem associada em './assets/images/cura.png'.
     """
     def __init__(self):
-        super().__init__('Cura', 'Se curou usando uma dose de elixir da vida', 10, './assets/images/habilidades/cura.png')
+        super().__init__('Cura', 'Se curou usando uma dose de elixir da vida', 10, 'assets/images/habilidades/cura.png')
 
 
 class TiroDeArco(Habilidade):
@@ -90,5 +90,5 @@ class TiroDeArco(Habilidade):
         - Tem imagem associada em './assets/images/arco.png'.
     """
     def __init__(self):
-        super().__init__('TiroDeArco', 'Um tiro de arco que causa dano em área', 6, './assets/images/habilidades/arco.png')
+        super().__init__('TiroDeArco', 'Um tiro de arco que causa dano em área', 6, 'assets/images/habilidades/arco.png')
 
