@@ -1,25 +1,11 @@
 from RPG import *
+from datetime import datetime
 
 
 class GerenciamentoPersonagens:
     """
-    Classe singleton responsável por gerenciar a leitura, criação e armazenamento de personagens.
-
-    Atributos de Classe:
-        _instance (GerenciamentoPersonagens): Instância única da classe (singleton).
-        _lista_personagens (List[Personagem]): Lista de todos os personagens gerenciados.
-
-    Atributos de Instância:
-        arquivo (str): Caminho do arquivo de onde os personagens serão lidos/salvos.
-        classes_dict (dict): Dicionário com as classes disponíveis (ex: {"Guerreiro": Guerreiro()}).
-        habilidades_dict (dict): Dicionário com habilidades disponíveis (ex: {"Cura": Cura()}).
-
-    Métodos:
-        get_personagens(): Retorna a lista de personagens carregados.
-        ler_arquivo(): Lê o conteúdo do arquivo e retorna as linhas válidas.
-        verifica_existencia(nome): Verifica se já existe um personagem com o nome fornecido.
-        salvar_personagem(nome, classe, habilidades): Cria e salva um novo personagem no arquivo e na memória.
-        ler_personagens(): Lê os personagens do arquivo e os carrega em memória. Em caso de erro, salva no log.
+    Classe singleton responsável por gerenciar a leitura, criação, edição, exclusão
+    e persistência de personagens em um arquivo de texto.
     """
 
     _instance = None
@@ -31,14 +17,6 @@ class GerenciamentoPersonagens:
         return cls._instance
 
     def __init__(self, arquivo, classes_dict, habilidades_dict):
-        """
-        Inicializa o gerenciador (apenas uma vez, seguindo padrão singleton).
-
-        Args:
-            arquivo (str): Caminho do arquivo de personagens.
-            classes_dict (dict): Dicionário de classes disponíveis.
-            habilidades_dict (dict): Dicionário de habilidades disponíveis.
-        """
         if not hasattr(self, '_initialized'):
             self.arquivo = arquivo
             self.classes_dict = classes_dict
@@ -48,49 +26,20 @@ class GerenciamentoPersonagens:
 
     @classmethod
     def get_personagens(cls):
-        """
-        Retorna a lista de personagens carregados.
-
-        Returns:
-            list: Lista de objetos Personagem.
-        """
+        """Retorna a lista atual de personagens carregados."""
         return cls._lista_personagens
 
     def ler_arquivo(self):
-        """
-        Lê o conteúdo do arquivo de personagens e retorna as linhas não vazias.
-
-        Returns:
-            list: Lista de strings representando cada linha válida do arquivo.
-        """
+        """Lê o conteúdo do arquivo de personagens, ignorando linhas vazias."""
         with open(self.arquivo, 'r') as entrada:
-            entrada = entrada.readlines()
-            entrada = [x.strip() for x in entrada if x.strip() != '']
-            return entrada
-
+            return [x.strip() for x in entrada if x.strip() != '']
 
     def verifica_existencia(self, nome):
-        """
-        Verifica se já existe um personagem com o nome fornecido.
-
-        Args:
-            nome (str): Nome do personagem a ser verificado.
-
-        Returns:
-            bool: True se já existir, False caso contrário.
-        """
-        for personagem in GerenciamentoPersonagens._lista_personagens:
-            if personagem.nome == nome:
-                return True
-        return False
+        """Verifica se já existe um personagem com o nome fornecido."""
+        return any(p.nome == nome for p in GerenciamentoPersonagens._lista_personagens)
 
     def _serializar_personagens(self):
-        """
-        Gera uma string com todos os personagens formatados para escrita em arquivo.
-
-        Returns:
-            str: Conteúdo formatado de todos os personagens.
-        """
+        """Retorna todos os personagens em formato de string para escrita em arquivo."""
         saida = ''
         for personagem in GerenciamentoPersonagens._lista_personagens:
             saida += f"\n### {personagem.nome}\n"
@@ -98,17 +47,21 @@ class GerenciamentoPersonagens:
             saida += f"- **Habilidades**:\n"
             for habilidade in personagem.inventario:
                 saida += f"- {habilidade.nome}\n"
-            saida += '\n'
         return saida
 
     def _reescrever_arquivo(self):
-        """
-        Reescreve o arquivo de personagens com base na lista atual.
-        """
+        """Sobrescreve o arquivo com os personagens atuais da lista."""
         with open(self.arquivo, 'w', encoding='utf-8') as file:
             file.write(self._serializar_personagens())
 
     def salvar_personagem(self, nome, classe, habilidades):
+        """
+        Salva um novo personagem no arquivo, se não for duplicado.
+        """
+        if self.verifica_existencia(nome):
+            self.escrever_log(nome, "Aviso", "personagem não salvo — nome duplicado.")
+            return
+
         personagem = Personagem(nome, classe, habilidades)
         GerenciamentoPersonagens._lista_personagens.append(personagem)
         with open(self.arquivo, 'a') as file:
@@ -116,142 +69,136 @@ class GerenciamentoPersonagens:
             file.write(f"- **Classe**: {personagem.classe.nome}\n")
             file.write(f"- **Habilidades**:\n")
             for habilidade in personagem.inventario:
-                file.write(f"- {habilidade.nome}\n")  # padroniza com um traço só
-
+                file.write(f"- {habilidade.nome}\n")
+        self.escrever_log(nome, "Info", "personagem criado com sucesso.")
 
     def editar_personagem(self, nome_original, nova_classe, novas_habilidades):
-        """
-        Atualiza os dados de um personagem existente e reescreve o arquivo.
-
-        Args:
-            nome_original (str): Nome do personagem a ser editado.
-            nova_classe (Classe): Nova classe para o personagem.
-            novas_habilidades (list[Habilidade]): Novas habilidades.
-        """
+        """Edita um personagem existente com novos dados."""
         for i, personagem in enumerate(GerenciamentoPersonagens._lista_personagens):
             if personagem.nome == nome_original:
                 novo_personagem = Personagem(nome_original, nova_classe, novas_habilidades)
                 GerenciamentoPersonagens._lista_personagens[i] = novo_personagem
                 self._reescrever_arquivo()
+                self.escrever_log(nome_original, "Info", "personagem editado com sucesso.")
                 return
 
-
     def excluir_personagem(self, personagem: Personagem):
-        """
-        Remove o personagem da lista e atualiza o arquivo.
-
-        Args:
-            personagem (Personagem): Objeto do personagem a ser removido.
-        """
+        """Exclui um personagem da lista e atualiza o arquivo."""
         if personagem in GerenciamentoPersonagens._lista_personagens:
             GerenciamentoPersonagens._lista_personagens.remove(personagem)
             self._reescrever_arquivo()
-            print(f"[Info] Personagem '{personagem.nome}' removido com sucesso.")
+            self.escrever_log(personagem.nome, "Info", "personagem excluído com sucesso.")
         else:
-            print(f"[Aviso] Personagem '{personagem.nome}' não encontrado.")
+            self.escrever_log(personagem.nome, "Aviso", "tentativa de exclusão de personagem inexistente.")
+
+    def escrever_log(self, nome, tipo, mensagem):
+        """Registra logs com data/hora, nome, tipo e mensagem."""
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with open("data/logs_personagem.txt", "a", encoding="utf-8") as log:
+            log.write(f"[{timestamp}] [{nome}] {tipo}: {mensagem}\n")
+
+    def parse_bloco_personagem(self, linhas):
+        """
+        Faz o parsing de um bloco de personagem e retorna um objeto Personagem
+        ou None em caso de erro. Também registra os logs.
+        """
+        try:
+            nome = linhas[0].replace("###", "").strip()
+
+            if self.verifica_existencia(nome):
+                self.escrever_log(nome, "Aviso", "nome duplicado — personagem já existente.")
+                return None
+
+            if not linhas[1].startswith("- **Classe**:"):
+                self.escrever_log(nome, "Erro", "linha de classe ausente ou mal formatada.")
+                return None
+
+            classe_nome = linhas[1].replace("- **Classe**:", "").strip()
+            classe = self.classes_dict.get(classe_nome)
+            if not classe:
+                self.escrever_log(nome, "Erro", f"classe '{classe_nome}' não encontrada.")
+                return None
+
+            if not linhas[2].startswith("- **Habilidades**:"):
+                self.escrever_log(nome, "Erro", "seção de habilidades ausente ou mal formatada.")
+                return None
+
+            habilidades = []
+            habilidades_excedentes = []
+
+            for linha in linhas[3:]:
+                if not linha.startswith("-"):
+                    continue
+                habilidade_nome = linha.replace("-", "").strip()
+                if habilidade_nome.lower() == "tiro de arco":
+                    habilidade_nome = "TiroDeArco"
+                habilidade = self.habilidades_dict.get(habilidade_nome)
+                if habilidade:
+                    if len(habilidades) < classe.limite_habilidades:
+                        habilidades.append(habilidade)
+                    else:
+                        habilidades_excedentes.append(habilidade_nome)
+                else:
+                    self.escrever_log(nome, "Erro", f"habilidade '{habilidade_nome}' não encontrada.")
+
+            if habilidades_excedentes:
+                self.escrever_log(
+                    nome, "Aviso",
+                    f"habilidades excedentes ignoradas: {', '.join(habilidades_excedentes)}"
+                )
+
+            return Personagem(nome, classe, habilidades)
+
+        except Exception as e:
+            self.escrever_log("Parser", "Erro inesperado", f"Falha ao processar personagem: {str(e)}")
+            return None
+
+    def importar_adicionando_personagens(self, uploaded_file):
+        """
+        Importa personagens de um arquivo via upload, usando o parser reutilizável.
+        """
+        novos_dados = uploaded_file.read().decode("utf-8").splitlines()
+        novos_dados = [linha.strip() for linha in novos_dados if linha.strip()]
+        bloco = []
+
+        for linha in novos_dados:
+            if linha.startswith("###") and bloco:
+                personagem = self.parse_bloco_personagem(bloco)
+                if personagem:
+                    self.salvar_personagem(personagem.nome, personagem.classe, personagem.inventario)
+                bloco = [linha]
+            else:
+                bloco.append(linha)
+
+        if bloco:
+            personagem = self.parse_bloco_personagem(bloco)
+            if personagem:
+                self.salvar_personagem(personagem.nome, personagem.classe, personagem.inventario)
 
     def ler_personagens(self):
-        """
-        Lê os personagens do arquivo já tratado (sem linhas em branco).
-
-        Regras:
-        - Cada personagem inicia com '### Nome'.
-        - Deve conter '- **Classe**: ClasseValida'.
-        - Depois, '- **Habilidades**:' seguido de até N habilidades prefixadas com '-'.
-        - Personagens com nome duplicado são ignorados.
-        - Habilidades excedentes são ignoradas e registradas em log.
-
-        Logs:
-        - Erros são salvos em 'data/logs_erros.txt' com detalhes por personagem.
-        """
-        if len(GerenciamentoPersonagens._lista_personagens) > 0:
+        """Lê todos os personagens do arquivo base e os adiciona na memória."""
+        if GerenciamentoPersonagens._lista_personagens:
             return GerenciamentoPersonagens._lista_personagens
 
         try:
-            entrada = self.ler_arquivo()
-            total = len(entrada)
-            i = 0
+            linhas = self.ler_arquivo()
+            bloco = []
 
-            while i < total:
-                try:
-                    linha = entrada[i]
-
-                    if not linha.startswith("###"):
-                        i += 1
-                        continue
-
-                    nome = linha.replace("###", "").strip()
-
-                    if self.verifica_existencia(nome):
-                        with open("data/logs_erros.txt", "a", encoding="utf-8") as log:
-                            log.write(f"[{nome}] Erro: nome duplicado — personagem já existente.\n")
-                        i += 1
-                        continue
-
-                    personagem_valido = True
-                    habilidades = []
-                    habilidades_excedentes = []
-
-                    i += 1
-                    if i >= total or not entrada[i].startswith("- **Classe**:"):
-                        with open("data/logs_erros.txt", "a", encoding="utf-8") as log:
-                            log.write(f"[{nome}] Erro: linha de classe ausente ou mal formatada.\n")
-                        personagem_valido = False
-                        continue
-
-                    classe_nome = entrada[i].replace("- **Classe**:", "").strip()
-                    classe = self.classes_dict.get(classe_nome)
-                    if not classe:
-                        with open("data/logs_erros.txt", "a", encoding="utf-8") as log:
-                            log.write(f"[{nome}] Erro: classe '{classe_nome}' não encontrada.\n")
-                        personagem_valido = False
-                        i += 1
-                        continue
-
-                    i += 1
-                    if i >= total or not entrada[i].startswith("- **Habilidades**:"):
-                        with open("data/logs_erros.txt", "a", encoding="utf-8") as log:
-                            log.write(f"[{nome}] Erro: seção de habilidades ausente ou mal formatada.\n")
-                        personagem_valido = False
-                        continue
-
-                    i += 1
-                    while i < total and entrada[i].startswith("-"):
-                        habilidade_nome = entrada[i].replace("-", "").strip()
-                        habilidade = self.habilidades_dict.get(habilidade_nome)
-
-                        if habilidade:
-                            if len(habilidades) < classe.limite_habilidades:
-                                habilidades.append(habilidade)
-                            else:
-                                habilidades_excedentes.append(habilidade_nome)
-                        else:
-                            with open("data/logs_erros.txt", "a", encoding="utf-8") as log:
-                                log.write(f"[{nome}] Erro: habilidade '{habilidade_nome}' não encontrada.\n")
-                        i += 1
-
-                    if habilidades_excedentes:
-                        with open("data/logs_erros.txt", "a", encoding="utf-8") as log:
-                            log.write(
-                                f"[{nome}] Aviso: habilidades excedentes ignoradas devido ao limite da classe "
-                                f"({classe.limite_habilidades}): {', '.join(habilidades_excedentes)}\n"
-                            )
-
-                    if personagem_valido:
-                        personagem = Personagem(nome, classe, habilidades)
+            for linha in linhas:
+                if linha.startswith("###") and bloco:
+                    personagem = self.parse_bloco_personagem(bloco)
+                    if personagem:
                         GerenciamentoPersonagens._lista_personagens.append(personagem)
+                    bloco = [linha]
+                else:
+                    bloco.append(linha)
 
-                except Exception as e:
-                    with open("data/logs_erros.txt", "a", encoding="utf-8") as log:
-                        log.write(f"[Erro inesperado] Problema ao processar personagem '{nome}': {str(e)}\n")
-                    i += 1
+            if bloco:
+                personagem = self.parse_bloco_personagem(bloco)
+                if personagem:
+                    GerenciamentoPersonagens._lista_personagens.append(personagem)
 
         except Exception as e:
-            with open("data/logs_erros.txt", "a", encoding="utf-8") as log:
-                log.write(f"[Erro ao abrir/processar o arquivo '{self.arquivo}']: {str(e)}\n")
+            self.escrever_log("Sistema", "Erro crítico", f"Erro ao abrir/processar o arquivo '{self.arquivo}': {str(e)}")
 
         return GerenciamentoPersonagens._lista_personagens
-
-
-
-

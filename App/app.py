@@ -43,6 +43,7 @@ if 'gerenciamento' not in st.session_state:
 if 'personagens_lidos' not in st.session_state:
     st.session_state['personagens_lidos'] = st.session_state.gerenciamento.get_personagens()
 
+
 if 'gerenciamento_arenas' not in st.session_state:
     st.session_state['gerenciamento_arenas'] = GerenciamentoArenas('data/arenas.txt', mapas_dict, tipos_jogo)
 

@@ -5,11 +5,75 @@ import pandas as pd
 from typing import List
 from RPG import *
 import os
+from datetime import datetime
 
 # ==============================
 # === Estilo e Visual da Página
 # ==============================
+import streamlit as st
 
+def carregar_logs(caminho_arquivo):
+    with open(caminho_arquivo, "r", encoding="utf-8") as f:
+        return f.readlines()
+
+def exibir_logs_chat_generico(caminho_arquivo, titulo="📜 Logs"):
+    """
+    Exibe logs de forma estilizada como um chat, com suporte para logs de arenas ou personagens.
+
+    Args:
+        caminho_arquivo (str): Caminho para o arquivo de log.
+        titulo (str): Título a ser exibido acima do botão de download.
+    """
+    st.title(titulo)
+
+    # Botão de download
+    with open(caminho_arquivo, "rb") as f:
+        st.download_button(
+            label="📥 Baixar Arquivo de Logs",
+            data=f,
+            file_name=caminho_arquivo.split("/")[-1],
+            mime="text/plain"
+        )
+
+    # Carrega e processa logs
+    if st.checkbox('Visualizar logs'):
+        logs = carregar_logs(caminho_arquivo)
+        logs = logs[-100:]
+        with st.container(height=400):
+            for linha in logs:
+                linha = linha.strip()
+                if not linha:
+                    continue
+
+                # Define tipo de mensagem com emoji
+                if "Erro" in linha:
+                    emoji = "🟥"
+                elif "Aviso" in linha:
+                    emoji = "🟨"
+                else:
+                    emoji = "ℹ️"
+
+                # Extrai timestamp, nome e mensagem
+                try:
+                    timestamp_fim = linha.find("]")
+                    timestamp_str = linha[1:timestamp_fim]
+                    timestamp = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S")
+                    data_formatada = timestamp.strftime("%d/%m/%Y %H:%M")
+
+                    restante = linha[timestamp_fim + 2:]
+                    nome_inicio = restante.find("[") + 1
+                    nome_fim = restante.find("]")
+                    nome = restante[nome_inicio:nome_fim]
+
+                    mensagem = restante[nome_fim + 2:].strip()
+                except Exception:
+                    nome = "Desconhecido"
+                    data_formatada = "Data inválida"
+                    mensagem = linha
+
+                with st.chat_message("user", avatar="🧙‍♂️"):
+                    st.markdown(f"**🗓️ {data_formatada} — {nome}**\n\n{emoji} {mensagem}")
+    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def get_project_root():
     return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 def get_image_path(relative_path):

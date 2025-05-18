@@ -1,110 +1,698 @@
 === Arena: Castle ===
-Tipo: X1 | Mapa: Torre
+Tipo: PVP | Mapa: Torre
 
---- Partida ea79dede-2dc3-496d-8f8f-2d9e55bf942b: Batalha Total ---
-Vencedor: -- Nome: Parraga
-Classe: Mago
-Pontos de Ataque: 10
-Dado de Ataque: D6
-Pontos de Vida: 14
-Pontos de Defesa: 3
-Limite de Habilidades: 5
+--- Partida 39e87cce-4e28-4a48-b4fd-71b969244a09: Batalha Total ---
+Vencedor: -- Nome: Fred
+Classe: Guerreiro
+Pontos de Ataque: 6
+Dado de Ataque: D12
+Pontos de Vida: 50
+Pontos de Defesa: 8
+Limite de Habilidades: 2
 Inventário: [] -- 
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 2 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 14
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 2 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 14
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 1 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 31
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 1 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 31
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 12 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 23
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 12 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 23
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 31
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 31
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 19 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 30
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 19 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 30
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 9 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 21
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 9 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 21
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 9 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 28
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 9 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 28
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 19 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 19 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 8 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 25
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 8 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 25
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 10
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 10
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 17 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 21
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 17 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 21
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 13 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 10
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 13 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 10
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 3 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 3 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 27
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 16 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 16 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 7
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 8 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 27
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 8 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 27
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 4 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 14
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 4 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 14
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 17 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 17 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 20
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 12 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 13
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 12 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 13
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 8 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 8 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 17
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 15 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 15 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 6 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 6 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 10
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 6 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 6 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 19 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 19 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 5
-[Log] Parraga (Mago) atacou Carol (Ladino)
+[Log] Aragorn (Guerreiro) atacou Arwen (Ladino)
+  D20: 11 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 15
+[Log] Aragorn (Guerreiro) atacou Arwen (Ladino)
+  D20: 11 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 15
+[Log] Gandalf (Mago) atacou Aragorn (Guerreiro)
+  D20: 11 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 40
+[Log] Gandalf (Mago) atacou Aragorn (Guerreiro)
+  D20: 11 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 40
+[Log] Legolas (Ladino) atacou Joao (Mago)
+  D20: 17 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 8
+[Log] Legolas (Ladino) atacou Joao (Mago)
+  D20: 17 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 8
+[Log] Boromir (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 12 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
+[Log] Boromir (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 12 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 49
+[Log] Saruman (Mago) atacou Sam (Ladino)
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 11
+[Log] Saruman (Mago) atacou Sam (Ladino)
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 11
+[Log] Gollum (Ladino) atacou Carol (Ladino)
+  D20: 15 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 19
+[Log] Gollum (Ladino) atacou Carol (Ladino)
+  D20: 15 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 19
+[Log] Frodo (Ladino) atacou Legolas (Ladino)
+  D20: 11 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 15
+[Log] Frodo (Ladino) atacou Legolas (Ladino)
+  D20: 11 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 15
+[Log] Carol (Ladino) atacou Gimli (Guerreiro)
+  D20: 10 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
+[Log] Carol (Ladino) atacou Gimli (Guerreiro)
+  D20: 10 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
+[Log] Parraga (Mago) atacou Théoden (Guerreiro)
+  D20: 3 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 50
+[Log] Parraga (Mago) atacou Théoden (Guerreiro)
+  D20: 3 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 50
+[Log] Joao (Mago) atacou Carol (Ladino)
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 9
+[Log] Joao (Mago) atacou Carol (Ladino)
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 9
+[Log] Pedro (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 14 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 40
+[Log] Pedro (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 14 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 40
+[Log] Ighor (Ladino) atacou Gandalf (Mago)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 14
+[Log] Ighor (Ladino) atacou Gandalf (Mago)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 14
+[Log] Fred (Guerreiro) atacou Parraga (Mago)
+  D20: 19 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 22
+[Log] Fred (Guerreiro) atacou Parraga (Mago)
+  D20: 19 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 22
+[Log] Rafa (Ladino) atacou Gandalf (Mago)
+  D20: 20 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 4
+[Log] Rafa (Ladino) atacou Gandalf (Mago)
+  D20: 20 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 4
+[Log] Rudi (Guerreiro) atacou Frodo (Ladino)
+  D20: 13 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 11
+[Log] Rudi (Guerreiro) atacou Frodo (Ladino)
+  D20: 13 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 11
+[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
+[Log] Éowyn (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
+[Log] Elrond (Mago) atacou Parraga (Mago)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 12
+[Log] Elrond (Mago) atacou Parraga (Mago)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 12
+[Log] Gimli (Guerreiro) atacou Saruman (Mago)
+  D20: 5 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 11
+[Log] Gimli (Guerreiro) atacou Saruman (Mago)
+  D20: 5 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 11
+[Log] Arwen (Ladino) atacou Elrond (Mago)
+  D20: 8 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Arwen (Ladino) atacou Elrond (Mago)
+  D20: 8 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Galadriel (Mago) atacou Arwen (Ladino)
+  D20: 12 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 12
+[Log] Galadriel (Mago) atacou Arwen (Ladino)
+  D20: 12 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 12
+[Log] Théoden (Guerreiro) atacou Frodo (Ladino)
+  D20: 13 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Théoden (Guerreiro) atacou Frodo (Ladino)
+  D20: 13 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Sam (Ladino) atacou Carol (Ladino)
+  D20: 1 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 3
+[Log] Sam (Ladino) atacou Carol (Ladino)
+  D20: 1 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 3
+[Log] Aragorn (Guerreiro) atacou Joao (Mago)
+  D20: 13 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 8
+[Log] Aragorn (Guerreiro) atacou Joao (Mago)
+  D20: 13 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 8
+[Log] Gandalf (Mago) atacou Gollum (Ladino)
+  D20: 6 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 21
+[Log] Gandalf (Mago) atacou Gollum (Ladino)
+  D20: 6 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 21
+[Log] Legolas (Ladino) atacou Gimli (Guerreiro)
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 43
+[Log] Legolas (Ladino) atacou Gimli (Guerreiro)
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 43
+[Log] Boromir (Guerreiro) atacou Sam (Ladino)
+  D20: 7 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Boromir (Guerreiro) atacou Sam (Ladino)
+  D20: 7 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Saruman (Mago) atacou Galadriel (Mago)
+  D20: 9 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Saruman (Mago) atacou Galadriel (Mago)
+  D20: 9 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Gollum (Ladino) atacou Legolas (Ladino)
+  D20: 9 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 19
+[Log] Gollum (Ladino) atacou Legolas (Ladino)
+  D20: 9 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 19
+[Log] Frodo (Ladino) atacou Galadriel (Mago)
+  D20: 12 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Frodo (Ladino) atacou Galadriel (Mago)
+  D20: 12 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Carol (Ladino) atacou Joao (Mago)
+  D20: 10 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 8
+[Log] Carol (Ladino) atacou Joao (Mago)
+  D20: 10 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 8
+[Log] Parraga (Mago) atacou Théoden (Guerreiro)
+  D20: 10 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
+[Log] Parraga (Mago) atacou Théoden (Guerreiro)
+  D20: 10 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
+[Log] Joao (Mago) atacou Sam (Ladino)
+  D20: 15 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Joao (Mago) atacou Sam (Ladino)
+  D20: 15 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Pedro (Guerreiro) atacou Legolas (Ladino)
+  D20: 10 | Dano Total: 9 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Pedro (Guerreiro) atacou Legolas (Ladino)
+  D20: 10 | Dano Total: 9 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Ighor (Ladino) atacou Carol (Ladino)
+  D20: 14 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 3
+[Log] Ighor (Ladino) atacou Carol (Ladino)
+  D20: 14 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 3
+[Log] Fred (Guerreiro) atacou Gandalf (Mago)
+  D20: 20 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Fred (Guerreiro) atacou Gandalf (Mago)
+  D20: 20 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Rafa (Ladino) atacou Arwen (Ladino)
+  D20: 13 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 11
+[Log] Rafa (Ladino) atacou Arwen (Ladino)
+  D20: 13 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 11
+[Log] Rudi (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 8 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 37
+[Log] Rudi (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 8 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 37
+[Log] Éowyn (Guerreiro) atacou Frodo (Ladino)
+  D20: 1 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 4
+[Log] Éowyn (Guerreiro) atacou Frodo (Ladino)
+  D20: 1 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 4
+[Log] Elrond (Mago) atacou Gimli (Guerreiro)
+  D20: 9 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 31
+[Log] Elrond (Mago) atacou Gimli (Guerreiro)
+  D20: 9 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 31
+[Log] Gimli (Guerreiro) atacou Frodo (Ladino)
+  D20: 15 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 0
+[Log] Gimli (Guerreiro) atacou Frodo (Ladino)
+  D20: 15 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 0
+[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
+  D20: 3 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
+[Log] Arwen (Ladino) atacou Éowyn (Guerreiro)
+  D20: 3 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
+[Log] Galadriel (Mago) atacou Fred (Guerreiro)
+  D20: 20 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 48
+[Log] Galadriel (Mago) atacou Fred (Guerreiro)
+  D20: 20 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 48
+[Log] Théoden (Guerreiro) atacou Ighor (Ladino)
+  D20: 19 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 21
+[Log] Théoden (Guerreiro) atacou Ighor (Ladino)
+  D20: 19 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 21
+[Log] Sam (Ladino) atacou Éowyn (Guerreiro)
+  D20: 14 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
+[Log] Sam (Ladino) atacou Éowyn (Guerreiro)
+  D20: 14 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
+[Log] Aragorn (Guerreiro) atacou Legolas (Ladino)
+  D20: 19 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Aragorn (Guerreiro) atacou Legolas (Ladino)
+  D20: 19 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Gandalf (Mago) atacou Boromir (Guerreiro)
+  D20: 8 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
+[Log] Gandalf (Mago) atacou Boromir (Guerreiro)
+  D20: 8 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 45
+[Log] Legolas (Ladino) atacou Gimli (Guerreiro)
+  D20: 1 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+[Log] Legolas (Ladino) atacou Gimli (Guerreiro)
+  D20: 1 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+[Log] Boromir (Guerreiro) atacou Carol (Ladino)
+  D20: 6 | Dano Total: 9 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Boromir (Guerreiro) atacou Carol (Ladino)
+  D20: 6 | Dano Total: 9 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Saruman (Mago) atacou Éowyn (Guerreiro)
+  D20: 15 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
+[Log] Saruman (Mago) atacou Éowyn (Guerreiro)
+  D20: 15 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
+[Log] Gollum (Ladino) atacou Théoden (Guerreiro)
+  D20: 16 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 45
+[Log] Gollum (Ladino) atacou Théoden (Guerreiro)
+  D20: 16 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 45
+[Log] Parraga (Mago) atacou Théoden (Guerreiro)
+  D20: 6 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 40
+[Log] Parraga (Mago) atacou Théoden (Guerreiro)
+  D20: 6 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 40
+[Log] Joao (Mago) atacou Rudi (Guerreiro)
+  D20: 8 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 35
+[Log] Joao (Mago) atacou Rudi (Guerreiro)
+  D20: 8 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 35
+[Log] Pedro (Guerreiro) atacou Legolas (Ladino)
+  D20: 7 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 0
+[Log] Pedro (Guerreiro) atacou Legolas (Ladino)
+  D20: 7 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 0
+[Log] Ighor (Ladino) atacou Rafa (Ladino)
+  D20: 14 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Ighor (Ladino) atacou Rafa (Ladino)
+  D20: 14 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Fred (Guerreiro) atacou Joao (Mago)
+  D20: 19 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Fred (Guerreiro) atacou Joao (Mago)
+  D20: 19 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Rafa (Ladino) atacou Parraga (Mago)
+  D20: 7 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Rafa (Ladino) atacou Parraga (Mago)
+  D20: 7 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Rudi (Guerreiro) atacou Gandalf (Mago)
+  D20: 8 | Dano Total: 12 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Rudi (Guerreiro) atacou Gandalf (Mago)
+  D20: 8 | Dano Total: 12 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Éowyn (Guerreiro) atacou Ighor (Ladino)
+  D20: 18 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 21
+[Log] Éowyn (Guerreiro) atacou Ighor (Ladino)
+  D20: 18 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 21
+[Log] Elrond (Mago) atacou Parraga (Mago)
+  D20: 10 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 8
+[Log] Elrond (Mago) atacou Parraga (Mago)
+  D20: 10 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 8
+[Log] Gimli (Guerreiro) atacou Elrond (Mago)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Gimli (Guerreiro) atacou Elrond (Mago)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Arwen (Ladino) atacou Parraga (Mago)
+  D20: 3 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 5
+[Log] Arwen (Ladino) atacou Parraga (Mago)
+  D20: 3 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 5
+[Log] Galadriel (Mago) atacou Aragorn (Guerreiro)
+  D20: 7 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 47
+[Log] Galadriel (Mago) atacou Aragorn (Guerreiro)
+  D20: 7 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 47
+[Log] Théoden (Guerreiro) atacou Saruman (Mago)
+  D20: 19 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Théoden (Guerreiro) atacou Saruman (Mago)
+  D20: 19 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Sam (Ladino) atacou Gimli (Guerreiro)
+  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 24
+[Log] Sam (Ladino) atacou Gimli (Guerreiro)
+  D20: 10 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 24
+[Log] Aragorn (Guerreiro) atacou Ighor (Ladino)
+  D20: 9 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 11
+[Log] Aragorn (Guerreiro) atacou Ighor (Ladino)
+  D20: 9 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 11
+[Log] Boromir (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 5 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
+[Log] Boromir (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 5 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
+[Log] Saruman (Mago) atacou Gollum (Ladino)
+  D20: 14 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 27
+[Log] Saruman (Mago) atacou Gollum (Ladino)
+  D20: 14 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 27
+[Log] Gollum (Ladino) atacou Rafa (Ladino)
+  D20: 18 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 14
+[Log] Gollum (Ladino) atacou Rafa (Ladino)
+  D20: 18 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 14
+[Log] Parraga (Mago) atacou Aragorn (Guerreiro)
+  D20: 10 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
+[Log] Parraga (Mago) atacou Aragorn (Guerreiro)
+  D20: 10 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
+[Log] Joao (Mago) atacou Boromir (Guerreiro)
+  D20: 4 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 35
+[Log] Joao (Mago) atacou Boromir (Guerreiro)
+  D20: 4 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 35
+[Log] Pedro (Guerreiro) atacou Saruman (Mago)
+  D20: 5 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Pedro (Guerreiro) atacou Saruman (Mago)
+  D20: 5 | Dano Total: 11 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Ighor (Ladino) atacou Joao (Mago)
+  D20: 15 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Ighor (Ladino) atacou Joao (Mago)
+  D20: 15 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Fred (Guerreiro) atacou Arwen (Ladino)
+  D20: 3 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 5
+[Log] Fred (Guerreiro) atacou Arwen (Ladino)
+  D20: 3 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 5
+[Log] Rafa (Ladino) atacou Joao (Mago)
+  D20: 1 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Rafa (Ladino) atacou Joao (Mago)
+  D20: 1 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Rudi (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 6 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 37
+[Log] Rudi (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 6 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 37
+[Log] Éowyn (Guerreiro) atacou Boromir (Guerreiro)
+  D20: 18 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
+[Log] Éowyn (Guerreiro) atacou Boromir (Guerreiro)
+  D20: 18 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 25
+[Log] Elrond (Mago) atacou Galadriel (Mago)
+  D20: 13 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Elrond (Mago) atacou Galadriel (Mago)
+  D20: 13 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Gimli (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 8 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 28
+[Log] Gimli (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 8 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 28
+[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
+  D20: 19 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
+[Log] Arwen (Ladino) atacou Gimli (Guerreiro)
+  D20: 19 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
+[Log] Théoden (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 11 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+[Log] Théoden (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 11 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+[Log] Sam (Ladino) atacou Pedro (Guerreiro)
+  D20: 10 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
+[Log] Sam (Ladino) atacou Pedro (Guerreiro)
+  D20: 10 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
+[Log] Aragorn (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 10 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Aragorn (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 10 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Boromir (Guerreiro) atacou Gollum (Ladino)
+  D20: 17 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 23
+[Log] Boromir (Guerreiro) atacou Gollum (Ladino)
+  D20: 17 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 23
+[Log] Gollum (Ladino) atacou Elrond (Mago)
+  D20: 9 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Gollum (Ladino) atacou Elrond (Mago)
+  D20: 9 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Parraga (Mago) atacou Éowyn (Guerreiro)
+  D20: 18 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 43
+[Log] Parraga (Mago) atacou Éowyn (Guerreiro)
+  D20: 18 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 43
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 15 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 15 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
+[Log] Ighor (Ladino) atacou Sam (Ladino)
+  D20: 14 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 11
+[Log] Ighor (Ladino) atacou Sam (Ladino)
+  D20: 14 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 11
+[Log] Fred (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 20 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Fred (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 20 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Rafa (Ladino) atacou Éowyn (Guerreiro)
+  D20: 18 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 43
+[Log] Rafa (Ladino) atacou Éowyn (Guerreiro)
+  D20: 18 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: Cura | Vida do Alvo após ataque: 43
+[Log] Rudi (Guerreiro) atacou Gollum (Ladino)
+  D20: 14 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 19
+[Log] Rudi (Guerreiro) atacou Gollum (Ladino)
+  D20: 14 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 19
+[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
+  D20: 8 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Éowyn (Guerreiro) atacou Elrond (Mago)
+  D20: 8 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 14 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
+[Log] Gimli (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 14 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
+[Log] Arwen (Ladino) atacou Ighor (Ladino)
+  D20: 11 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 11
+[Log] Arwen (Ladino) atacou Ighor (Ladino)
+  D20: 11 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 11
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 18 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 37
+[Log] Théoden (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 18 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 37
+[Log] Sam (Ladino) atacou Rudi (Guerreiro)
+  D20: 20 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 15
+[Log] Sam (Ladino) atacou Rudi (Guerreiro)
+  D20: 20 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 15
+[Log] Aragorn (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 18 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
+[Log] Aragorn (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 18 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 27
+[Log] Boromir (Guerreiro) atacou Rafa (Ladino)
+  D20: 12 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 23
+[Log] Boromir (Guerreiro) atacou Rafa (Ladino)
+  D20: 12 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 23
+[Log] Gollum (Ladino) atacou Boromir (Guerreiro)
+  D20: 3 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
+[Log] Gollum (Ladino) atacou Boromir (Guerreiro)
+  D20: 3 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
+[Log] Parraga (Mago) atacou Sam (Ladino)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 1
+[Log] Parraga (Mago) atacou Sam (Ladino)
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 1
+[Log] Pedro (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
+[Log] Pedro (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 46
+[Log] Ighor (Ladino) atacou Éowyn (Guerreiro)
+  D20: 16 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+[Log] Ighor (Ladino) atacou Éowyn (Guerreiro)
+  D20: 16 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+[Log] Fred (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 13 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
+[Log] Fred (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 13 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
+[Log] Rafa (Ladino) atacou Fred (Guerreiro)
+  D20: 2 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 40
+[Log] Rafa (Ladino) atacou Fred (Guerreiro)
+  D20: 2 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 40
+[Log] Rudi (Guerreiro) atacou Sam (Ladino)
+  D20: 8 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Rudi (Guerreiro) atacou Sam (Ladino)
+  D20: 8 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Éowyn (Guerreiro) atacou Gollum (Ladino)
+  D20: 6 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 12
+[Log] Éowyn (Guerreiro) atacou Gollum (Ladino)
+  D20: 6 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 12
+[Log] Gimli (Guerreiro) atacou Parraga (Mago)
+  D20: 5 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 13
+[Log] Gimli (Guerreiro) atacou Parraga (Mago)
+  D20: 5 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 13
+[Log] Arwen (Ladino) atacou Rafa (Ladino)
+  D20: 2 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 15
+[Log] Arwen (Ladino) atacou Rafa (Ladino)
+  D20: 2 | Dano Total: 8 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 15
+[Log] Théoden (Guerreiro) atacou Parraga (Mago)
+  D20: 18 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 13
+[Log] Théoden (Guerreiro) atacou Parraga (Mago)
+  D20: 18 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 13
+[Log] Aragorn (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Aragorn (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 1 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 8
+[Log] Boromir (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 6 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 31
+[Log] Boromir (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 6 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 31
+[Log] Gollum (Ladino) atacou Éowyn (Guerreiro)
+  D20: 12 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
+[Log] Gollum (Ladino) atacou Éowyn (Guerreiro)
+  D20: 12 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 20
+[Log] Parraga (Mago) atacou Rudi (Guerreiro)
+  D20: 20 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
+[Log] Parraga (Mago) atacou Rudi (Guerreiro)
+  D20: 20 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
+[Log] Pedro (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
+[Log] Pedro (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 9
+[Log] Ighor (Ladino) atacou Théoden (Guerreiro)
+  D20: 3 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
+[Log] Ighor (Ladino) atacou Théoden (Guerreiro)
+  D20: 3 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 30
+[Log] Fred (Guerreiro) atacou Boromir (Guerreiro)
+  D20: 20 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Fred (Guerreiro) atacou Boromir (Guerreiro)
+  D20: 20 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Rafa (Ladino) atacou Arwen (Ladino)
+  D20: 14 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 13
+[Log] Rafa (Ladino) atacou Arwen (Ladino)
+  D20: 14 | Dano Total: 2 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 13
+[Log] Rudi (Guerreiro) atacou Rafa (Ladino)
+  D20: 10 | Dano Total: 12 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Rudi (Guerreiro) atacou Rafa (Ladino)
+  D20: 10 | Dano Total: 12 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Éowyn (Guerreiro) atacou Fred (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 40
+[Log] Éowyn (Guerreiro) atacou Fred (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 40
+[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
+  D20: 15 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 9
+[Log] Gimli (Guerreiro) atacou Arwen (Ladino)
+  D20: 15 | Dano Total: 4 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 9
+[Log] Arwen (Ladino) atacou Fred (Guerreiro)
+  D20: 9 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
+[Log] Arwen (Ladino) atacou Fred (Guerreiro)
+  D20: 9 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 38
+[Log] Théoden (Guerreiro) atacou Gollum (Ladino)
+  D20: 5 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 6
+[Log] Théoden (Guerreiro) atacou Gollum (Ladino)
+  D20: 5 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 6
+[Log] Aragorn (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 10 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Aragorn (Guerreiro) atacou Gimli (Guerreiro)
+  D20: 10 | Dano Total: 12 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Boromir (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 7 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Boromir (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 7 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Gollum (Ladino) atacou Rafa (Ladino)
   D20: 14 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
-[Log] Parraga (Mago) atacou Carol (Ladino)
+[Log] Gollum (Ladino) atacou Rafa (Ladino)
   D20: 14 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Parraga (Mago) atacou Aragorn (Guerreiro)
+  D20: 2 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
+[Log] Parraga (Mago) atacou Aragorn (Guerreiro)
+  D20: 2 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 43
+[Log] Pedro (Guerreiro) atacou Fred (Guerreiro)
+  D20: 4 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
+[Log] Pedro (Guerreiro) atacou Fred (Guerreiro)
+  D20: 4 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 32
+[Log] Ighor (Ladino) atacou Rudi (Guerreiro)
+  D20: 8 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Ighor (Ladino) atacou Rudi (Guerreiro)
+  D20: 8 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Fred (Guerreiro) atacou Ighor (Ladino)
+  D20: 13 | Dano Total: 9 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 2
+[Log] Fred (Guerreiro) atacou Ighor (Ladino)
+  D20: 13 | Dano Total: 9 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 2
+[Log] Rudi (Guerreiro) atacou Gollum (Ladino)
+  D20: 2 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Rudi (Guerreiro) atacou Gollum (Ladino)
+  D20: 2 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Éowyn (Guerreiro) atacou Fred (Guerreiro)
+  D20: 19 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+[Log] Éowyn (Guerreiro) atacou Fred (Guerreiro)
+  D20: 19 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+[Log] Arwen (Ladino) atacou Ighor (Ladino)
+  D20: 9 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Arwen (Ladino) atacou Ighor (Ladino)
+  D20: 9 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Théoden (Guerreiro) atacou Boromir (Guerreiro)
+  D20: 13 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 13
+[Log] Théoden (Guerreiro) atacou Boromir (Guerreiro)
+  D20: 13 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 13
+[Log] Aragorn (Guerreiro) atacou Arwen (Ladino)
+  D20: 18 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Aragorn (Guerreiro) atacou Arwen (Ladino)
+  D20: 18 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Boromir (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 3 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 21
+[Log] Boromir (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 3 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 21
+[Log] Gollum (Ladino) atacou Arwen (Ladino)
+  D20: 9 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Gollum (Ladino) atacou Arwen (Ladino)
+  D20: 9 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Parraga (Mago) atacou Gollum (Ladino)
+  D20: 11 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Parraga (Mago) atacou Gollum (Ladino)
+  D20: 11 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Pedro (Guerreiro) atacou Parraga (Mago)
+  D20: 2 | Dano Total: 9 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Pedro (Guerreiro) atacou Parraga (Mago)
+  D20: 2 | Dano Total: 9 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Fred (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 7 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 37
+[Log] Fred (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 7 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: TiroDeArco | Vida do Alvo após ataque: 37
+[Log] Rudi (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 4 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 19
+[Log] Rudi (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 4 | Dano Total: 11 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 19
+[Log] Éowyn (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 12 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
+[Log] Éowyn (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 12 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
+[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 18 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 19
+[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 18 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 19
+[Log] Aragorn (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 11 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Aragorn (Guerreiro) atacou Rudi (Guerreiro)
+  D20: 11 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Boromir (Guerreiro) atacou Parraga (Mago)
+  D20: 15 | Dano Total: 12 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Boromir (Guerreiro) atacou Parraga (Mago)
+  D20: 15 | Dano Total: 12 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Pedro (Guerreiro) atacou Fred (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+[Log] Pedro (Guerreiro) atacou Fred (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 24
+[Log] Fred (Guerreiro) atacou Boromir (Guerreiro)
+  D20: 13 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 5
+[Log] Fred (Guerreiro) atacou Boromir (Guerreiro)
+  D20: 13 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 5
+[Log] Éowyn (Guerreiro) atacou Fred (Guerreiro)
+  D20: 18 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 23
+[Log] Éowyn (Guerreiro) atacou Fred (Guerreiro)
+  D20: 18 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 23
+[Log] Théoden (Guerreiro) atacou Boromir (Guerreiro)
+  D20: 10 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
+[Log] Théoden (Guerreiro) atacou Boromir (Guerreiro)
+  D20: 10 | Dano Total: 3 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 2
+[Log] Aragorn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 3 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
+[Log] Aragorn (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 3 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 17
+[Log] Boromir (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
+[Log] Boromir (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 33
+[Log] Pedro (Guerreiro) atacou Fred (Guerreiro)
+  D20: 13 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 21
+[Log] Pedro (Guerreiro) atacou Fred (Guerreiro)
+  D20: 13 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 21
+[Log] Fred (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 6 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
+[Log] Fred (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 6 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 26
+[Log] Éowyn (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 18 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 22
+[Log] Éowyn (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 18 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 22
+[Log] Théoden (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 8 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Théoden (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 8 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Aragorn (Guerreiro) atacou Fred (Guerreiro)
+  D20: 11 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 11
+[Log] Aragorn (Guerreiro) atacou Fred (Guerreiro)
+  D20: 11 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 11
+[Log] Boromir (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Boromir (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 2 | Dano Total: 0 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 18
+[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 11 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Pedro (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 11 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Fred (Guerreiro) atacou Boromir (Guerreiro)
+  D20: 10 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Fred (Guerreiro) atacou Boromir (Guerreiro)
+  D20: 10 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Éowyn (Guerreiro) atacou Fred (Guerreiro)
+  D20: 8 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Éowyn (Guerreiro) atacou Fred (Guerreiro)
+  D20: 8 | Dano Total: 1 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 14 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Théoden (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 14 | Dano Total: 7 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 3
+[Log] Aragorn (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 9 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 15
+[Log] Aragorn (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 9 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 15
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 11 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 7
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 11 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 7
+[Log] Fred (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 7 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Fred (Guerreiro) atacou Éowyn (Guerreiro)
+  D20: 7 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Théoden (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 8 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
+[Log] Théoden (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 8 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 14
+[Log] Aragorn (Guerreiro) atacou Fred (Guerreiro)
+  D20: 16 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Aragorn (Guerreiro) atacou Fred (Guerreiro)
+  D20: 16 | Dano Total: 6 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 4
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 19 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Pedro (Guerreiro) atacou Théoden (Guerreiro)
+  D20: 19 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Fred (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 3 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
+[Log] Fred (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 3 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
+[Log] Aragorn (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 18 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Aragorn (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 18 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Pedro (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 11 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Pedro (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 11 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 1
+[Log] Fred (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 10 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
+[Log] Fred (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 10 | Dano Total: 4 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 6
+[Log] Aragorn (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 6 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Aragorn (Guerreiro) atacou Pedro (Guerreiro)
+  D20: 6 | Dano Total: 9 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Fred (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 10 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Fred (Guerreiro) atacou Aragorn (Guerreiro)
+  D20: 10 | Dano Total: 5 | Defesa do Alvo: 8 | Habilidade: None | Vida do Alvo após ataque: 0
 
 

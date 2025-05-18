@@ -3,9 +3,11 @@ from utils.page_functions.criar_arena import criar_arena
 from utils.page_functions.galeria_arenas import criar_card_arena
 from utils.streamlit_utils import set_background_as_frame
 from utils.streamlit_utils import get_image_path
+from utils.streamlit_utils import exibir_logs_chat_generico
+
 
 set_background_as_frame(get_image_path('assets/images/extras/fundo.png'))
-mostrar, criar = st.tabs(['Galeria de Arenas', 'Criar Arena'])
+mostrar, criar, logs = st.tabs(['Galeria de Arenas', 'Criar Arena', 'Logs'])
 mapas = list(st.session_state.gerenciamento_arenas.mapas_dict.keys())
 mapas = ['Todos'] + mapas
 tipo_jogo = list(st.session_state.gerenciamento_arenas.tipo_dict.keys())
@@ -32,5 +34,9 @@ with mostrar:
 
 with criar:
     criar_arena()
+
+with logs:
+    exibir_logs_chat_generico("data/logs_arena.txt", titulo="🏟️ Erro Importação de Arenas")
+
 
 

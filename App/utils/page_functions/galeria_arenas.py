@@ -163,8 +163,8 @@ def criar_card_arena(arena):
             else:
                 st.warning('Nenhuma partida realizada nessa arena')
 
-
-    if st.button('🚪 Entrar na arena', key=f'Combate_{arena.nome_arena}', use_container_width=True, type='primary'):
+    disabled = len(arena.lista_personagens) <= 0
+    if st.button('🚪 Entrar na arena', key=f'Combate_{arena.nome_arena}', use_container_width=True, type='primary', disabled=disabled):
         resetar_estado_combate()
         st.session_state.arena_combate = arena
         st.session_state.arena_combate.lista_personagens = [p.__copy__() for p in st.session_state.arena_combate.lista_personagens]

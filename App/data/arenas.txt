@@ -1,25 +1,31 @@
 
 ### Castle
 - **Mapa**: Torre
-- **Tipo**: X1
-- **Limite Jogadores**: 2
-- **Personagens**:
- - Carol
- - Parraga
-
-
-### Beira-Rio
-- **Mapa**: Vilarejo
 - **Tipo**: PVP
 - **Limite Jogadores**: 100
 - **Personagens**:
- - Fred
- - Rafa
+ - Aragorn
+ - Gandalf
+ - Legolas
+ - Boromir
+ - Saruman
+ - Gollum
+ - Frodo
  - Carol
+ - Parraga
  - Joao
  - Pedro
  - Ighor
- - Parraga
+ - Fred
+ - Rafa
+ - Rudi
+ - Éowyn
+ - Elrond
+ - Gimli
+ - Arwen
+ - Galadriel
+ - Théoden
+ - Sam
 
 
 ### Vilarejo
@@ -27,6 +33,4 @@
 - **Tipo**: X1
 - **Limite Jogadores**: 2
 - **Personagens**:
- - Rafa
- - Teste
 

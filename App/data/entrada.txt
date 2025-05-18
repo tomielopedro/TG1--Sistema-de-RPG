@@ -1,10 +1,51 @@
 
+### Éowyn
+- **Classe**: Guerreiro
+- **Habilidades**:
+- TiroDeArco
+- Cura
+
+### Elrond
+- **Classe**: Mago
+- **Habilidades**:
+- BolaDeFogo
+- TiroDeArco
+- Cura
+
+### Gimli
+- **Classe**: Guerreiro
+- **Habilidades**:
+- TiroDeArco
+
+### Arwen
+- **Classe**: Ladino
+- **Habilidades**:
+- Cura
+
+### Galadriel
+- **Classe**: Mago
+- **Habilidades**:
+- BolaDeFogo
+- Cura
+- TiroDeArco
+
+### Théoden
+- **Classe**: Guerreiro
+- **Habilidades**:
+- Cura
+- TiroDeArco
+
+### Sam
+- **Classe**: Ladino
+- **Habilidades**:
+- TiroDeArco
+- Cura
+
 ### Carol
 - **Classe**: Ladino
 - **Habilidades**:
 - Cura
 - Cura
-
 
 ### Parraga
 - **Classe**: Mago
@@ -15,7 +56,6 @@
 - BolaDeFogo
 - Cura
 
-
 ### Joao
 - **Classe**: Mago
 - **Habilidades**:
@@ -25,13 +65,11 @@
 - BolaDeFogo
 - BolaDeFogo
 
-
 ### Pedro
 - **Classe**: Guerreiro
 - **Habilidades**:
 - BolaDeFogo
 - BolaDeFogo
-
 
 ### Ighor
 - **Classe**: Ladino
@@ -39,13 +77,11 @@
 - Cura
 - BolaDeFogo
 
-
 ### Fred
 - **Classe**: Guerreiro
 - **Habilidades**:
 - TiroDeArco
 - TiroDeArco
-
 
 ### Rafa
 - **Classe**: Ladino
@@ -53,10 +89,8 @@
 - BolaDeFogo
 - Cura
 
-
 ### Rudi
 - **Classe**: Guerreiro
 - **Habilidades**:
 - BolaDeFogo
 - TiroDeArco
-

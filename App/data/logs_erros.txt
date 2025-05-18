@@ -1,7 +1,0 @@
-[Joao] Erro: linha de classe ausente ou mal formatada.
-[Joao] Erro: habilidade 'BolaDeFogoooo' não encontrada.
-[Parraga] Erro: classe 'Mago de foto' não encontrada.
-[Parraga] Erro: nome duplicado — personagem já existente.
-[Rudi] Aviso: habilidades excedentes ignoradas devido ao limite da classe (2): TiroDeArco, TiroDeArco, TiroDeArco
-[Rudi] Erro: habilidade 'TiroDeArcoaaada' não encontrada.
-[Rudi] Aviso: habilidades excedentes ignoradas devido ao limite da classe (2): TiroDeArco, TiroDeArco
