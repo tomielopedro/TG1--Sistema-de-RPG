@@ -11,6 +11,8 @@
 - BolaDeFogo
 - TiroDeArco
 - Cura
+- BolaDeFogo
+- BolaDeFogo
 
 ### Gimli
 - **Classe**: Guerreiro
@@ -39,4 +41,10 @@
 - **Classe**: Ladino
 - **Habilidades**:
 - TiroDeArco
+- Cura
+
+### Pedro
+- **Classe**: Guerreiro
+- **Habilidades**:
+- Cura
 - Cura

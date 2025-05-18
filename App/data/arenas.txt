@@ -4,14 +4,14 @@
 - **Tipo**: PVP
 - **Limite Jogadores**: 100
 - **Personagens**:
- - Carol
- - Parraga
- - Joao
+ - Éowyn
+ - Elrond
+ - Gimli
+ - Arwen
+ - Galadriel
+ - Théoden
+ - Sam
  - Pedro
- - Ighor
- - Fred
- - Rafa
- - Rudi
 
 
 ### Vilarejo

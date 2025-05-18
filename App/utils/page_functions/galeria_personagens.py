@@ -38,50 +38,53 @@ def exibir_estatisticas_personagem(historico_df: pd.DataFrame, personagem_nome: 
     Exibe as estatísticas do personagem, como vitórias, derrotas, ataques e habilidades.
     """
     # === Dados gerais ===
-    qtd_mortes = contar_mortes_personagem(historico_df, personagem_nome)
-    df_vitorias = historico_df[historico_df['vencedor'] == personagem_nome]
+    if not historico_df.empty:
+        qtd_mortes = contar_mortes_personagem(historico_df, personagem_nome)
+        df_vitorias = historico_df[historico_df['vencedor'] == personagem_nome]
 
-    total_partidas = qtd_mortes + len(df_vitorias)
-    total_vitorias = len(df_vitorias)
-    taxa_vitoria = (total_vitorias / total_partidas) * 100 if total_partidas else 0
+        total_partidas = qtd_mortes + len(df_vitorias)
+        total_vitorias = len(df_vitorias)
+        taxa_vitoria = (total_vitorias / total_partidas) * 100 if total_partidas else 0
 
-    # === Logs de combate ===
-    df_logs = converter_logs_em_df(historico_df['logs'].tolist())
-    df_logs = df_logs[df_logs['atacante'] == personagem_nome]
+        # === Logs de combate ===
+        df_logs = converter_logs_em_df(historico_df['logs'].tolist())
+        df_logs = df_logs[df_logs['atacante'] == personagem_nome]
 
-    total_ataques = len(df_logs)
-    ataques_bem_sucedidos = df_logs[df_logs['ataque_bem_sucedido'] == True]
-    taxa_sucesso_ataque = (len(ataques_bem_sucedidos) / total_ataques) * 100 if total_ataques else 0
+        total_ataques = len(df_logs)
+        ataques_bem_sucedidos = df_logs[df_logs['ataque_bem_sucedido'] == True]
+        taxa_sucesso_ataque = (len(ataques_bem_sucedidos) / total_ataques) * 100 if total_ataques else 0
 
-    media_dano = df_logs[df_logs['habilidade_ataque'] != 'Cura']['ataque_total'].mean() if total_ataques else 0
+        media_dano = df_logs[df_logs['habilidade_ataque'] != 'Cura']['ataque_total'].mean() if total_ataques else 0
 
-    habilidades_usadas = df_logs[df_logs['habilidade_ataque'].notna() & (df_logs['habilidade_ataque'] != "None")]
-    taxa_uso_habilidade = (len(habilidades_usadas) / total_ataques) * 100 if total_ataques else 0
+        habilidades_usadas = df_logs[df_logs['habilidade_ataque'].notna() & (df_logs['habilidade_ataque'] != "None")]
+        taxa_uso_habilidade = (len(habilidades_usadas) / total_ataques) * 100 if total_ataques else 0
 
-    habilidades_utilizadas = habilidades_usadas['habilidade_ataque'].value_counts().reset_index()
-    habilidades_utilizadas.columns = ['habilidade', 'count']
+        habilidades_utilizadas = habilidades_usadas['habilidade_ataque'].value_counts().reset_index()
+        habilidades_utilizadas.columns = ['habilidade', 'count']
 
-    # === Exibição ===
-    sc = st_container
-    sc.markdown("### 📊 Estatísticas de Combate")
-    sc.write(f"**Partidas:** {total_partidas}")
-    sc.write(f"**Vitórias:** {total_vitorias}")
-    sc.write(f"**Derrotas:** {qtd_mortes}")
-    sc.write(f"**Taxa de Vitória:** {taxa_vitoria:.2f}%")
-    sc.markdown("---")
-    sc.write(f"**Ataques Realizados:** {total_ataques}")
-    sc.write(f"**Ataques Bem-Sucedidos:** {len(ataques_bem_sucedidos)}")
-    sc.write(f"**Taxa de Sucesso de Ataque:** {taxa_sucesso_ataque:.2f}%")
-    sc.write(f"**Média de Dano por Ataque:** {media_dano:.2f}")
-    sc.markdown("---")
-    sc.write(f"**Habilidades Utilizadas:** {len(habilidades_usadas)}")
-    sc.write(f"**Taxa de Uso de Habilidade:** {taxa_uso_habilidade:.2f}%")
+        # === Exibição ===
+        sc = st_container
+        sc.markdown("### 📊 Estatísticas de Combate")
+        sc.write(f"**Partidas:** {total_partidas}")
+        sc.write(f"**Vitórias:** {total_vitorias}")
+        sc.write(f"**Derrotas:** {qtd_mortes}")
+        sc.write(f"**Taxa de Vitória:** {taxa_vitoria:.2f}%")
+        sc.markdown("---")
+        sc.write(f"**Ataques Realizados:** {total_ataques}")
+        sc.write(f"**Ataques Bem-Sucedidos:** {len(ataques_bem_sucedidos)}")
+        sc.write(f"**Taxa de Sucesso de Ataque:** {taxa_sucesso_ataque:.2f}%")
+        sc.write(f"**Média de Dano por Ataque:** {media_dano:.2f}")
+        sc.markdown("---")
+        sc.write(f"**Habilidades Utilizadas:** {len(habilidades_usadas)}")
+        sc.write(f"**Taxa de Uso de Habilidade:** {taxa_uso_habilidade:.2f}%")
 
-    if not habilidades_utilizadas.empty:
-        habilidade_top = habilidades_utilizadas.iloc[0]
-        sc.write(f"**Habilidade Mais Utilizada:** {habilidade_top['habilidade']} ({habilidade_top['count']} vezes)")
+        if not habilidades_utilizadas.empty:
+            habilidade_top = habilidades_utilizadas.iloc[0]
+            sc.write(f"**Habilidade Mais Utilizada:** {habilidade_top['habilidade']} ({habilidade_top['count']} vezes)")
+        else:
+            sc.write("**Habilidade Mais Utilizada:** Nenhuma")
     else:
-        sc.write("**Habilidade Mais Utilizada:** Nenhuma")
+        st.warning("Nenhuma informação encontrada")
 
 
 # =====================================
@@ -145,7 +148,7 @@ def criar_card_personagem(personagem, config_disabled=False):
             st.write(f'###### ⚔️ :red[Ataque:] {personagem.classe.pontos_ataque}')
             st.write(f'###### 🛡️ :blue[Defesa:] {personagem.pontos_defesa}')
             st.write(f':gray[Dado de Ataque:] {personagem.dado_ataque} | '
-                     f':gray[Nº Habilidades:] {personagem.classe.limite_habilidades}')
+                     f':gray[Nº Habilidades:] {len(personagem.inventario)}')
             st.write(':gray[Set de Habilidades:]')
 
             if ajustes_col.button('⚙️', key=f'personagem_{personagem.nome}', disabled=config_disabled):

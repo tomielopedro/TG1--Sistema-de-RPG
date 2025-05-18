@@ -4,3 +4,6 @@
 [2025-05-18 15:16:20] [Castle] Info: arena editada com sucesso.
 [2025-05-18 15:34:15] [Castle] Info: arena editada com sucesso.
 [2025-05-18 15:36:07] [Castle] Info: arena editada com sucesso.
+[2025-05-18 15:52:46] [Castle] Info: arena editada com sucesso.
+[2025-05-18 16:02:10] [Castle] Info: arena editada com sucesso.
+[2025-05-18 16:04:40] [Castle] Info: arena editada com sucesso.

@@ -175,3 +175,5 @@
 [2025-05-18 15:44:10] [Théoden] Erro: habilidade 'Investida' não encontrada.
 [2025-05-18 15:44:10] [Théoden] Info: personagem criado com sucesso.
 [2025-05-18 15:44:10] [Sam] Info: personagem criado com sucesso.
+[2025-05-18 15:55:02] [Elrond] Info: personagem editado com sucesso.
+[2025-05-18 16:01:50] [Pedro] Info: personagem criado com sucesso.
