@@ -7,26 +7,38 @@ from .Partida import Partida
 from typing import List, Optional
 import uuid
 
+
 class Arena:
     """
-    Representa uma arena de combate onde ocorrem várias partidas entre personagens.
+    Representa uma arena de combate onde ocorrem partidas entre personagens.
 
     Atributos:
-        nome_arena (str): Nome da arena.
-        tipo_jogo (str): Tipo da arena (ex: PVP, Equipe).
-        limite_jogadores (int): Máximo de jogadores permitidos.
-        mapa (str): Nome do mapa da arena.
-        lista_personagens (List[Personagem]): Personagens presentes na arena.
-        partidas (List[Partida]): Histórico de partidas realizadas.
-        partida_atual (Optional[Partida]): Partida em andamento.
+        nome_arena (str): Nome identificador da arena.
+        tipo_jogo (str): Tipo de jogo (ex: "X1", "PVP").
+        limite_jogadores (int): Número máximo de jogadores permitidos na arena.
+        icone (str): Caminho para o ícone visual do tipo de jogo.
+        mapa (str): Nome do mapa utilizado na arena.
+        foto_mapa (str): Caminho da imagem do mapa.
+        lista_personagens (List[Personagem]): Lista de personagens participando da arena.
+        partidas (List[Partida]): Histórico de partidas realizadas na arena.
+        partida_atual (Optional[Partida]): Referência para a partida atualmente em andamento.
+        contador_partidas (int): Contador de partidas realizadas.
     """
 
     def __init__(self, nome_arena, tipo_de_jogo, mapa):
+        """
+        Inicializa uma nova arena de combate.
+
+        Args:
+            nome_arena (str): Nome da arena.
+            tipo_de_jogo (TipoJogo): Tipo de jogo (ex: X1, PVP).
+            mapa (Mapa): Mapa no qual as batalhas ocorrem.
+        """
         self.nome_arena = nome_arena
-        self.tipo_jogo = tipo_de_jogo.nome
+        self.tipo_jogo = tipo_de_jogo
         self.limite_jogadores = tipo_de_jogo.limite_jogadores
         self.icone = tipo_de_jogo.icone
-        self.mapa = mapa.nome_mapa
+        self.mapa = mapa
         self.foto_mapa = mapa.foto_mapa
 
         self.lista_personagens: List[Personagem] = []
@@ -35,29 +47,53 @@ class Arena:
         self.contador_partidas = 0
 
     def add_personagens(self, personagem: Personagem):
-        """Adiciona um personagem válido à arena."""
+        """
+        Adiciona uma cópia de um personagem à arena, evitando efeitos colaterais.
+
+        Args:
+            personagem (Personagem): Personagem a ser adicionado.
+        """
         if isinstance(personagem, Personagem):
             self.lista_personagens.append(personagem.__copy__())
 
     def remove_personagem(self, personagem: Personagem):
-        """Remove um personagem da arena, se estiver presente."""
+        """
+        Remove um personagem da arena, se ele estiver presente.
+
+        Args:
+            personagem (Personagem): Personagem a ser removido.
+        """
         if isinstance(personagem, Personagem) and personagem in self.lista_personagens:
             self.lista_personagens.remove(personagem)
 
     def iniciar_nova_partida(self, descricao: str = ""):
-        """Inicia uma nova partida, armazenando a anterior se houver."""
+        """
+        Inicia uma nova partida, salvando a anterior (se existir).
+
+        Args:
+            descricao (str): Descrição opcional da partida (ex: "Batalha Final").
+        """
         self.contador_partidas += 1
         nova_partida = Partida(id=str(uuid.uuid4()), descricao=descricao)
         self.partida_atual = nova_partida
         self.partidas.append(nova_partida)
 
-
     def combate(self, atacante: Personagem, alvo: Personagem) -> LogCombate:
         """
-        Executa um combate entre dois personagens e registra o log na partida atual.
+        Executa um turno de combate entre dois personagens, registrando o evento.
 
-        Retorna:
-            LogCombate: Registro detalhado do combate.
+        Regras:
+        - Usa um D20 para determinar chance de acerto.
+        - Se a chance de ataque for maior que a defesa do alvo, o ataque acontece.
+        - Se uma habilidade for usada (como cura), ela é registrada.
+        - O log é salvo na partida atual.
+
+        Args:
+            atacante (Personagem): Personagem que realiza o ataque.
+            alvo (Personagem): Personagem que é alvo do ataque.
+
+        Returns:
+            LogCombate: Objeto contendo o registro detalhado do combate.
         """
         log = LogCombate(
             atacante=atacante.nome,
@@ -81,7 +117,7 @@ class Arena:
         numero_d20 = D20().jogar()
         chance_ataque = atacante.pontos_ataque + numero_d20
         log.numero_d20 = numero_d20
-        log.dano_ataque = chance_ataque
+        log.chance_ataque = chance_ataque
         log.ataque_bem_sucedido = chance_ataque > alvo.pontos_defesa
 
         if log.ataque_bem_sucedido:
@@ -98,13 +134,31 @@ class Arena:
         return log
 
     def __eq__(self, other):
-        """Duas arenas são iguais se tiverem o mesmo nome."""
+        """
+        Compara duas arenas com base no nome.
+
+        Args:
+            other (Arena): Outra instância de arena.
+
+        Returns:
+            bool: True se os nomes forem iguais, False caso contrário.
+        """
         return isinstance(other, Arena) and self.nome_arena == other.nome_arena
 
     def __str__(self):
+        """
+        Retorna uma string representando a arena.
+
+        Returns:
+            str: Nome, tipo e mapa da arena.
+        """
         return f"Arena '{self.nome_arena}' ({self.tipo_jogo}) - Mapa: {self.mapa}"
 
     def __repr__(self):
+        """
+        Representação informal da arena.
+
+        Returns:
+            str: Nome da arena.
+        """
         return self.nome_arena
-
-

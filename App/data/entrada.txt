@@ -1,20 +1,20 @@
-## Persongens
 
 ### Carol
 - **Classe**: Ladino
 - **Habilidades**:
- - Cura
- - TiroDeArco
+- Cura
+- Cura
 
 
 ### Parraga
 - **Classe**: Mago
 - **Habilidades**:
-- BolaDeFogo
-- BolaDeFogo
+- Cura
+- Cura
 - BolaDeFogo
 - BolaDeFogo
 - Cura
+
 
 ### Joao
 - **Classe**: Mago
@@ -25,11 +25,13 @@
 - BolaDeFogo
 - BolaDeFogo
 
+
 ### Pedro
 - **Classe**: Guerreiro
 - **Habilidades**:
 - BolaDeFogo
 - BolaDeFogo
+
 
 ### Ighor
 - **Classe**: Ladino
@@ -37,17 +39,20 @@
 - Cura
 - BolaDeFogo
 
+
 ### Fred
 - **Classe**: Guerreiro
 - **Habilidades**:
 - TiroDeArco
 - TiroDeArco
 
+
 ### Rafa
 - **Classe**: Ladino
 - **Habilidades**:
 - BolaDeFogo
 - Cura
+
 
 ### Teste
 - **Classe**: Mago
@@ -57,3 +62,21 @@
 - BolaDeFogo
 - BolaDeFogo
 - BolaDeFogo
+
+
+### Rudi
+- **Classe**: Guerreiro
+- **Habilidades**:
+- BolaDeFogo
+- TiroDeArco
+
+
+### Pedro 2
+- **Classe**: Mago
+- **Habilidades**:
+- BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
+

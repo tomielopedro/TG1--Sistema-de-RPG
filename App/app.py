@@ -1,8 +1,8 @@
 import streamlit as st
 
 from RPG import *  # Importa classes como Mago, Guerreiro, Personagem, habilidades, etc.
-from utils import GerenciamentoPersonagens
-from utils import GerenciamentoArenas
+from utils.gerenciamento.GerenciamentoPersonagens import GerenciamentoPersonagens
+from utils.gerenciamento.GerenciamentoArenas import GerenciamentoArenas
 from utils import streamlit_utils
 import streamlit.components.v1 as components
 
@@ -21,8 +21,8 @@ habilidades_dict = {
 
 
 mapas_dict = {
-    'Winter': Winter(),
-    'Castle': Castle(),
+    'Vilarejo': Vilarejo(),
+    'Torre': Torre(),
 }
 
 tipos_jogo = {
@@ -51,10 +51,10 @@ if 'id_partida' not in st.session_state:
 
 pages = {
     "Pages": [
-        st.Page("pages/personagens.py", title="Personagens"),
-        st.Page("pages/arenas.py", title="Arenas"),
-        st.Page("pages/combate.py", title="Combate"),
-        st.Page("pages/_relatorio_combate.py", title="Relatório de Combate"),
+        st.Page("pages/personagens.py", title="🧙‍ Personagens"),
+        st.Page("pages/arenas.py", title="🏟️ Arenas"),
+        st.Page("pages/combate.py", title="⚔️ Combate"),
+        st.Page("pages/relatorio_combate.py", title="📜 Relatório de Combate"),
 
     ],
     "Configurações": [
