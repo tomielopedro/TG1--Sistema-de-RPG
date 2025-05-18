@@ -4,7 +4,7 @@ class Habilidade:
 
     Atributos:
         nome (str): Nome da habilidade.
-        descricao (str): Descrição textual do efeito da habilidade.
+        descricao (str): Descrição textual do efeito ocasionado pelo uso da habilidade.
         pontos_ataque (int): Pontos de ataque causados pela habilidade.
         foto_habilidade (str): Caminho para a imagem representativa da habilidade.
 

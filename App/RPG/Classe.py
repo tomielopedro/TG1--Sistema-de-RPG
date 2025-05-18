@@ -6,16 +6,15 @@ class Classe(ABC):
     Classe abstrata que define o modelo base para classes de personagens em um jogo RPG.
 
     Atributos:
-        nome (str): Nome da classe (ex: Guerreiro, Mago).
+        nome (str): Nome da classe (ex: Guerreiro, Mago), relaciona-se ao tipo do personagem.
         pontos_vida (int): Quantidade de vida total da classe.
         dado_ataque (Dados): Tipo de dado utilizado para calcular o dano de ataque.
         pontos_ataque (int): Valor base de ataque da classe.
         pontos_defesa (int): Valor base de defesa da classe.
-        limite_habilidades (int): Número máximo de habilidades que um personagem dessa classe pode ter.
+        limite_habilidades (int): Número Limite de habilidades que um personagem dessa classe pode ter.
         foto (str): Caminho para a imagem representando a classe.
 
     Métodos:
-        foto_morte(): Altera a imagem da classe para uma imagem de morte.
         __str__(): Retorna uma representação legível da classe com suas estatísticas.
         __repr__(): Retorna o nome da classe.
     """
@@ -41,7 +40,7 @@ class Classe(ABC):
         self._pontos_vida = valor
     def __str__(self):
         """
-        Retorna uma string contendo todas as estatísticas da classe.
+        Retorna uma string referente às estatísticas da classe.
 
         Returns:
             str: Representação formatada da classe.
@@ -70,8 +69,9 @@ class Guerreiro(Classe):
     Características:
         - Alta defesa (8).
         - Vida: 10 + (defesa * 5).
-        - Ataque moderado (6) com dado D12.
-        - Baixa quantidade de habilidades (2).
+        - Ataque moderado (6) 
+        - Dado D12.
+        - Limite de habilidades (2).
     """
     def __init__(self):
         self.pontos_defesa = 8
@@ -86,8 +86,9 @@ class Mago(Classe):
     Características:
         - Baixa defesa (3).
         - Vida: 8 + (defesa * 2).
-        - Alto ataque (10) com dado D6.
-        - Alta capacidade de habilidades (5).
+        - Alto ataque (10) 
+        - Dado D6.
+        - Limite de habilidades (5).
     """
     def __init__(self):
         self.pontos_defesa = 3
@@ -102,8 +103,9 @@ class Ladino(Classe):
     Características:
         - Defesa média (5).
         - Vida: 6 + (defesa * 3).
-        - Ataque ágil (8) com dado D8.
-        - Quantidade de habilidades moderada (2).
+        - Ataque ágil (8)
+        - Dado D8.
+        - Limite de habilidades (2).
     """
     def __init__(self):
         self.pontos_defesa = 5
