@@ -1,74 +1,110 @@
 === Arena: Castle ===
 Tipo: X1 | Mapa: Torre
 
---- Partida acb545a6-b269-4330-b30e-96533650bc5c: Batalha Total ---
-Vencedor: -- Nome: Carol
-Classe: Ladino
-Pontos de Ataque: 8
-Dado de Ataque: D8
-Pontos de Vida: 21
-Pontos de Defesa: 5
-Limite de Habilidades: 2
+--- Partida ea79dede-2dc3-496d-8f8f-2d9e55bf942b: Batalha Total ---
+Vencedor: -- Nome: Parraga
+Classe: Mago
+Pontos de Ataque: 10
+Dado de Ataque: D6
+Pontos de Vida: 14
+Pontos de Defesa: 3
+Limite de Habilidades: 5
 Inventário: [] -- 
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 8 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 14
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 14
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 8 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 14
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 14
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 5 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 31
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 31
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 5 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 31
+  D20: 1 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 31
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 10 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 17
+  D20: 12 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 23
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 10 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 17
+  D20: 12 | Dano Total: 1 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 23
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 10 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 26
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 31
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 10 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 26
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 31
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 14 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 12
+  D20: 19 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 30
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 14 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 12
+  D20: 19 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 30
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 10 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 21
+  D20: 9 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 21
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 10 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 21
+  D20: 9 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 21
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 1 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 12
+  D20: 9 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 28
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 1 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 12
+  D20: 9 | Dano Total: 2 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 28
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 7 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 25
+  D20: 19 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 20
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 7 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 25
+  D20: 19 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 20
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 12 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 7
+  D20: 8 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 25
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 12 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 7
+  D20: 8 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 25
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 20 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 25
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 10
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 20 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 25
+  D20: 2 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 10
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 15 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 11
+  D20: 17 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 21
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 15 | Dano Total: 6 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 11
+  D20: 17 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 21
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 11 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 19
+  D20: 13 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 10
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 11 | Dano Total: 6 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 19
+  D20: 13 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: Cura | Vida do Alvo após ataque: 10
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 11 | Dano Total: 8 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 3
+  D20: 3 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 27
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 11 | Dano Total: 8 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 3
+  D20: 3 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 27
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 9 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 9
+  D20: 16 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 7
 [Log] Parraga (Mago) atacou Carol (Ladino)
-  D20: 9 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: BolaDeFogo | Vida do Alvo após ataque: 9
+  D20: 16 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 7
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 6 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 8 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 27
 [Log] Carol (Ladino) atacou Parraga (Mago)
-  D20: 6 | Dano Total: 4 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 0
+  D20: 8 | Dano Total: 10 | Defesa do Alvo: 3 | Habilidade: Cura | Vida do Alvo após ataque: 27
+[Log] Parraga (Mago) atacou Carol (Ladino)
+  D20: 4 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 14
+[Log] Parraga (Mago) atacou Carol (Ladino)
+  D20: 4 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 14
+[Log] Carol (Ladino) atacou Parraga (Mago)
+  D20: 17 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 20
+[Log] Carol (Ladino) atacou Parraga (Mago)
+  D20: 17 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 20
+[Log] Parraga (Mago) atacou Carol (Ladino)
+  D20: 12 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 13
+[Log] Parraga (Mago) atacou Carol (Ladino)
+  D20: 12 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 13
+[Log] Carol (Ladino) atacou Parraga (Mago)
+  D20: 8 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 17
+[Log] Carol (Ladino) atacou Parraga (Mago)
+  D20: 8 | Dano Total: 3 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 17
+[Log] Parraga (Mago) atacou Carol (Ladino)
+  D20: 15 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Parraga (Mago) atacou Carol (Ladino)
+  D20: 15 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Carol (Ladino) atacou Parraga (Mago)
+  D20: 6 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Carol (Ladino) atacou Parraga (Mago)
+  D20: 6 | Dano Total: 7 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 10
+[Log] Parraga (Mago) atacou Carol (Ladino)
+  D20: 6 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 5
+[Log] Parraga (Mago) atacou Carol (Ladino)
+  D20: 6 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 5
+[Log] Carol (Ladino) atacou Parraga (Mago)
+  D20: 19 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 5
+[Log] Carol (Ladino) atacou Parraga (Mago)
+  D20: 19 | Dano Total: 5 | Defesa do Alvo: 3 | Habilidade: None | Vida do Alvo após ataque: 5
+[Log] Parraga (Mago) atacou Carol (Ladino)
+  D20: 14 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
+[Log] Parraga (Mago) atacou Carol (Ladino)
+  D20: 14 | Dano Total: 5 | Defesa do Alvo: 5 | Habilidade: None | Vida do Alvo após ataque: 0
 
 
