@@ -15,8 +15,16 @@
 
 
 ### Vilarejo
-- **Mapa**: Vilarejo
-- **Tipo**: X1
-- **Limite Jogadores**: 2
+- **Mapa**: Torre
+- **Tipo**: PVP
+- **Limite Jogadores**: 100
 - **Personagens**:
+ - Éowyn
+ - Elrond
+ - Gimli
+ - Arwen
+ - Galadriel
+ - Théoden
+ - Sam
+ - Pedro
 

@@ -1,9 +1,28 @@
 import streamlit as st
 import pandas as pd
-from utils.streamlit_utils import converter_logs_em_df, get_image_base64, resetar_estado_combate
 from streamlit_avatar import avatar
+from utils.logs import converter_logs_em_df
+from utils.caminhos import get_image_base64
+from utils.caminhos import get_image_path
 from utils.page_functions.galeria_personagens import modal_card_personagem
-from utils.streamlit_utils import get_image_path
+
+
+
+def resetar_estado_combate():
+    """
+    Remove variáveis de estado do combate no Streamlit e reinstancia os personagens
+    para nova batalha sem perder os dados de origem.
+    """
+    if st.session_state.arena_combate is not None:
+        for chave in ["personagens_vivos", "personagens_mortos", "logs_visuais", "turno", "fila_turno"]:
+            st.session_state.pop(chave, None)
+
+        personagens_novos = [
+            p.__copy__() for p in st.session_state.personagens_lidos
+            if p in st.session_state.arena_combate.lista_personagens
+        ]
+        st.session_state.arena_combate.lista_personagens = personagens_novos
+
 
 def get_ids_partidas_arena(df: pd.DataFrame, nome_arena: str):
 
@@ -55,6 +74,7 @@ def exibir_estatisticas_arena(historico_df: pd.DataFrame, nome_arena: str, st_co
         st.write(f"**Maior Vencedor:**")
         avatar([{ "url": f"data:image/png;base64,{get_image_base64(vencedor.classe.foto)}", "size": 100, "title": vencedor.nome, "caption": f"👑 {vencedor.classe.nome} Vitórias: {qtd_vitorias_top}", "key": f"arena{nome_arena}" }])
     sc.markdown("---")
+
 
 @st.dialog('Editar Arena')
 def modal_editar_arene(arena):

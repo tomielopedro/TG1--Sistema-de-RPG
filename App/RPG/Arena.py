@@ -128,9 +128,6 @@ class Arena:
                 log.habilidade_ataque = habilidade.nome
                 log.descricao_habilidade = habilidade.descricao
 
-        if self.partida_atual:
-            self.partida_atual.adicionar_log(log)
-
         return log
 
     def __eq__(self, other):

@@ -146,7 +146,7 @@ class Personagem:
         Returns:
             Personagem: Cópia do personagem original.
         """
-        nova_classe = self.classe  # Compartilhado por simplicidade
+        nova_classe = self.classe
         novo_inventario = [copy.copy(h) for h in self.inventario]
         novo_personagem = Personagem(self.nome, nova_classe, novo_inventario)
 

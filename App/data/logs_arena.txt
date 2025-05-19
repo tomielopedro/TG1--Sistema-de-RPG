@@ -7,3 +7,4 @@
 [2025-05-18 15:52:46] [Castle] Info: arena editada com sucesso.
 [2025-05-18 16:02:10] [Castle] Info: arena editada com sucesso.
 [2025-05-18 16:04:40] [Castle] Info: arena editada com sucesso.
+[2025-05-18 19:18:10] [Vilarejo] Info: arena editada com sucesso.

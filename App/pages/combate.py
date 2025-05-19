@@ -3,21 +3,41 @@ import random
 import json
 import os
 import pandas as pd
-
 from RPG import *
 from streamlit_avatar import avatar
-from utils.streamlit_utils import (
-    exportar_arenas_para_txt,
-    get_image_base64,
-    set_background_as_frame,
-    exibir_avatar,
-    resetar_estado_combate
-)
+from utils.caminhos import get_image_path
+from utils.visual import exibir_avatar
+from utils.exportacao import exportar_arenas_para_txt
+from utils.visual import background
+from utils.visual import set_background_as_frame
+
+
+# === Plano de fundo da aplicação ===
+if st.toggle('Ativar Container', True):
+    set_background_as_frame(get_image_path('assets/images/extras/fundo.png'))
+else:
+    background(get_image_path('assets/images/extras/fundo.png'))
+
 
 # ==========================
 # Utilitários
 # ==========================
 
+
+def resetar_estado_combate():
+    """
+    Remove variáveis de estado do combate no Streamlit e reinstancia os personagens
+    para nova batalha sem perder os dados de origem.
+    """
+    if st.session_state.arena_combate is not None:
+        for chave in ["personagens_vivos", "personagens_mortos", "logs_visuais", "turno", "fila_turno"]:
+            st.session_state.pop(chave, None)
+
+        personagens_novos = [
+            p.__copy__() for p in st.session_state.personagens_lidos
+            if p in st.session_state.arena_combate.lista_personagens
+        ]
+        st.session_state.arena_combate.lista_personagens = personagens_novos
 
 
 

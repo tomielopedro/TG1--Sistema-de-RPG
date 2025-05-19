@@ -1,15 +1,19 @@
 import streamlit as st
 import pandas as pd
 import json
-from utils.streamlit_utils import get_image_base64
-from utils.streamlit_utils import set_background_as_frame
-from utils.streamlit_utils import get_image_path
+from utils.caminhos import get_image_base64
+from utils.caminhos import get_image_path
 from streamlit_avatar import avatar
 from RPG import *
+from utils.visual import background
+from utils.visual import set_background_as_frame
 
-# ==============================
-# Utilitários de Batalha
-# ==============================
+
+# === Plano de fundo da aplicação ===
+if st.toggle('Ativar Container', True):
+    set_background_as_frame(get_image_path('assets/images/extras/fundo_tela_inicial.png'))
+else:
+    background(get_image_path('assets/images/extras/fundo_tela_inicial.png'))
 
 
 def carregar_dados_partida(caminho_csv: str, id_partida=None) -> dict:
@@ -23,7 +27,6 @@ def carregar_dados_partida(caminho_csv: str, id_partida=None) -> dict:
             "linha": linha,
             "qtd_partidas": len(df[df['arena'] == linha['arena']])
         }
-
 
 
 def obter_personagens_partida(linha: pd.Series) -> tuple:
@@ -107,9 +110,6 @@ def exibir_logs_combate(logs: list[dict]):
                 st.markdown(f"🏆 **{vencedor}** venceu a batalha!", unsafe_allow_html=True)
 
 
-
-
-
 # ==============================
 # Função principal
 # ==============================
@@ -123,8 +123,6 @@ def exibir_resultado_csv(caminho_csv="data/historico_batalhas.csv", id_partida=N
     if not dados:
         return st.warning('Nenhum dado encontrado')
     linha = dados["linha"]
-    set_background_as_frame(get_image_path('assets/images/extras/fundo_tela_inicial.png'))
-
     vencedor, mortos = obter_personagens_partida(linha)
 
     exibir_cabecalho_partida(

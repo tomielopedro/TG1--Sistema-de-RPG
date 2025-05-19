@@ -1,14 +1,7 @@
 import streamlit as st
-import base64
-from utils.streamlit_utils import get_image_path
-# Define o estado da sidebar só na primeira execução
+from utils.caminhos import get_image_base64
+from utils.caminhos import get_image_path
 
-# === Define config com base no estado ===
-
-# === Função para aplicar o fundo ===
-def get_image_base64(path):
-    with open(path, "rb") as f:
-        return base64.b64encode(f.read()).decode()
 
 background_image = get_image_base64(get_image_path("assets/images/extras/fundo_tela_inicial.png"))
 

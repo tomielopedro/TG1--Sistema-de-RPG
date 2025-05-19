@@ -63,7 +63,7 @@ class BolaDeFogo(Habilidade):
 
     Características:
         - Causa 10 pontos de dano em área.
-        - Tem imagem associada em './assets/images/bola_fogo.png'.
+        - Tem imagem associada em 'assets/images/bola_fogo.png'.
     """
     def __init__(self):
         super().__init__('BolaDeFogo', 'Uma bola de fogo que causa dano em área', 10, 'assets/images/habilidades/bola_fogo.png')
@@ -87,7 +87,7 @@ class TiroDeArco(Habilidade):
 
     Características:
         - Causa 6 pontos de dano.
-        - Tem imagem associada em './assets/images/arco.png'.
+        - Tem imagem associada em 'assets/images/arco.png'.
     """
     def __init__(self):
         super().__init__('TiroDeArco', 'Um tiro de arco que causa dano em área', 6, 'assets/images/habilidades/arco.png')

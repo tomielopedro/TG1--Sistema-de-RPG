@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 import json
-from utils.streamlit_utils import converter_logs_em_df, get_image_base64
-from utils.streamlit_utils import get_image_path
+from utils.logs import converter_logs_em_df
+from utils.caminhos import get_image_path
 
 # =====================================
 # === Funções de Processamento de Dados

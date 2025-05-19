@@ -177,10 +177,11 @@ class GerenciamentoPersonagens:
 
     def ler_personagens(self):
         """Lê todos os personagens do arquivo base e os adiciona na memória."""
-        if GerenciamentoPersonagens._lista_personagens:
+        if len(GerenciamentoPersonagens._lista_personagens) > 0:
             return GerenciamentoPersonagens._lista_personagens
 
         try:
+
             linhas = self.ler_arquivo()
             bloco = []
 
