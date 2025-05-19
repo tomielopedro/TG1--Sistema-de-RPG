@@ -4,8 +4,8 @@ class Habilidade:
 
     Atributos:
         nome (str): Nome da habilidade.
-        descricao (str): Descrição textual do efeito ocasionado pelo uso da habilidade.
-        pontos_ataque (int): Pontos de ataque causados pela habilidade.
+        descricao (str): Descrição em str do efeito ocasionado pelo uso da habilidade.
+        pontos_ataque (int): Pontos de ataque causados pelo uso da habilidade.
         foto_habilidade (str): Caminho para a imagem representativa da habilidade.
 
     Métodos:
@@ -40,8 +40,7 @@ class Habilidade:
 
     def __str__(self):
         """
-        Retorna uma representação em string legível da habilidade.
-
+        
         Returns:
             str: String formatada com os dados da habilidade.
         """
@@ -49,8 +48,6 @@ class Habilidade:
 
     def __repr__(self):
         """
-        Retorna uma representação reduzida da habilidade (somente o nome).
-
         Returns:
             str: Nome da habilidade.
         """
@@ -75,7 +72,7 @@ class Cura(Habilidade):
 
     Características:
         - Restaura 10 pontos de vida.
-        - Tem imagem associada em './assets/images/cura.png'.
+        - Tem imagem associada
     """
     def __init__(self):
         super().__init__('Cura', 'Se curou usando uma dose de elixir da vida', 10, 'assets/images/habilidades/cura.png')
@@ -87,7 +84,7 @@ class TiroDeArco(Habilidade):
 
     Características:
         - Causa 6 pontos de dano.
-        - Tem imagem associada em './assets/images/arco.png'.
+        - Tem imagem associada
     """
     def __init__(self):
         super().__init__('TiroDeArco', 'Um tiro de arco que causa dano em área', 6, 'assets/images/habilidades/arco.png')
