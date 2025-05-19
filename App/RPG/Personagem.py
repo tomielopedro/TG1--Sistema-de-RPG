@@ -6,8 +6,7 @@ import copy
 
 class Personagem:
     """
-    Classe que representa um personagem jogável no RPG.
-
+    Classe que representa um personagem no RPG.
     Atributos:
         nome (str): Nome do personagem.
         classe (Classe): Classe do personagem (ex: Guerreiro, Mago, Ladino).
@@ -27,15 +26,14 @@ class Personagem:
         atacar(alvo): Realiza um ataque a outro personagem.
         __str__(): Representação em string detalhada.
         __repr__(): Representação em string simples (nome).
-        __copy__(): Cria uma cópia superficial do personagem, preservando atributos relevantes.
+        __copy__(): Cria uma cópia do personagem, preservando atributos relevantes.
     """
 
     personagens_criados = 0
 
     def __init__(self, nome: str, classe: Classe, inventario: list[Habilidade]):
         """
-        Inicializa um novo personagem com nome, classe e habilidades iniciais.
-
+        Construtor de personagem com nome, classe e habilidades iniciais.
         Args:
             nome (str): Nome do personagem.
             classe (Classe): Instância de uma classe de personagem.
@@ -43,7 +41,7 @@ class Personagem:
         """
         self.nome = nome
         self.classe = classe
-        self._inventario = inventario.copy()  # Evita efeitos colaterais
+        self._inventario = inventario.copy()  
         self._pontos_vida = classe.pontos_vida
         self.pontos_defesa = classe.pontos_defesa
         self.dado_ataque = classe.dado_ataque
@@ -56,7 +54,7 @@ class Personagem:
 
     @pontos_vida.setter
     def pontos_vida(self, valor):
-        self._pontos_vida = max(0, valor)  # impede vida negativa
+        self._pontos_vida = max(0, valor)
 
     @property
     def inventario(self):
@@ -84,7 +82,7 @@ class Personagem:
 
     def usar_habilidade(self):
         """
-        Usa a primeira habilidade disponível no inventário se um D4 sorteado for maior que 2.
+        Usa a primeira habilidade disponível no inventário se o lado do D4 sorteado mostrar número maior que 2.
 
         Returns:
             Habilidade ou bool: A habilidade usada, ou False se não for possível usar.
@@ -95,8 +93,8 @@ class Personagem:
 
     def atacar(self, alvo: 'Personagem'):
         """
-        Realiza um ataque a outro personagem. Tenta usar uma habilidade, caso disponível e sorte favorável.
-        Em caso de cura, aplica-se ao próprio personagem.
+        Realiza um ataque a outro personagem. Tenta usar uma habilidade, caso disponível e sorte favorável (50% de chance).
+            - Em caso de cura, aplica-se ao próprio personagem.
 
         Args:
             alvo (Personagem): O personagem que será atacado.
@@ -123,8 +121,6 @@ class Personagem:
 
     def __str__(self):
         """
-        Retorna uma representação detalhada do personagem.
-
         Returns:
             str: Nome, classe e habilidades.
         """
@@ -132,8 +128,6 @@ class Personagem:
 
     def __repr__(self):
         """
-        Representa o personagem apenas pelo nome (para listas, logs, etc.).
-
         Returns:
             str: Nome do personagem.
         """
@@ -146,7 +140,7 @@ class Personagem:
         Returns:
             Personagem: Cópia do personagem original.
         """
-        nova_classe = self.classe  # Compartilhado por simplicidade
+        nova_classe = self.classe 
         novo_inventario = [copy.copy(h) for h in self.inventario]
         novo_personagem = Personagem(self.nome, nova_classe, novo_inventario)
 
