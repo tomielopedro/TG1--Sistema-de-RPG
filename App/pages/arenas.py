@@ -6,6 +6,20 @@ from utils.streamlit_utils import get_image_path
 from utils.streamlit_utils import exibir_logs_chat_generico
 
 
+""" 
+Interface principal da aplicação Streamlit para gerenciamento de arenas.
+Permite visualizar arenas existentes, criar novas arenas e acessar logs de atividades.
+
+Funcionalidades principais:
+- Exibição de uma galeria com arenas já criadas, com filtros por mapa e tipo de jogo.
+- Criação de novas arenas por meio de formulário interativo.
+- Acesso aos logs de ações realizadas com as arenas.
+
+Dependências:
+- Funções auxiliares localizadas em utils/page_functions e utils/streamlit_utils.
+"""
+
+
 set_background_as_frame(get_image_path('assets/images/extras/fundo.png'))
 mostrar, criar, logs = st.tabs(['Galeria de Arenas', 'Criar Arena', 'Logs'])
 mapas = list(st.session_state.gerenciamento_arenas.mapas_dict.keys())
