@@ -82,7 +82,7 @@ class Personagem:
             return self.nome == other.nome
         return False
 
-    def usar_habilidade(self):
+    def verificar_uso_habilidade(self):
         """
         Usa a primeira habilidade disponível no inventário se um D4 sorteado for maior que 2.
 
@@ -107,7 +107,7 @@ class Personagem:
         try:
             ataque_total = self.dado_ataque.jogar()
             habilidade_usada = None
-            habilidade = self.usar_habilidade()
+            habilidade = self.verificar_uso_habilidade()
             if habilidade:
                 habilidade_usada = habilidade
                 ataque_total = habilidade.usar()

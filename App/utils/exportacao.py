@@ -15,7 +15,9 @@ def exportar_arenas_para_txt(arenas, caminho="data/historico_arenas.txt"):
                         f"  D20: {log.numero_d20} | Dano Total: {log.ataque_total} | "
                         f"Defesa do Alvo: {log.alvo_pontos_defesa} | "
                         f"Habilidade: {log.habilidade_ataque} | "
+                        f"Descricao Habilidade: {log.descricao_habilidade} | "
                         f"Vida do Alvo após ataque: {log.alvo_vida}\n"
+                        f"Vida do Atacante após ataque: {log.atacante_vida}\n"
                     )
                 f.write("\n")
             f.write("\n")

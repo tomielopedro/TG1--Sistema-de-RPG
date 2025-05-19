@@ -4,9 +4,11 @@ import os
 import json
 import pandas as pd
 
+
 def carregar_logs(caminho_arquivo):
     with open(caminho_arquivo, "r", encoding="utf-8") as f:
         return f.readlines()
+
 
 def exibir_logs_chat_generico(caminho_arquivo, titulo="📜 Logs"):
     st.title(titulo)
@@ -34,6 +36,7 @@ def exibir_logs_chat_generico(caminho_arquivo, titulo="📜 Logs"):
 
                 with st.chat_message("user", avatar="🧙‍♂️"):
                     st.markdown(f"**🗓️ {data_formatada} — {nome}**\n\n{emoji} {mensagem}")
+
 
 def converter_logs_em_df(lista_logs_str):
     logs_processados = []

@@ -11,14 +11,6 @@ from utils.exportacao import exportar_arenas_para_txt
 from utils.visual import background
 from utils.visual import set_background_as_frame
 
-
-# === Plano de fundo da aplicação ===
-if st.toggle('Ativar Container', True):
-    set_background_as_frame(get_image_path('assets/images/extras/fundo.png'))
-else:
-    background(get_image_path('assets/images/extras/fundo.png'))
-
-
 # ==========================
 # Utilitários
 # ==========================
@@ -91,8 +83,11 @@ def pagina_combate(arena: Arena):
     if not arena:
         st.warning("Nenhuma arena selecionada.")
         return
+    if st.toggle('Ativar Container', True):
+        set_background_as_frame(get_image_path(arena.foto_mapa))
+    else:
+        background(get_image_path(arena.foto_mapa))
 
-    set_background_as_frame(arena.foto_mapa)
     st.title(f"⚔️ Combate na Arena: {arena.nome_arena}")
 
     # Inicializa estado do combate se necessário
@@ -131,11 +126,11 @@ def pagina_combate(arena: Arena):
         arena.partida_atual.adicionar_log(log)
 
         if log.habilidade_ataque == 'Cura':
-            msg = log.descricao_habilidade
+            msg = f"{log.descricao_habilidade} -> Vida atual de {log.atacante}: {log.atacante_vida}"
         else:
-            msg = f"atacou **{log.alvo}** com _{log.habilidade_ataque or 'ataque básico'}_ causando **{log.ataque_total} de dano**"
+            msg = f"atacou **{log.alvo}** com _{log.descricao_habilidade or 'ataque básico'}_ causando **{log.ataque_total} de dano** -> Vida atual de {log.alvo}: {log.alvo_vida}"
 
-        logs.append((log.atacante, msg) if log.ataque_bem_sucedido else (log.atacante, f"tentou atacar **{log.alvo}** mas errou"))
+        logs.append((log.atacante, msg) if log.ataque_bem_sucedido and log.ataque_total > 0 else (log.atacante, f"tentou atacar **{log.alvo}** mas errou"))
 
         if alvo.pontos_vida <= 0 and alvo in vivos:
             vivos.remove(alvo)

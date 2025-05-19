@@ -1,8 +1,6 @@
 import streamlit as st
-import os
 from utils.page_functions.criar_personagem import criar_personagem
 from utils.page_functions.galeria_personagens import criar_card_personagem
-from utils.visual import set_background_as_frame
 from utils.caminhos import get_image_path
 from utils.logs import exibir_logs_chat_generico
 from utils.visual import background

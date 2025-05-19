@@ -98,6 +98,7 @@ class Arena:
         log = LogCombate(
             atacante=atacante.nome,
             atacante_classe=getattr(atacante.classe, 'nome', 'Desconhecido'),
+            atacante_vida=atacante.pontos_vida,
             alvo=alvo.nome,
             alvo_classe=getattr(alvo.classe, 'nome', 'Desconhecido'),
             alvo_vida=alvo.pontos_vida,
@@ -120,6 +121,7 @@ class Arena:
                     if habilidade:
                         log.habilidade_ataque = habilidade.nome
                         log.descricao_habilidade = habilidade.descricao
+                        log.atacante_vida = atacante.pontos_vida
 
         return log
 

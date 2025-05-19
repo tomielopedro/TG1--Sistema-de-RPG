@@ -22,6 +22,7 @@ class LogCombate:
     """
     atacante: str
     atacante_classe: str
+    atacante_vida: int
     alvo: str
     alvo_classe: str
     alvo_vida: int

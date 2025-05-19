@@ -84,8 +84,8 @@ def exibir_logs_combate(logs: list[dict]):
             alvo = log["alvo"]
 
             # Descrição do ataque
-            msg = log["descricao_habilidade"] if log["habilidade_ataque"] == "Cura" else \
-                f"atacou **{alvo}** com _{log['habilidade_ataque'] or 'ataque básico'}_ causando **{log['ataque_total']} de dano**"
+            msg = f"{log['descricao_habilidade']} -> Vida atual de {log['atacante']}: {log['atacante_vida']}" if log["habilidade_ataque"] == "Cura" else \
+                f"atacou **{alvo}** com _{log['descricao_habilidade'] or 'ataque básico'}_ causando **{log['ataque_total']} de dano** -> Vida atual de {log['alvo']}: {log['alvo_vida']}"
 
             with st.chat_message("user", avatar="🧙"):
                 st.markdown(f"**{atacante}:** {msg}", unsafe_allow_html=True)
