@@ -1,18 +1,35 @@
 import streamlit as st
 import base64
 from utils.streamlit_utils import get_image_path
-# Define o estado da sidebar só na primeira execução
 
-# === Define config com base no estado ===
+"""
+Tela inicial do jogo interativo em Streamlit.
 
-# === Função para aplicar o fundo ===
+Esta página define:
+- Um fundo visual usando CSS com imagem base64.
+- Uma animação central em Lottie.
+- Um botão “Iniciar Jogo” que leva à tela de escolha de personagens.
+
+Arquivo: pagina_inicial.py
+"""
+
+
 def get_image_base64(path):
+    """
+    Converte uma imagem localizada em `path` para uma string codificada em base64.
+
+    Args:
+        path (str): Caminho para a imagem.
+
+    Returns:
+        str: Imagem codificada em base64, pronta para ser usada em CSS como plano de fundo.
+    """
+    
     with open(path, "rb") as f:
         return base64.b64encode(f.read()).decode()
 
 background_image = get_image_base64(get_image_path("assets/images/extras/fundo_tela_inicial.png"))
 
-# === CSS para customização ===
 st.markdown(f"""
     <style>
     .stApp {{
@@ -44,7 +61,7 @@ st.markdown(f"""
     </style>
 """, unsafe_allow_html=True)
 
-# === Lottie animado ===
+
 st.components.v1.html("""
 <script src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs" type="module"></script>
 <dotlottie-player src="https://lottie.host/6faab81e-b703-468a-b537-78b78acea1bc/oRgbqTQby6.lottie"
@@ -55,7 +72,7 @@ st.components.v1.html("""
 </dotlottie-player>
 """, height=550)
 
-# === Botão central ===
+
 st.markdown("<div style='text-align:center; padding-top: 20px;'>", unsafe_allow_html=True)
 if st.button("▶ Iniciar Jogo"):
     st.session_state.mostrar_sidebar = True
