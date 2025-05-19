@@ -5,10 +5,10 @@ import os
 
 class Mapa(ABC):
     """
-    Classe abstrata que representa um mapa onde as batalhas ocorrem em uma arena.
+    Classe abstrata que representa um MAPA onde as BATALHAS ocorrem em uma ARENA.
 
     Atributos:
-        nome_mapa (str): Nome identificador do mapa (ex: "Winter", "Castle").
+        nome_mapa (str): Nome identificador do mapa (ex: "Vilarejo", "Torre").
         foto_mapa (str): Caminho para a imagem associada ao mapa.
 
     Métodos:
@@ -32,8 +32,6 @@ class Mapa(ABC):
 
     def __str__(self):
         """
-        Retorna o nome do mapa como string.
-
         Returns:
             str: Nome do mapa.
         """
@@ -41,8 +39,6 @@ class Mapa(ABC):
 
     def __repr__(self):
         """
-        Retorna a representação informal do mapa.
-
         Returns:
             str: Nome do mapa.
         """
@@ -64,7 +60,7 @@ class Mapa(ABC):
         Compara dois mapas com base no nome.
 
         Args:
-            other (Mapa): Outro objeto Mapa.
+            other (Mapa): Outro objeto, idealmente Mapa.
 
         Returns:
             bool: True se os nomes forem iguais.
@@ -83,11 +79,11 @@ class Mapa(ABC):
 
 class Vilarejo(Mapa):
     """
-    Subclasse de Mapa que representa o cenário nevado "Winter".
+    Subclasse de Mapa que representa o cenário medieval "Vilarejo".
 
     Características:
-        - Nome: "Winter
-        - Caminho da imagem: 'assets/images/mapas/winter.png'
+        - Nome: "Vilarejo"
+        - Caminho da imagem: 'assets/images/mapas/vilarejo.png'
     """
     def __init__(self):
         super().__init__('Vilarejo', 'assets/images/mapas/vilarejo.png')
@@ -95,11 +91,11 @@ class Vilarejo(Mapa):
 
 class Torre(Mapa):
     """
-    Subclasse de Mapa que representa o cenário de castelo "Castle".
+    Subclasse de Mapa que representa o cenário externo "Torre".
 
     Características:
-        - Nome: "Castle"
-        - Caminho da imagem: 'assets/images/mapas/castle.png'
+        - Nome: "Torre"
+        - Caminho da imagem: 'assets/images/mapas/torre.png'
     """
     def __init__(self):
         super().__init__('Torre', 'assets/images/mapas/torre.png')
