@@ -3,7 +3,6 @@ import random
 import json
 import os
 import pandas as pd
-
 from RPG import *
 from streamlit_avatar import avatar
 from utils.streamlit_utils import (
@@ -14,11 +13,27 @@ from utils.streamlit_utils import (
     resetar_estado_combate
 )
 
-# ==========================
-# Utilitários
-# ==========================
 
+"""
+Página de Combate - Streamlit
 
+Este módulo implementa a lógica e a interface de combate em uma arena no estilo RPG.
+Usa Streamlit para criar uma interface interativa onde personagens batalham em turnos,
+com logs exibidos em formato de chat, histórico salvo em CSV e download do relatório final.
+
+Funcionalidades:
+- Inicialização de combates com base nos personagens de uma arena.
+- Controle de turnos, ataques e mortes de personagens.
+- Exibição visual do combate (fila de ataque, mortos, logs).
+- Encerramento do combate com exportação dos resultados.
+- Possibilidade de reiniciar a partida ou acessar o relatório.
+
+Dependências:
+- RPG: Estruturas de dados como Arena e Personagem.
+- streamlit_avatar: Exibe os avatares dos personagens.
+- utils.streamlit_utils: Funções utilitárias para interface e manipulação de dados.
+
+"""
 
 
 def exibir_logs_chat(logs):
