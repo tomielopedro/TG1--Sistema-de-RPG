@@ -2,10 +2,9 @@ from abc import ABC
 
 class TipoJogo(ABC):
     """
-    Classe base abstrata que representa um tipo de jogo em uma arena.
-
+    Classe base ABSTRATA que representa um tipo de jogo em uma arena.
     Atributos:
-        nome (str): Nome do tipo de jogo (ex: 'X1', 'PVP').
+        nome (str): Nome do tipo de jogo ('X1', 'PVP').
         limite_jogadores (int): Número máximo de jogadores permitidos nesse tipo de jogo.
         icone (str): Caminho para o ícone que representa visualmente o tipo de jogo.
 
@@ -31,8 +30,6 @@ class TipoJogo(ABC):
 
     def __str__(self):
         """
-        Retorna o nome do tipo de jogo.
-
         Returns:
             str: Nome do tipo de jogo.
         """
@@ -61,8 +58,6 @@ class TipoJogo(ABC):
 
     def __repr__(self):
         """
-        Retorna uma representação do tipo de jogo.
-
         Returns:
             str: Nome do tipo de jogo.
         """
@@ -71,7 +66,7 @@ class TipoJogo(ABC):
 
 class X1(TipoJogo):
     """
-    Subclasse de TipoJogo que representa um duelo entre dois jogadores.
+    Subclasse de TipoJogo que representa um duelo entre dois jogadores (X1).
 
     Características:
         - Nome: 'X1'
@@ -84,7 +79,7 @@ class X1(TipoJogo):
 
 class PVP(TipoJogo):
     """
-    Subclasse de TipoJogo que representa um modo jogador contra jogador em massa.
+    Subclasse de TipoJogo que representa um modo jogador contra jogador em massa (PVP).
 
     Características:
         - Nome: 'PVP'
