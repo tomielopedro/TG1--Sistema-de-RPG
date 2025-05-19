@@ -11,8 +11,7 @@ import uuid
 class Arena:
     """
     Representa uma arena de combate onde ocorrem partidas entre personagens.
-
-    Atributos:
+        Atributos:
         nome_arena (str): Nome identificador da arena.
         tipo_jogo (str): Tipo de jogo (ex: "X1", "PVP").
         limite_jogadores (int): Número máximo de jogadores permitidos na arena.
@@ -31,8 +30,8 @@ class Arena:
 
         Args:
             nome_arena (str): Nome da arena.
-            tipo_de_jogo (TipoJogo): Tipo de jogo (ex: X1, PVP).
-            mapa (Mapa): Mapa no qual as batalhas ocorrem.
+            tipo_de_jogo (TipoJogo): Tipo de jogo ( X1, PVP).
+            mapa (Mapa): Mapa/ cenário  no qual as batalhas ocorrem.
         """
         self.nome_arena = nome_arena
         self.tipo_jogo = tipo_de_jogo
@@ -68,10 +67,10 @@ class Arena:
 
     def iniciar_nova_partida(self, descricao: str = ""):
         """
-        Inicia uma nova partida, salvando a anterior (se existir).
+        Inicia uma nova partida, salvando a anterior (caso existir).
 
         Args:
-            descricao (str): Descrição opcional da partida (ex: "Batalha Final").
+            descricao (str): Descrição (opcional) da partida.
         """
         self.contador_partidas += 1
         nova_partida = Partida(id=str(uuid.uuid4()), descricao=descricao)
@@ -93,7 +92,7 @@ class Arena:
             alvo (Personagem): Personagem que é alvo do ataque.
 
         Returns:
-            LogCombate: Objeto contendo o registro detalhado do combate.
+            LogCombate: Objeto LOG contendo o registro detalhado do combate em específico.
         """
         log = LogCombate(
             atacante=atacante.nome,
