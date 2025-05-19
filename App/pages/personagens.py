@@ -6,6 +6,20 @@ from utils.streamlit_utils import exibir_logs_chat_generico
 import streamlit as st
 import os
 
+"""
+Página de gerenciamento de personagens do jogo.
+
+Esta interface possui três abas:
+1. Galeria de Personagens : exibe os personagens já criados.
+2. Criar Personagem : permite criar novos personagens.
+3. Logs : mostra interações salvas em arquivo.
+
+Também permite importar personagens via arquivo `.txt`.
+
+"""
+
+
+
 mostrar, criar, logs = st.tabs(['Galeria de Personagens', 'Criar Personagem', 'Logs'])
 set_background_as_frame(get_image_path('assets/images/extras/fundo.png'))
 classes = list(st.session_state.gerenciamento.classes_dict.keys())
@@ -40,9 +54,9 @@ with mostrar:
         )
 
     cols = st.columns(2)
-    # Itera sobre os personagens lidos
+
     for i, personagem in enumerate(personagens_lidos):
-        col = cols[i % 2]  # Alterna entre coluna 0 e 1
+        col = cols[i % 2] 
         with col:
             criar_card_personagem(personagem)
 with criar:
