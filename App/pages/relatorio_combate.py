@@ -7,9 +7,31 @@ from utils.streamlit_utils import get_image_path
 from streamlit_avatar import avatar
 from RPG import *
 
-# ==============================
-# Utilitários de Batalha
-# ==============================
+"""
+Módulo de visualização dos resultados de partidas de RPG.
+
+Este módulo usa Streamlit para exibir o resultado de uma batalha,
+incluindo informações da arena, vencedor, personagens mortos e
+eventos do combate (logs). Os dados são lidos de um arquivo CSV
+gerado previamente e são enriquecidos com os personagens carregados
+na sessão.
+
+Dependências:
+- streamlit
+- pandas
+- json
+- streamlit_avatar
+- utils.streamlit_utils
+- RPG (classes e objetos do jogo)
+
+Funções principais:
+- carregar_dados_partida
+- obter_personagens_partida
+- exibir_cabecalho_partida
+- exibir_logs_combate
+- exibir_resultado_csv
+"""
+
 
 
 def carregar_dados_partida(caminho_csv: str, id_partida=None) -> dict:
@@ -80,26 +102,24 @@ def exibir_logs_combate(logs: list[dict]):
             atacante = log["atacante"]
             alvo = log["alvo"]
 
-            # Descrição do ataque
             msg = log["descricao_habilidade"] if log["habilidade_ataque"] == "Cura" else \
                 f"atacou **{alvo}** com _{log['habilidade_ataque'] or 'ataque básico'}_ causando **{log['ataque_total']} de dano**"
 
             with st.chat_message("user", avatar="🧙"):
                 st.markdown(f"**{atacante}:** {msg}", unsafe_allow_html=True)
 
-            # Se o alvo morreu
             if log["alvo_vida"] <= 0 and alvo not in mortos_set:
                 mortos_set.add(alvo)
                 with st.chat_message("assistant"):
                     st.markdown(f"☠️ **{alvo}** foi derrotado!", unsafe_allow_html=True)
 
-            # Registro de vivos
+
             if log["alvo_vida"] > 0:
                 vivos.update([atacante, alvo])
             else:
                 vivos.add(atacante)
 
-        # Vencedor final
+
         sobreviventes = vivos - mortos_set
         if len(sobreviventes) == 1:
             vencedor = list(sobreviventes)[0]
@@ -110,9 +130,6 @@ def exibir_logs_combate(logs: list[dict]):
 
 
 
-# ==============================
-# Função principal
-# ==============================
 
 def exibir_resultado_csv(caminho_csv="data/historico_batalhas.csv", id_partida=None):
 
@@ -139,8 +156,5 @@ def exibir_resultado_csv(caminho_csv="data/historico_batalhas.csv", id_partida=N
         exibir_logs_combate(logs)
 
 
-# ==============================
-# Execução da visualização
-# ==============================
 
 exibir_resultado_csv()
