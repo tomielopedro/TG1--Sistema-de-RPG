@@ -104,29 +104,22 @@ class Arena:
             alvo_pontos_defesa=alvo.pontos_defesa
         )
 
-        if not isinstance(atacante, Personagem) or not isinstance(alvo, Personagem):
-            if self.partida_atual:
-                self.partida_atual.adicionar_log(log)
-            return log
+        # Validação: só executa combate se ambos forem Personagem e estiverem na lista
+        if isinstance(atacante, Personagem) and isinstance(alvo, Personagem):
+            if atacante in self.lista_personagens and alvo in self.lista_personagens:
+                numero_d20 = D20().jogar()
+                chance_ataque = atacante.pontos_ataque + numero_d20
+                log.numero_d20 = numero_d20
+                log.chance_ataque = chance_ataque
+                log.ataque_bem_sucedido = chance_ataque > alvo.pontos_defesa
 
-        if atacante not in self.lista_personagens or alvo not in self.lista_personagens:
-            if self.partida_atual:
-                self.partida_atual.adicionar_log(log)
-            return log
-
-        numero_d20 = D20().jogar()
-        chance_ataque = atacante.pontos_ataque + numero_d20
-        log.numero_d20 = numero_d20
-        log.chance_ataque = chance_ataque
-        log.ataque_bem_sucedido = chance_ataque > alvo.pontos_defesa
-
-        if log.ataque_bem_sucedido:
-            ataque_total, habilidade = atacante.atacar(alvo)
-            log.ataque_total = ataque_total
-            log.alvo_vida = alvo.pontos_vida
-            if habilidade:
-                log.habilidade_ataque = habilidade.nome
-                log.descricao_habilidade = habilidade.descricao
+                if log.ataque_bem_sucedido:
+                    ataque_total, habilidade = atacante.atacar(alvo)
+                    log.ataque_total = ataque_total
+                    log.alvo_vida = alvo.pontos_vida
+                    if habilidade:
+                        log.habilidade_ataque = habilidade.nome
+                        log.descricao_habilidade = habilidade.descricao
 
         return log
 

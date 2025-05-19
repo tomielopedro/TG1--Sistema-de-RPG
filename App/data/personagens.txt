@@ -1,50 +1,100 @@
 
-### Éowyn
-- **Classe**: Guerreiro
-- **Habilidades**:
-- TiroDeArco
-- Cura
-
-### Elrond
-- **Classe**: Mago
-- **Habilidades**:
-- BolaDeFogo
-- TiroDeArco
-- Cura
-- BolaDeFogo
-- BolaDeFogo
-
-### Gimli
-- **Classe**: Guerreiro
-- **Habilidades**:
-- TiroDeArco
-
-### Arwen
-- **Classe**: Ladino
-- **Habilidades**:
-- Cura
-
-### Galadriel
-- **Classe**: Mago
-- **Habilidades**:
-- BolaDeFogo
-- Cura
-- TiroDeArco
-
-### Théoden
-- **Classe**: Guerreiro
-- **Habilidades**:
-- Cura
-- TiroDeArco
-
-### Sam
-- **Classe**: Ladino
-- **Habilidades**:
-- TiroDeArco
-- Cura
-
 ### Pedro
 - **Classe**: Guerreiro
 - **Habilidades**:
 - Cura
+- Cura
+
+### Carol
+- **Classe**: Ladino
+- **Habilidades**:
+- BolaDeFogo
+- BolaDeFogo
+
+### Parraga
+- **Classe**: Mago
+- **Habilidades**:
+- Cura
+- Cura
+- BolaDeFogo
+- BolaDeFogo
+- Cura
+
+### Joao
+- **Classe**: Mago
+- **Habilidades**:
+- BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
+- BolaDeFogo
+
+### Ighor
+- **Classe**: Ladino
+- **Habilidades**:
+- Cura
+- BolaDeFogo
+
+### Fred
+- **Classe**: Guerreiro
+- **Habilidades**:
+- TiroDeArco
+- TiroDeArco
+
+### Rafa
+- **Classe**: Ladino
+- **Habilidades**:
+- BolaDeFogo
+- Cura
+
+### Rudi
+- **Classe**: Guerreiro
+- **Habilidades**:
+- BolaDeFogo
+- TiroDeArco
+
+### Aragorn
+- **Classe**: Guerreiro
+- **Habilidades**:
+- TiroDeArco
+- Cura
+
+### Gandalf
+- **Classe**: Mago
+- **Habilidades**:
+- BolaDeFogo
+- Cura
+- TiroDeArco
+- BolaDeFogo
+
+### Legolas
+- **Classe**: Ladino
+- **Habilidades**:
+- TiroDeArco
+- Cura
+
+### Boromir
+- **Classe**: Guerreiro
+- **Habilidades**:
+- TiroDeArco
+
+### Saruman
+- **Classe**: Mago
+- **Habilidades**:
+- BolaDeFogo
+- Cura
+- TiroDeArco
+- BolaDeFogo
+- Cura
+
+### Gollum
+- **Classe**: Ladino
+- **Habilidades**:
+- TiroDeArco
+- Cura
+
+### Frodo
+- **Classe**: Ladino
+- **Habilidades**:
+- TiroDeArco
 - Cura

@@ -1,5 +1,6 @@
 from abc import ABC
 
+
 class TipoJogo(ABC):
     """
     Classe base abstrata que representa um tipo de jogo em uma arena.
@@ -76,7 +77,7 @@ class X1(TipoJogo):
     Características:
         - Nome: 'X1'
         - Limite: 2 jogadores
-        - Ícone: './assets/images/x1.png'
+        - Ícone: 'assets/images/x1.png'
     """
     def __init__(self):
         super().__init__('X1', 2, 'assets/images/extras/x1.png')

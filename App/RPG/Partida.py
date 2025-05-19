@@ -20,7 +20,7 @@ class Partida:
 
     id: str
     descricao: str
-    logs: List[LogCombate] = field(default_factory=list)
+    logs: List[LogCombate] = field(default_factory=list) # o valor padrão de logs será uma nova lista vazia sempre que a classe for instanciada.
     vencedor: Optional[str] = None
 
     def adicionar_log(self, log: LogCombate):
