@@ -1,0 +1,4 @@
+[2025-05-19 10:46:51] [Aula pod] Info: arena criada com sucesso.
+[2025-05-19 10:53:30] [Aula pod 2] Info: arena criada com sucesso.
+[2025-05-19 10:56:13] [Aula pod 2] Info: arena editada com sucesso.
+[2025-05-19 17:04:52] [Carol e eu] Info: arena criada com sucesso.

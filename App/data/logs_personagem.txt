@@ -1,0 +1,23 @@
+[2025-05-19 10:43:58] [Pedro] Info: personagem criado com sucesso.
+[2025-05-19 10:44:55] [Carol] Info: personagem criado com sucesso.
+[2025-05-19 10:45:29] [Pedro] Info: personagem editado com sucesso.
+[2025-05-19 10:45:41] [Pedro] Info: personagem editado com sucesso.
+[2025-05-19 10:52:25] [Parser] Erro inesperado: Falha ao processar personagem: list index out of range
+[2025-05-19 10:52:25] [Aragorn] Info: personagem criado com sucesso.
+[2025-05-19 10:52:25] [Gandalf] Info: personagem criado com sucesso.
+[2025-05-19 10:52:25] [Legolas] Info: personagem criado com sucesso.
+[2025-05-19 10:52:25] [Boromir] Info: personagem criado com sucesso.
+[2025-05-19 10:52:25] [Saruman] Aviso: habilidades excedentes ignoradas: TiroDeArco
+[2025-05-19 10:52:25] [Saruman] Info: personagem criado com sucesso.
+[2025-05-19 10:52:25] [Gollum] Info: personagem criado com sucesso.
+[2025-05-19 10:52:25] [Frodo] Erro: habilidade 'Escudo Divino' não encontrada.
+[2025-05-19 10:52:25] [Frodo] Info: personagem criado com sucesso.
+[2025-05-19 10:55:52] [Carol] Aviso: nome duplicado — personagem já existente.
+[2025-05-19 10:55:52] [Parraga] Info: personagem criado com sucesso.
+[2025-05-19 10:55:52] [Joao] Info: personagem criado com sucesso.
+[2025-05-19 10:55:52] [Pedro] Aviso: nome duplicado — personagem já existente.
+[2025-05-19 10:55:52] [Ighor] Info: personagem criado com sucesso.
+[2025-05-19 10:55:52] [Fred] Info: personagem criado com sucesso.
+[2025-05-19 10:55:52] [Rafa] Info: personagem criado com sucesso.
+[2025-05-19 10:55:52] [Rudi] Info: personagem criado com sucesso.
+[2025-07-08 18:27:21] [Carol] Info: personagem excluído com sucesso.

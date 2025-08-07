@@ -1,0 +1,35 @@
+=== Arena: Carol e eu ===
+Tipo: X1 | Mapa: Torre
+
+--- Partida e41bdcf7-5aab-4d72-b488-c1e9404b593c: Batalha Total ---
+Vencedor: -- Nome: Pedro
+Classe: Guerreiro
+Pontos de Ataque: 6
+Dado de Ataque: D12
+Pontos de Vida: 50
+Pontos de Defesa: 8
+Limite de Habilidades: 2
+Inventário: [Cura, Cura] -- 
+[Log] Pedro (Guerreiro) atacou Carol (Ladino)
+  D20: 16 | Dano Total: 1 | Defesa do Alvo: 5 | Habilidade: None | Descricao Habilidade: None | Vida do Alvo após ataque: 20
+Vida do Atacante após ataque: 50
+[Log] Carol (Ladino) atacou Pedro (Guerreiro)
+  D20: 15 | Dano Total: 8 | Defesa do Alvo: 8 | Habilidade: None | Descricao Habilidade: None | Vida do Alvo após ataque: 42
+Vida do Atacante após ataque: 20
+[Log] Pedro (Guerreiro) atacou Carol (Ladino)
+  D20: 10 | Dano Total: 3 | Defesa do Alvo: 5 | Habilidade: None | Descricao Habilidade: None | Vida do Alvo após ataque: 17
+Vida do Atacante após ataque: 42
+[Log] Carol (Ladino) atacou Pedro (Guerreiro)
+  D20: 8 | Dano Total: 10 | Defesa do Alvo: 8 | Habilidade: BolaDeFogo | Descricao Habilidade: Uma bola de fogo que causa dano em área | Vida do Alvo após ataque: 32
+Vida do Atacante após ataque: 17
+[Log] Pedro (Guerreiro) atacou Carol (Ladino)
+  D20: 13 | Dano Total: 10 | Defesa do Alvo: 5 | Habilidade: None | Descricao Habilidade: None | Vida do Alvo após ataque: 7
+Vida do Atacante após ataque: 32
+[Log] Carol (Ladino) atacou Pedro (Guerreiro)
+  D20: 15 | Dano Total: 2 | Defesa do Alvo: 8 | Habilidade: None | Descricao Habilidade: None | Vida do Alvo após ataque: 30
+Vida do Atacante após ataque: 7
+[Log] Pedro (Guerreiro) atacou Carol (Ladino)
+  D20: 14 | Dano Total: 7 | Defesa do Alvo: 5 | Habilidade: None | Descricao Habilidade: None | Vida do Alvo após ataque: 0
+Vida do Atacante após ataque: 30
+
+
